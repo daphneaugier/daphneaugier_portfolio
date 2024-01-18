@@ -1,11 +1,11 @@
-function validateEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-}
-
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('contact-form');
     const submitBtn = document.getElementById('submit-btn');
+
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
 
     function validateForm() {
         const name = document.getElementById('name').value;
@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('Veuillez entrer une adresse e-mail valide.');
             return false;
         }
+
+        // Ajoutez d'autres validations au besoin
 
         return true;
     }
