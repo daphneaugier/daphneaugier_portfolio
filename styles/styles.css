@@ -5,15 +5,23 @@ body {
     font-family: 'Ibarra Real Nova', serif;
     background-color: #f8f8f8;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
 
+.wrapper {
+    flex: 1;
+}
+
 header {
-    background-color: #ffc107;
+    background-color: #e6dec8;
     color: #333;
     text-align: center;
     padding: 20px;
+    transition: opacity 0.3s;
 }
 
 header h1 {
@@ -22,6 +30,10 @@ header h1 {
 
 header p {
     margin-top: 5px;
+}
+
+header.header-fade {
+    opacity: 1;
 }
 
 section {
@@ -33,11 +45,11 @@ section {
 }
 
 #projects {
-    background-color: #ffd700; 
+    background-color: #b7a642a0; 
 }
 
 #contact {
-    background-color: #ffb6c1;
+    background-color: #5a98dba1;
 }
 
 h2 {
@@ -47,7 +59,6 @@ h2 {
 p {
     line-height: 1.6;
 }
-
 
 .container {
     max-width: 600px;
@@ -74,11 +85,12 @@ p {
 }
 
 footer {
-    background-color: #333;
+    background-color: #3d2c2c;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    position: absolute;
+    padding: 5px; 
     width: 100%;
+    position: sticky;
     bottom: 0;
+    /* opacity: 1; */
 }

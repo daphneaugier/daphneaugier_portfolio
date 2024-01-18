@@ -14,65 +14,81 @@
 </head>
 <body>
 
+    <div class="wrapper">
         <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Daphné Augier</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Mes Projets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">À propos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="assets/DaphneAugierCV.pdf" target="_blank">CV</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Daphné Augier</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Mes Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/DaphneAugierCV.pdf" target="_blank">CV</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <header>
-        <h1>DAPHNÉ AUGIER</h1>
-        <p>UI/UX Designer</p>
-    </header>
+        <!-- Header -->
+        <header class="vh-100 d-flex flex-column align-items-center justify-content-center overflow-hidden">
+            <h1 id="typed-text">DAPHNÉ AUGIER</h1>
+            <h2>UI/UX Designer</h2>
+            <p class="mb-4">Artisane digital à Montréal, fusionnant génie logiciel et UI/ UX design pour créer <br>
+                             expériences captivantes. Explorez mon portfolio, où chaque interaction devient une <br>
+                             toile unique, révélant l'essence de ma vision créative et innovante.</p>
+        </header>
 
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Artisane digital à Montréal, fusionnant génie logiciel et UI/ UX design pour créer des expériences captivantes. 
-            Explorez mon portfolio, où chaque interaction devient une toile unique, révélant l'essence de ma vision créative et 
-            innovante.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projets</h2>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-
-            <form id="contact-form">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-    
-                <button type="button" id="submit-btn">Envoyer</button>
-            </form>
-
+        <!-- Section Projets -->
+        <section id="projects">
+            <h2>Projets</h2>
         </section>
-    </section>
 
+        <!-- Section À propos -->
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>Basée à Montréal, je trace mon chemin dans le monde numérique en tant qu'UI/UX Designer, imprégnée des nuances de Montréal. J'ai amorcé mon périple au sein des codes du génie logiciel, mais mon âme créative a vite trouvé son éveil dans l'art du design.
+                Ma danse avec la technologie et la créativité se dévoile à travers une harmonie où la rigueur technique entrelace sa main avec la sensibilité artistique. En sculpteuse digitale, je modèle des expériences captivantes, éveillant les émotions au fil des pixels. Explorez mon portfolio, un tableau vivant où le design et la technologie se fondent en une aquarelle numérique, capturant l'esprit singulier de chaque interaction.</p>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 rounded p-4">
+                        <h2 class="text-center mb-4">Contactez-moi</h2>
+
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom :</label>
+                                <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Adresse e-mail :</label>
+                                <input type="email" class="form-control" id="email" placeholder="Votre adresse e-mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message :</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary" id="submit-btn">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Daphné Augier. Tous droits réservés.</p>
     </footer>
@@ -80,6 +96,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-Uo7dNbeoAe1XlHtFfJrgeH1fYVxRqHq8hA9aVfNvV36S9i1TWQSmve9qunN1Qa1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
 </body>
 </html>
