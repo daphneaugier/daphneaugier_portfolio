@@ -26,11 +26,11 @@ section {
 }
 
 #about {
-    background-color: #f0f8ff;
+    background-color: #f0f8ff; 
 }
 
 #projects {
-    background-color: #ffd700;
+    background-color: #ffd700; 
 }
 
 #contact {
@@ -45,6 +45,31 @@ p {
     line-height: 1.6;
 }
 
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -53,40 +78,4 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-}
-
-#contact {
-    background-color: #87CEEB; /* Couleur de fond pour le formulaire de contact */
-    padding: 40px;
-}
-
-form {
-    max-width: 600px;
-    margin: auto;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #4CAF50; /* Couleur de fond du bouton */
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #45a049; /* Couleur de fond du bouton au survol */
 }
