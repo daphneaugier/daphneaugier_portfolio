@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const submitBtn = document.getElementById('submit-btn');
     const errorContainer = document.getElementById('error-container');
     const typedTextContainer = document.getElementById('typed-text');
+    const languageSelector = document.getElementById('language-selector');
 
     // header
     const textToType = "DAPHNÉ AUGIER";
@@ -19,6 +20,19 @@ document.addEventListener('DOMContentLoaded', function () {
     window.onload = function () {
         type();
     };
+
+    function changeLanguage(language) {
+        if (language === 'en') {
+            typedTextContainer.textContent = "DAPHNE AUGIER";  
+        } else {
+            typedTextContainer.textContent = "DAPHNÉ AUGIER"; 
+        }
+    }
+
+    languageSelector.addEventListener('change', function () {
+        const selectedLanguage = languageSelector.value;
+        changeLanguage(selectedLanguage);
+    });
 
     function validateEmail(email) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -55,9 +69,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (validateForm()) {
             const formData = new FormData(form);
 
-            fetch('votre-endpoint-backend', {
+            fetch('https://www.daphneaugier.com', {
                 method: 'POST',
                 body: formData
+                // headers: { 'Content-Type': 'application/json' } // Uncomment and modify if needed
             })
             .then(response => {
                 if (!response.ok) {
