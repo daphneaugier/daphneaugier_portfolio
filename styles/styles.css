@@ -4,12 +4,25 @@ body {
   font-family: 'NeueMontreal', sans-serif;
   background-color: #FFF36D;
   color: black;
+  font-size: 14px;
 }
 
 .page-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.navbar {
+  background-color: transparent;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center; 
 }
 
 header {
