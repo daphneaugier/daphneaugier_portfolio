@@ -25,6 +25,26 @@ body {
   justify-content: center; 
 }
 
+.img-responsive {
+  max-width: 80%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.img-responsive {
+  max-width: 45%;
+  height: auto;
+}
+
+
 header {
   position: fixed;
   top: 20px;
