@@ -18,6 +18,9 @@
     <header>
         <nav class="navbar navbar-fixed-top navbar-default">
             <div class="container">
+                <div class="navbar-header">
+                    <a href="./index.html" class="navbar-brand navbar-small visible-md visible-lg">Back Home</a>
+                </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
                         <li><a href="./work1.html" title="" class="active">001</a></li>
@@ -36,43 +39,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <img src="./assets/images/work01-hover.jpg" class="img-responsive" alt="">
+
+                <div class="carousel-container">
+                    <div class="carousel-slides">
+                        <img src="./assets/images/work01-hover.jpg" class="carousel-image img-responsive" alt="Image 1">
+                        <img src="./assets/images/work01-hover.jpg" class="carousel-image img-responsive" alt="Image 2">
+                        <img src="./assets/images/work01-hover.jpg" class="carousel-image img-responsive" alt="Image 3">
+                    </div>
+                    <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+                     </div>
                     <div class="card-container">
                         <div class="text-center">
-                            <h1 class="h2">Caché - San Francisco</h1>
+                            <h1 class="h2">Caché - San Francisco | UI - UX - DEV</h1>
+                            <p>2024</p>
                         </div>
-                        <p>Caché is a modern neighborhood bistro in San Francisco, offering a relaxed yet refined French bistro atmosphere. As the designer and developer, I took on the responsibility of creating the entire visual identity for the website, including logo design and branding, to bring the desired brand image to life.</p>
-                        <h3>The Request</h3>
-                        <p>The project involved designing and developing a website that would serve as a showcase for the restaurant. The key features included:</p> 
-                        <ul>
-                            <li><b>Identity:</b> Developing a visual identity that captures Caché's "relaxed French bistro" style, including creating the logo and the website's graphic elements.</li>
-                            <li><b>Essential Information:</b> Presenting the menu, opening hours, and contact details in an engaging and accessible way.</li>
-                            <li><b>Online Reservations:</b> Integrating a simple and intuitive reservation system to enhance the customer experience.</li>
-                        </ul>
-                        <p>The main goal was to reflect Caché's atmosphere while providing an enjoyable and accessible user experience.</p>
-                        <h3>Design Approach (UX/UI)</h3>
-                        <h4>Research and Inspiration</h4>
-                        <p>I started with an in-depth research phase, studying the aesthetics of traditional French bistros and drawing inspiration from modern architecture and design. This approach helped me create a unique blend that captured Caché's personality. I created a user flow to understand in terms of functionality and navigation.</p> 
-                        <h4>Developing the Visual Identity</h4>
-                        <p>From there, I developed a visual identity that matched the atmosphere Florent, the owner of Caché, wanted to convey. The logo needed to be simple, memorable, and adaptable across different media, so I chose to create it by handwriting the design and vectorizing it in Illustrator. I picked a color palette that evoked the warmth of a bistro while keeping a touch of modernity and freshness, using neutral tones with accent colors to draw attention to key elements.</p> 
-                        <div class="image-row">
-                          <img src="./assets/images/work1/colorpalette.jpg" class="img-responsive" alt="Cache Color Palette">
-                          <img src="./assets/images/work1/logos.jpg" class="img-responsive" alt="Cache Logos">
+
+                        <!-- Single-column content section -->
+                        <div class="content-single-column">
+                            <h3>Context</h3>
+                            <p>Caché is a modern neighborhood bistro in San Francisco. I was responsible for the full design and development of its website, creating the visual identity, logo, and branding to reflect its unique atmosphere.</p>
+                            
+                            <h3>The Request</h3>
+                            <p>The project involved designing and developing a website that showcases the restaurant’s brand and mission. The key features included:</p> 
+                            <ul>
+                                <li><b>Visual Identity:</b> Developing a visual identity that captures Caché's "relaxed French bistro" style, including creating the logo and the website's graphic elements.</li>
+                                <li><b>Essential Information:</b> Presenting the menu, opening hours, and contact details in an engaging and accessible way.</li>
+                                <li><b>Online Reservations:</b> Integrating a simple and intuitive reservation system to enhance the customer experience.</li>
+                            </ul>
+                            
+                            <h3>Design Approach (UX/UI)</h3>
+                            <h4>Research</h4>
+                            <p>I drew inspiration from French bistro aesthetics and modern design, mapping user flows to ensure smooth navigation.</p> 
+                            
+                            <h4>Visual Identity</h4>
+                            <p>I crafted a handwritten logo, a warm neutral color palette, elegant typography, and integrated high-quality visuals to embody Caché’s ambiance.</p> 
+                            
+                            <h4>Wireframes & Prototypes</h4>
+                            <p>I used Figma to design and test intuitive layouts for desktop and mobile, focusing on key user needs like reservations.</p> 
+                            
+                            <h3>Development</h3>
+                            <h4>WordPress Integration</h4>
+                            <p>I built the site on WordPress for ease of use, customizing themes with HTML, CSS, and JavaScript to ensure responsiveness. </p> 
+                            
+                            <h4>SEO Optimization</h4>
+                            <p>SEO optimization and an integrated reservation system enhanced usability and discoverability.</p> 
+
+                            <h3>Conclusion</h3>
+                            <p>Working on the Caché website allowed me to handle the entire process—from creating the visual identity to UX/UI design and the technical implementation with WordPress. The final product is a website that truly reflects Caché's personality while offering a smooth and enjoyable user experience, helping attract and retain a loyal customer base.</p>
                         </div>
-                        <p>For the typography, I focused on ensuring it was both elegant and easy to read, reflecting the sophistication and modernity of the restaurant. Images played a central role in the site, with high-quality photos of dishes, ambiance, and decor used to immediately engage users.</p>
-                        <img src="./assets/images/work1/typo.jpg" class="img-responsive" alt="Cache Typography">
-                        <h4>Wireframes and Prototypes</h4>
-                        <p>To structure the site's content, I designed several wireframes in Figma. My focus was to ensure that users could easily find the information they needed, with a clear and intuitive navigation structure. I mapped out specific user journeys to address the main needs: exploring the menu, making a reservation, and finding practical information. Given that reservations are a key feature, I designed both desktop and mobile wireframes to make this functionality highly accessible.</p> 
-                        <p>Once the wireframes were approved, I created interactive prototypes in Figma, allowing Florent to visualize the site before the development stage. This approach allowed me to gather detailed feedback and make necessary adjustments before moving forward with the final build.</p>
-                        <img src="./assets/images/work1/prototype.jpg" class="img-responsive" alt="Cache Prototype">
-                        <h3>Development</h3>
-                        <h4>WordPress Integration</h4>
-                        <p>For development, I chose WordPress as the CMS due to its flexibility and ease of use. This allowed the Caché team to manage their content autonomously, including updating the menu, adjusting hours, and posting news or special events. I customized the WordPress theme using HTML5, CSS3, and JavaScript to ensure the site was fully responsive, adapting well to any device—from desktop to mobile.</p> 
-                        <h4>Features and Optimization</h4>
-                        <p>The website features an integrated reservation section via an online booking plugin, providing a seamless experience for customers to make reservations directly from the site. To boost the site's online presence, I worked on SEO optimization, including proper meta tags, optimized images, and well-structured content, which were all crucial to ensuring Caché was easily discoverable by both locals and tourists looking for a neighborhood bistro in San Francisco.</p> 
-                        <h3>So...!</h3>
-                        <p>Working on the Caché website allowed me to handle the entire process—from creating the visual identity to UX/UI design and the technical implementation with WordPress. The final product is a website that truly reflects Caché's personality while offering a smooth and enjoyable user experience, helping attract and retain a loyal customer base. This project was an excellent example of the importance of aligning a client's vision with both technical and creative execution to create a memorable digital experience.</p>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,5 +104,23 @@
         });
     </script>
     <script type="text/javascript" src="./scripts/main.70a66962.js"></script>
+    <script>
+        let slideIndex = 0;
+    
+        function showSlide(index) {
+            const slides = document.querySelector('.carousel-slides');
+            const totalSlides = document.querySelectorAll('.carousel-image').length;
+            if (index >= totalSlides) slideIndex = 0;
+            if (index < 0) slideIndex = totalSlides - 1;
+            slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+        }
+    
+        function moveSlide(n) {
+            showSlide(slideIndex += n);
+        }
+
+        showSlide(slideIndex);
+    </script>
+    
 </body>
 </html>
