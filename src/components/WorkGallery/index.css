@@ -1,0 +1,7 @@
+.works {
+  flex-direction: column;
+}
+.works-header{
+  width: 80%;
+  margin-bottom: 20px;
+}

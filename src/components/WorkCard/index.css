@@ -1,0 +1,42 @@
+.work-card {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.work-card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 25% 25%;
+  display: block;
+  -webkit-filter: contrast(200%) grayscale(100%);
+  filter: contrast(200%) grayscale(100%);
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.work-card img:hover {
+  filter: none;
+}
+
+@media (max-width: 768px) {
+  .work-card img {
+    filter: none;
+  }
+}
+.work-text {
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px;
+}
+
+.work-text h4 {
+  margin: 6px 12px;
+  font-size: smaller;
+}
+
+.work-text p {
+  margin: 6px 12px;
+}

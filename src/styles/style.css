@@ -1,0 +1,75 @@
+@import "./fonts";
+
+body {
+  font-family: "NeueMontreal", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  line-height: 25px;
+  background-color: #fff36d;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+p {
+  orphans: 3;
+  widows: 3;
+}
+h2{
+  font-size: 30px;
+}
+h3{  
+  font-size: 20px;
+}
+h2,
+h3 {
+  page-break-after: avoid;
+}
+
+.button{
+  border: 1px solid black;
+  padding: 12px 16px;
+  width: fit-content;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 60px;
+}
+
+section h2{
+  font-weight: 600;
+}
+
+.work-button{
+  font-size: 10px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  main{
+    margin-top: 60px;
+  }
+}
