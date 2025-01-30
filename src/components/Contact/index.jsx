@@ -10,37 +10,37 @@ import './index.css'
 function Contact() {
 
   return (
-    <section class="contact">
-    <div class="contact-intro">
+    <section className="contact">
+    <div className="contact-intro">
         <h2>Contact me</h2>
-        <p>
+        <p className="contact-text">
         I'd love to hear from you! Whether you want to discuss a
         project, explore collaboration opportunities, or just chat
         about design and creativity, feel free to reach out!
         </p>
-        <div class="contact-details">
+        <div className="contact-details">
             <form action="">
                 <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="email"
                     placeholder="Email"
                 />
 
                 <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="subject"
                     placeholder="Subject"
                 />
 
                 <textarea
-                    class="form-control"
+                    className="form-control"
                     rows="5"
                     placeholder="Enter your message"
                 ></textarea>
 
-                <button type="submit" class="button work-button">
+                <button type="submit" className="button work-button">
                 Send
                 </button>
             </form>
@@ -67,7 +67,7 @@ function Contact() {
                     <a
                     href="https://github.com/daphneaugier"
                     title="Github"
-                    class="fa-icon"
+                    className="fa-icon"
                     >
                     <FontAwesomeIcon icon={faGithub} alt="GitHub" />
                     </a>
@@ -75,7 +75,7 @@ function Contact() {
                     <a
                     href="https://www.linkedin.com/in/daphneaugier/"
                     title="LinkedIn"
-                    class="fa-icon"
+                    className="fa-icon"
                     >
                     <FontAwesomeIcon icon={faLinkedin} />
                     </a>    

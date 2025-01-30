@@ -16,6 +16,11 @@
 			{"title": "Design Approach (UX/UI)","text": "<h4>Research</h4><p>I drew inspiration from French bistro aesthetics and modern design, mapping user flows to ensure smooth navigation.</p> <h4>Visual Identity</h4><p>I crafted a handwritten logo, a warm neutral color palette, elegant typography, and integrated high-quality visuals to embody Caché’s ambiance.</p> <h4>Wireframes & Prototypes</h4><p>I used Figma to design and test intuitive layouts for desktop and mobile, focusing on key user needs like reservations.</p>"},
 			{"title": "Development","text": "<h4>WordPress Integration</h4><p>I built the site on WordPress for ease of use, customizing themes with HTML, CSS, and JavaScript to ensure responsiveness. </p> <h4>SEO Optimization</h4><p>SEO optimization and an integrated reservation system enhanced usability and discoverability.</p>"},
 			{"title": "Conclusion","text": "Working on the Caché website allowed me to handle the entire process—from creating the visual identity to UX/UI design and the technical implementation with WordPress. The final product is a website that truly reflects Caché's personality while offering a smooth and enjoyable user experience, helping attract and retain a loyal customer base."}
+		],
+		"tags":[
+			"UI",
+			"UX",
+			"Dev"
 		]
 	},
 	{
@@ -29,6 +34,11 @@
 		],
 		"details": [
 			{"title": "Context","text": ""}
+		],
+		"tags":[
+			"UI",
+			"UX",
+			"Dev"
 		]
 	},
 	{
@@ -42,6 +52,11 @@
 		],
 		"details": [
 			{"title": "Context","text": ""}
+		],
+		"tags":[
+			"UI",
+			"UX",
+			"Dev"
 		]
 	},
 	{
@@ -55,6 +70,10 @@
 		],
 		"details": [
 			{"title": "Context","text": ""}
+		],
+		"tags":[
+			"UI",
+			"UX"
 		]
 	},
 	{
@@ -68,6 +87,10 @@
 		],
 		"details": [
 			{"title": "Context","text": ""}
+		],
+		"tags":[
+			"UI",
+			"UX"
 		]
 	},
 	{
@@ -81,6 +104,10 @@
 		],
 		"details": [
 			{"title": "Context","text": ""}
+		],
+		"tags":[
+			"UI",
+			"UX"
 		]
 	}
 ]

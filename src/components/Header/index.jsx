@@ -3,7 +3,7 @@ import './index.css'
 function Header() {
   return (
     <header>
-      <a href="/pdf/CV_DaphneAugier.pdf" className="button">Download CV</a>
+      <a href="/pdf/CV_DaphneAugier.pdf" className="header-button">Download CV</a>
     </header>
 
   )

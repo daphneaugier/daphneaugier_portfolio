@@ -16,6 +16,10 @@
     text-align: left;
 }
   
+.hero-container{
+  height: 100vh;
+}
+
 .hero-content h1{
   font-size: 3em;
   font-weight: 600;

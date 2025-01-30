@@ -9,4 +9,13 @@ header {
     header {
       right:42%;
     }
-  }    
+  }  
+
+.header-button {
+  border: 1px solid black;
+  padding: 12px 19px;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 10;
+  background-color: #fff36d;
+}

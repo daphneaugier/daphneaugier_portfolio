@@ -12,16 +12,26 @@ function WorkCard({ work }) {
         />
     </Link>
     <div className="work-text">
-        <h4>{work.id}</h4>
         <h3>{work.title}</h3>
         <p>
         {work.text}
         </p>
-        <Link to={`/work/${work.id}`} key={work.id}>
+        {work.tags.map((tag)=>
+        <h4>{tag}</h4>
+        )}
+        <br/>
+        <br/>
+        {work.label==="Coming Soon" ? (
+            <button className="button work-button">
+            {work.label}
+            </button> ) : (
+          <Link to={`/work/${work.id}`} key={work.id}>
           <button className="button work-button">
           {work.label}
           </button>
         </Link>
+            )
+        }
     </div>
 </div>
 )

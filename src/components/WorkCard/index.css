@@ -1,11 +1,14 @@
 .work-card {
-  width: 80%;
+  width: 100%;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
 }
 
 .work-card img {
   max-width: 100%;
-  height: auto;
+  height: 250px;
   object-fit: cover;
   object-position: 25% 25%;
   display: block;
@@ -30,13 +33,16 @@
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
   padding: 20px;
+  flex-grow: 1;
 }
 
 .work-text h4 {
   margin: 6px 12px;
   font-size: smaller;
+  display: inline;
 }
 
 .work-text p {
   margin: 6px 12px;
+  
 }
