@@ -6,7 +6,7 @@ function WorkGallery({ works }) {
   return (
     <section className="works">
     <div className="works-header">
-        <h2>Case Studies</h2>
+        <h1>Case Studies</h1>
     </div>
     {works.map((work) =>
       <WorkCard work={work} key={work.id} />
