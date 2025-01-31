@@ -13,8 +13,10 @@ function Footer() {
           <div>
           © Daphné Augier | 2024
           </div>
+          <br />
           <div className="footer-address">
           <a href="mailto:daphne.augier@gmail.com">daphne.augier@gmail.com</a>
+          <br />
           <br />
           706-5333 Casgrain <br />
           Montréal (QC) H2T 1X3 <br />

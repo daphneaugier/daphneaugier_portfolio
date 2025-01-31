@@ -38,7 +38,7 @@ function Daphne() {
       </p>
       <p>
         My interest for technology led me to graduating in Software Engineering,
-        where I developed a strong knwoledge in programming and computational
+        where I developed a strong knowledge in programming and computational
         thinking. However, my passion for design naturally guided me toward
         UI/UX where I focused on creating intuitive and accessible platforms.
         <br />

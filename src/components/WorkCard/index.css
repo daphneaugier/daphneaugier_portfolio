@@ -13,15 +13,15 @@
   object-fit: cover;
   object-position: 25% 25%;
   display: block;
+  filter:none;
+}
+
+.work-card img:hover {
   -webkit-filter: contrast(200%) grayscale(100%);
   filter: contrast(200%) grayscale(100%);
   -webkit-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
-}
-
-.work-card img:hover {
-  filter: none;
 }
 
 @media (max-width: 768px) {
