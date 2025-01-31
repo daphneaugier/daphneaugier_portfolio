@@ -1,9 +1,11 @@
 .works {
   flex-direction: column;
+  margin: 0;
 }
 .works-header{
-  width: 80%;
+  width: 90%;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .contact-details{

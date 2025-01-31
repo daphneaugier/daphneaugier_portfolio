@@ -1,7 +1,7 @@
 //Import Components
 import Hero from '../../components/Hero'
 import WorkGallery from '../../components/WorkGallery'
-import Contact from '../../components/Contact'
+import MainMenu from '../../components/MainMenu'
 
 import video from '../../assets/videos/daphjaune.mp4'
 
@@ -11,9 +11,9 @@ import works from '../../data/works.json'
 function Home() {
   return (
     <div>
+      <MainMenu />
       <Hero video={video} />
       <WorkGallery works={(works)} />
-      <Contact />
     </div>
   )
 }

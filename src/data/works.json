@@ -1,6 +1,7 @@
 [
 	{
-		"id": "001",
+		"id": "01",
+		"year": "2024",
 		"cover": "/assets/images/work01-hover.webp",
 		"title": "Caché - San Francisco",
 		"text": "Design and development of French bistro in San Francisco.",
@@ -24,7 +25,8 @@
 		]
 	},
 	{
-		"id": "002",
+		"id": "02",
+		"year": "2024",
 		"cover": "/assets/images/work02-hover.webp",
 		"title": "The Collectible",
 		"text": "Entrepreneur project created from scratch.",
@@ -42,7 +44,8 @@
 		]
 	},
 	{
-		"id": "003",
+		"id": "03",
+		"year": "2024",
 		"cover": "/assets/images/work03-hover.webp",
 		"title": "Divorce.fm",
 		"text": "Development of online radio.",
@@ -54,13 +57,12 @@
 			{"title": "Context","text": ""}
 		],
 		"tags":[
-			"UI",
-			"UX",
 			"Dev"
 		]
 	},
 	{
-		"id": "004",
+		"id": "04",
+		"year": "2022",
 		"cover": "/assets/images/work04-hover.webp",
 		"title": "Solotech - USA Carreer Event",
 		"text": "",
@@ -77,7 +79,8 @@
 		]
 	},
 	{
-		"id": "005",
+		"id": "05",
+		"year": "2023",
 		"cover": "/assets/images/work05-hover.webp",
 		"title": "Solotech - Santé Canada",
 		"text": "",
@@ -94,7 +97,8 @@
 		]
 	},
 	{
-		"id": "006",
+		"id": "06",
+		"year": "2023",
 		"cover": "/assets/images/work06-hover.webp",
 		"title": "Solotech - DBD7",
 		"text": "",

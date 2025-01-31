@@ -2,7 +2,7 @@ import './index.css'
 
 function WorkDetails({details}) {
     return (
-        <p className="work-text">
+        <p className="work-detailst">
         {details.map((detail) => 
             <div>
             <h3>{detail.title}</h3>

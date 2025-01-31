@@ -8,6 +8,7 @@ import WorkDetails from '../../components/WorkDetails'
 //Import Data
 import workList from '../../data/works.json'
 
+import './index.css'
 
 function Work() {
   const { workId } = useParams()

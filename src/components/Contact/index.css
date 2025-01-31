@@ -1,104 +1,99 @@
 .contact {
   flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.contact-intro {
+.contact-intro h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 50px auto;
   width: 100%;
   height: 100%;
 }
 
 .contact-text {
-  line-height: 52px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
 }
 
-.contact-details {
+.contact-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-form {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 10%;
-}
-
-.contact-details form {
-  width: 90%;
-}
-
-.contact-details ul {
-  width: 90%;
-  list-style: none;
-  text-align: left;
-}
-
-.form-control {
-  margin-bottom: 15px;
-}
-
-.form-control,
-output {
-  display: block;
-  font-size: 11px;
-  line-height: 1.78;
-  color: #555;
+  flex-direction: column;
+  gap: 30px; /* Espacement entre les champs */
 }
 
 .form-control {
   width: 100%;
-  height: 40px;
-  padding: 8px 14px;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #000;
-  border-radius: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 22px 0;
+  border: none;
+  border-bottom: 0.1px solid black;
+  font-size: 19px;
+  background: transparent;
+  color: black;
+  font-weight: bold;
+  border-radius: 0; /* Suppression des bords arrondis */
 }
 
 .form-control:focus {
-  border-color: #66afe9;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(102, 175, 233, 0.6);
-}
-
-.form-control::-moz-placeholder {
-  color: #999;
-  opacity: 1;
-}
-
-.form-control:-ms-input-placeholder {
-  color: #999;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #999;
-}
-
-.form-control::-ms-expand {
-  border: 0;
-  background-color: transparent;
-}
-
-.form-control[disabled],
-.form-control[readonly],
-fieldset[disabled] .form-control {
-  background-color: #eee;
-  opacity: 1;
-}
-
-.form-control[disabled],
-fieldset[disabled] .form-control {
-  cursor: not-allowed;
+  border-bottom: 2px solid black;
+  outline: none;
+  color: black;
+  background: rgba(0, 0, 0, 0.019);
+  font-weight: bold;
+  border-radius: 0; /* Assure que le focus ne change pas la forme */
 }
 
 textarea.form-control {
-  height: auto;
+  resize: none;
+  height: 150px;
 }
+
+.contact-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 19px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact-button:hover {
+  border: 1px solid #000;
+  background-color: #d8d859;
+  color: #000;
+}
+
 @media (max-width: 768px) {
-    .contact-details{
-      flex-direction: column;
-    }  
+  .contact-container {
+    width: 90%;
+    padding: 20px;
   }
+}
