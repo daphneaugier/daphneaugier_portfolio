@@ -10,7 +10,7 @@ function Menu({active}) {
                 <Link to="/" key="000">Home</Link>
                 </li>
                 {works.map((work) =>
-                    <li className={active === work.id ? 'active' : ''}>
+                    <li className={active === work.id ? 'active' : ''} key={work.id}>
                         <Link to={`/work/${work.id}`} key={work.id}>
                         {work.id}
                         </Link>

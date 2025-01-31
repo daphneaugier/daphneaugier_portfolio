@@ -1,16 +1,26 @@
+import PropTypes from 'prop-types'
 import './index.css'
 
 function WorkDetails({details}) {
     return (
-        <p className="work-detailst">
+        <article className="work-detailst">
         {details.map((detail) => 
-            <div>
+            <div key={detail.title}>
             <h3>{detail.title}</h3>
             <p dangerouslySetInnerHTML={{__html: detail.text}}></p>
             </div>
         )}
-      </p>
+      </article>
     )
+  }
+
+  const detailsShape = PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+  })
+
+WorkDetails.propTypes = {
+    details: PropTypes.arrayOf(detailsShape).isRequired,
   }
   
   export default WorkDetails

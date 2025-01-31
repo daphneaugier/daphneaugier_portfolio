@@ -1,5 +1,9 @@
 @import "./fonts";
 
+html,body{
+  overflow-x: hidden;
+}
+
 body {
   font-family: "NeueMontreal", sans-serif;
   font-size: 16px;

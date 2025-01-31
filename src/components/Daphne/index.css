@@ -36,7 +36,10 @@
   font-weight: 600;
 }
 
-.daphne-img {
+@media screen and (max-width: 768px) {
+  .daphne-row {
+    flex-direction: column-reverse;
+  }    
 }
 
 .rotating-curved-text {

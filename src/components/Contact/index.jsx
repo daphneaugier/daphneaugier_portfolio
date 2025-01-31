@@ -55,8 +55,8 @@ function Contact() {
           <br />
           <br />
         </p>
-        <div className="contact-details">
-          <form onSubmit={handleSubmit}>
+        <div className="contact-container">
+          <form onSubmit={handleSubmit} className="contact-form">
             <input
               type="text"
               name="name"
