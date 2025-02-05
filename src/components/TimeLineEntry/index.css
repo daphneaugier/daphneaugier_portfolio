@@ -1,0 +1,22 @@
+.timeline-entry {
+  margin-bottom: 2rem;
+}
+
+.timeline-entry h2 {
+  font-size: 1.4rem;
+}
+.timeline-entry ul {
+  margin-left: 1rem;
+  list-style-type: circle
+}
+
+.timeline-entry ul li {
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 768px) {
+  .timeline-entry ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+}

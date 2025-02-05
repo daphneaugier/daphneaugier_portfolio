@@ -4,6 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import "./index.css";
+import Menu from "../Menu";
 
 function Footer() {
   return (
@@ -23,23 +24,7 @@ function Footer() {
           Canada
         </div>
           </div>
-        <ul className="footer-menu">
-          <li>
-            <Link to="/" key="home">
-              HOME
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" key="about">
-              ABOUT
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" key="contact">
-              CONTACT
-            </Link>
-          </li>
-        </ul>
+          <Menu className="footer-menu" />
       </div>
       <div className="footer-row">
         <div className="footer-social">

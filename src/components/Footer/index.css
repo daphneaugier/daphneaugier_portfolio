@@ -37,8 +37,11 @@ footer {
     justify-content: space-between;
     text-align: right;
     font-weight: 600;
-    list-style: none;
   }
+  .footer-menu a{
+    text-transform: uppercase;
+  }
+
   
   @media (max-width: 768px) {
     .footer-menu {

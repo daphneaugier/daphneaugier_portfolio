@@ -1,0 +1,10 @@
+.art-gallery {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  text-align: left;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  gap: 20px;
+}

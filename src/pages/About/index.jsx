@@ -1,14 +1,12 @@
-//Import Components
-import MainMenu from '../../components/MainMenu'
-
 import Daphne from '../../components/Daphne'
+import Experience from '../../components/Experience'
 
 
 function About() {
   return (
     <div>
-        <MainMenu/>
         <Daphne/>
+        <Experience />
     </div>
   )
 }

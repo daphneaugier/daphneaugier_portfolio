@@ -1,5 +1,4 @@
 import { ReactTyped } from "react-typed";
-import React, { useState } from "react";
 import ReactCurvedText from "react-curved-text";
 
 import "./index.css";

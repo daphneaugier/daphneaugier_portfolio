@@ -1,7 +1,6 @@
 import { Navigate } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 
-import Menu from '../../components/Menu'
 import Carousel from '../../components/Carousel'
 import WorkDetails from '../../components/WorkDetails'
 
@@ -20,7 +19,6 @@ function Work() {
 
   return (
     <div>
-    <Menu active={work.id} />
     <section className="works">
       <h1>{work.id}: {work.title}</h1>
           <Carousel slides={work.pictures} />

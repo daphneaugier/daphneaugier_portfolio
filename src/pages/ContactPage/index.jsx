@@ -1,5 +1,4 @@
 //Import Components
-import MainMenu from '../../components/MainMenu'
 
 import Contact from '../../components/Contact'
 
@@ -7,7 +6,6 @@ import Contact from '../../components/Contact'
 function ContactPage() {
   return (
     <div>
-        <MainMenu/>
         <Contact/>
     </div>
   )

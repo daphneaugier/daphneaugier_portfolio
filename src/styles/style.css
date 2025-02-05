@@ -32,6 +32,9 @@ h2,
 h3 {
   page-break-after: avoid;
 }
+ul{
+  list-style: none;
+}
 
 .button{
   border: 1px solid black;

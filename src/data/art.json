@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Une fille",
+        "description": "Some girldescription",
+        "picture": "001.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Un garçon",
+        "description": "Some boy description",
+        "picture": "002.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Les amies",
+        "description": "Last girl description",
+        "picture": "003.jpg"
+    }
+]
