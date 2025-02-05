@@ -20,7 +20,9 @@ function Work() {
   return (
     <div>
     <section className="works">
+    <br />{" "}
       <h1>{work.id}: {work.title}</h1>
+      <br />{" "}
           <Carousel slides={work.pictures} />
           <WorkDetails details={work.details}/>
     </section>      
