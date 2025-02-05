@@ -44,10 +44,10 @@ function Daphne() {
         <br />
       </p>
       <p>
-        I’ve worked first as a developer (for both mobile and web platforms),
+        I’ve worked first as a developer,
         then a UI/UX designer, collaborating with a variety of clients and
-        projects. My approach is both meticulous and playful. I aim to create
-        experiences that feel seamless, engaging, and human-centered.
+        projects. I aim to create
+        experiences that feel engaging and human-centered.
         <br />
         <br />
       </p>

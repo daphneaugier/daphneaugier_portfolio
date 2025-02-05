@@ -6,6 +6,9 @@ function About() {
   return (
     <div>
         <Daphne/>
+        <br />{" "}
+        <br />{" "}
+        <br />{" "}
         <Experience />
     </div>
   )

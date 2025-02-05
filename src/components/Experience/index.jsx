@@ -56,7 +56,7 @@ function Experience() {
       <div className="experience">
         <h1>Education</h1>
         <TimeLineEntry
-          title="Bachelor of Science in Software Engineering"
+          title="Bachelor of Engineering in Software Engineering"
           date="September, 2016 to June, 2021"
           details={[
             "Participated in various competitions and projects, including a team-building event and a coding challenge.",
