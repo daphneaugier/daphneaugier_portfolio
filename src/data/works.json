@@ -1,15 +1,17 @@
 [
 	{
 		"id": "01",
-		"year": "2024",
-		"cover": "/assets/images/work01-hover.webp",
+		"role": "Product Design (UX/UI) - Web Developer",
+		"tools": ["Figma", "WordPress", "HTML", "CSS"],
+		"year": "November 2024 - January 2025",
+		"cover": "work01-hover.webp",
 		"title": "Caché - San Francisco",
 		"text": "Design and development of French bistro in San Francisco.",
 		"label": "Discover",
 		"pictures":[
-			"/assets/images/work01-hover.webp",
-			"/assets/images/work01-hover.webp",
-			"/assets/images/work01-hover.webp"
+			"work01-hover.webp",
+			"work01-hover.webp",
+			"work01-hover.webp"
 		],
 		"details": [
 			{"title": "Context","text": "Caché is a modern neighborhood bistro in San Francisco. I was responsible for the full design and development of its website, creating the visual identity, logo, and branding to reflect its unique atmosphere."},
@@ -26,18 +28,21 @@
 	},
 	{
 		"id": "02",
-		"year": "2024",
-		"cover": "/assets/images/work02-hover.webp",
+		"role": "Product Design (UX/UI) - Web Developer",
+		"tools": ["Figma", "WordPress", "HTML", "CSS"],
+		"year": "July 2024 - August 2024",
+		"cover": "work02-hover.webp",
 		"title": "The Collectible",
 		"text": "Entrepreneur project created from scratch.",
 		"label": "Read More",
 		"pictures":[
-			"/assets/images/work02-hover.webp"
+			"work02-hover.webp"
 		],
 		"details": [
 			{"title": "Context","text": "TheCollectible is an entrepreneurial initiative I co-founded with two partners, aimed at creating a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while also contributing to user research and design. This entrepreneurial journey taught me valuable lessons about business strategy and user-centered design."},
 			{"title": "The Brief","text": "Our research revealed key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content."}, 
-			{"title": "The Development","text": "<p>The process was divided into several stages:</p><ol>        <li>Research and Planning</li>        <p>User interviews and surveys identified key needs, including user-friendly search, an interactive gallery, and secure payment options.</p>        <li>Technical Architecture and Prototyping</li>        <p>A scalable tech stack (React and Node.js) was selected to allow future growth. Interactive prototypes were created in Figma, with feedback gathered to ensure alignment with user expectations.</p>        <li>Front-End and Back-End Development</li>        <p>Agile methodologies were used to break work into sprints. A responsive interface was developed alongside robust back-end functionality for listings, user authentication, and transactions.</p>        <li>User Testing and Iteration</li>        <p>User testing provided valuable feedback, leading to refinements such as simplifying the listing process to enhance usability.</p>        <li>Collaboration and Adaptability</li>        <p>As CTO, I aligned technical development with business goals, facilitated team communication, and implemented a content management system for easy updates.</p>        <li>Deployment and Scaling</li>        <p>The platform was deployed on a cloud infrastructure to ensure scalability. Post-launch efforts focused on performance monitoring, debugging, and introducing new features based on user engagement.</p></ol>"}
+			{"title": "The Development","text": "<p>The process was divided into several stages:</p><ol>        <li>Research and Planning</li>        <p>User interviews and surveys identified key needs, including user-friendly search, an interactive gallery, and secure payment options.</p>        <li>Technical Architecture and Prototyping</li>        <p>A scalable tech stack (React and Node.js) was selected to allow future growth. Interactive prototypes were created in Figma, with feedback gathered to ensure alignment with user expectations.</p>        <li>Front-End and Back-End Development</li>        <p>Agile methodologies were used to break work into sprints. A responsive interface was developed alongside robust back-end functionality for listings, user authentication, and transactions.</p>        <li>User Testing and Iteration</li>        <p>User testing provided valuable feedback, leading to refinements such as simplifying the listing process to enhance usability.</p>        <li>Collaboration and Adaptability</li>        <p>As CTO, I aligned technical development with business goals, facilitated team communication, and implemented a content management system for easy updates.</p>        <li>Deployment and Scaling</li>        <p>The platform was deployed on a cloud infrastructure to ensure scalability. Post-launch efforts focused on performance monitoring, debugging, and introducing new features based on user engagement.</p></ol>"},
+			{"title": "Conclusion", "text": "<p>The Collectible marketplace provided a unique opportunity to showcase art and collectibles from emerging artists. By leveraging the power of the web, I was able to create a user-friendly platform that catered to the needs of both collectors and artists.</p><p>The development process was rigorous, with a focus on user experience and scalability. The platform's responsive design and seamless transactions ensured a smooth browsing experience for both buyers and sellers.</p><p>This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences.</p>"}
 		],
 		"tags":[
 			"UI",
@@ -47,17 +52,21 @@
 	},
 	{
 		"id": "03",
-		"year": "2024",
-		"cover": "/assets/images/work03-hover.webp",
+		"role": "Product Design (UX/UI) - Web Developer",
+		"tools": ["Figma", "WordPress", "HTML", "CSS"],
+		"year": "January 2024 - August 2024",
+		"cover": "work03-hover.webp",
 		"title": "Divorce.fm",
 		"text": "Development of online radio.",
 		"label": "Read More",
 		"pictures":[
-			"/assets/images/work03-hover.webp"
+			"work03-hover.webp"
 		],
 		"details": [
 			{"title": "Context","text": "<p>The client needed an online radio website featuring SoundCloud mixes, with a design reflecting their old-school aesthetic. The interface had to be intuitive and responsive, providing a seamless listening experience.</p><p>The client also requested to be able to manage the website on their own in the future, by adding new mixes and background pictures. Therefore, I chose to add an admin panel, enabling them to make minor changes independently without needing technical expertise.</p>"}, 
-			{"title": "Approach and Development","text": "<p>The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.</p><p>Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul><p>For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.</p><p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>"}
+			{"title": "Approach and Development","text": "<p>The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.</p><p>Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul><p>For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.</p><p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>"},
+			{"title": "Conclusion", "text": "<p>This project successfully combined an engaging user experience with a practical, self-managed solution for the client. By designing a visually appealing and intuitive interface, I ensured that users could easily navigate the online radio platform and enjoy a seamless listening experience.</p><p>The addition of a custom-built admin panel empowered the client to manage their content independently, ensuring the website remains dynamic and up-to-date without requiring technical intervention. With a responsive design, a robust backend, and an easy-to-use content management system, the final product not only met but exceeded the client’s expectations.</p><p>This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences.</p>"
+		}
 		],
 		"tags":[
 			"Dev"
@@ -65,13 +74,15 @@
 	},
 	{
 		"id": "04",
+		"role": "Product Design (UX/UI) - Web Developer",
+		"tools": ["Figma", "WordPress", "HTML", "CSS"],
 		"year": "2022",
-		"cover": "/assets/images/work04-hover.webp",
+		"cover": "work04-hover.webp",
 		"title": "Solotech - USA Carreer Event",
 		"text": "",
 		"label": "Coming Soon",
 		"pictures":[
-			"/assets/images/work04-hover.webp"
+			"work04-hover.webp"
 		],
 		"details": [
 			{"title": "Context","text": ""}
@@ -83,13 +94,15 @@
 	},
 	{
 		"id": "05",
+		"role": "Product Design (UX/UI) - Web Developer",
+		"tools": ["Figma", "WordPress", "HTML", "CSS"],
 		"year": "2023",
-		"cover": "/assets/images/work05-hover.webp",
+		"cover": "work05-hover.webp",
 		"title": "Solotech - Santé Canada",
 		"text": "",
 		"label": "Coming Soon",
 		"pictures":[
-			"/assets/images/work05-hover.webp"
+			"work05-hover.webp"
 		],
 		"details": [
 			{"title": "Context","text": ""}
@@ -101,13 +114,15 @@
 	},
 	{
 		"id": "06",
+		"role": "Product Design (UX/UI) - Web Developer",
+		"tools": ["Figma", "WordPress", "HTML", "CSS"],
 		"year": "2023",
-		"cover": "/assets/images/work06-hover.webp",
+		"cover": "work06-hover.webp",
 		"title": "Solotech - DBD7",
 		"text": "",
 		"label": "Coming Soon",
 		"pictures":[
-			"/assets/images/work06-hover.webp"
+			"work06-hover.webp"
 		],
 		"details": [
 			{"title": "Context","text": ""}

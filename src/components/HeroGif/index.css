@@ -8,8 +8,9 @@
 }
 
 .hero-content h1{
-  font-size: 3em;
+  font-size: 3.2em;
   font-weight: 600;
+  margin-left: 100px;
 }
 
 .video-container video {
@@ -31,5 +32,7 @@
 
   .hero-content h1{
     font-size: 2em;
+    width: 100%;
+    margin-left: 20px;
   }
 }

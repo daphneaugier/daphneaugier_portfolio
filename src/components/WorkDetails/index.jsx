@@ -2,10 +2,11 @@ import PropTypes from 'prop-types'
 import './index.css'
 
 function WorkDetails({details}) {
+
     return (
-        <article className="work-detailst">
-        {details.map((detail) => 
-            <div key={detail.title}>
+        <article className="work-details">
+        {details.map((detail, index) => 
+            <div key={detail.title} className="work-details-box" data-aos="flip-down" data-aos-offset={index * 100}>
             <h3>{detail.title}</h3>
             <p dangerouslySetInnerHTML={{__html: detail.text}}></p>
             </div>

@@ -1,10 +1,14 @@
 .work-card {
   height: 250px;
-  width: calc(100vw);
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(95vw);
   margin-bottom: 20px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-between;
   flex-grow: 1;
+  border: 1px solid black;
 }
 
 .work-card img {
@@ -24,47 +28,64 @@
 
 
 .work-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
-  padding: 20px;
+  padding: 12px;
   flex-grow: 1;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .work-text-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 28px;
-  margin-bottom: 28px;
-  font-weight: bold;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
 }
 
-.work-text-row2 {
+.work-text-row button {
+  justify-content: flex-start;
+}
+.work-text-col{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 28px;
-  margin-bottom: 28px;
-  font-weight: bold;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
+  align-items: right;
+  margin-top: 12px;
+  margin-right: 20px;
 }
 
 .work-text h3 {
-  margin: 6px 12px;
+  margin: 6px;
   font-size: 30px;
   font-weight: bold;  
 }
 
 .work-text-year {
-  margin: 6px 12px;
-  font-size: large;
+  margin-left: 3.5rem;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .work-text p {
   margin: 6px 12px;
   
+}
+.work-text-btn{
+  font-size: 16px;
+  display: block;
+  padding: 10px 16px;
+  width: fit-content;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 56px;
+  margin-bottom: 48px;
 }
 .work-tag {
   font-size: x-large;
