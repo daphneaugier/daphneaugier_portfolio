@@ -6,8 +6,8 @@ function ArtCard({title, description, picture}) {
 return (
         <figure className="card">
             <img src={`/assets/images/art/${picture}`} alt={title} />
-            <caption className='caption'>{title}</caption>
-            <p className='description' dangerouslySetInnerHTML={{__html: description}}></p>
+            {/* <caption className='caption'>{title}</caption>
+            <p className='description' dangerouslySetInnerHTML={{__html: description}}></p> */}
         </figure>
     )
 }

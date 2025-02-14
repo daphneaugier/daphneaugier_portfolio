@@ -10,20 +10,18 @@ function ArtGallery() {
       <h1>
         Art Gallery
       </h1>
+
+      <h3>
+        Film photographies
+      </h3>
       <section className="art-gallery">
             {MyArt.map((art) => (
-              <Link
-                className="card-link"
-                key={art.id}
-                to={`/art/${art.id}`}
-              >
                 <ArtCard
                   key={art.id}
-                  title={art.title}
-                  description={art.description}
+                  // title={art.title}
+                  // description={art.description}
                   picture={art.picture}
                 />
-              </Link>
             ))}
           </section>
 

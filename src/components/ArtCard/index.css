@@ -1,36 +1,46 @@
-.card{
+.art-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.card {
     display: flex;
-    min-width: 18em;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    width: 100%;
+    min-width: 18em;
     animation: scaleUp 0.25s ease forwards;
     gap: 10px;
 }
 
-.card caption{
-    font-size: 24px;
-    font-weight: 600;
-}   
-.card p{
-    font-size: 18px;
-    font-weight: 400;
-    height: 3em;
-    margin-bottom: 6px;
-}
-.card img{
+.card img {
     object-fit: cover;
     width: 100%;
-    height: 8em;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: auto;
 }
-.card:active {
-    display: block;
-  }
+
+@media (max-width: 1024px) {
+    .art-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .art-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .art-gallery {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
   
-  @keyframes scaleUp {
+@keyframes scaleUp {
     0% { transform: scale(0.5); }
     100% { transform: scale(1); }
   }
