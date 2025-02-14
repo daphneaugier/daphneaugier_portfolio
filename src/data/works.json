@@ -30,12 +30,14 @@
 		"cover": "/assets/images/work02-hover.webp",
 		"title": "The Collectible",
 		"text": "Entrepreneur project created from scratch.",
-		"label": "Coming Soon",
+		"label": "Read More",
 		"pictures":[
 			"/assets/images/work02-hover.webp"
 		],
 		"details": [
-			{"title": "Context","text": ""}
+			{"title": "Context","text": "TheCollectible is an entrepreneurial initiative I co-founded with two partners, aimed at creating a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while also contributing to user research and design. This entrepreneurial journey taught me valuable lessons about business strategy and user-centered design."},
+			{"title": "The Brief","text": "Our research revealed key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content."}, 
+			{"title": "The Development","text": "<p>The process was divided into several stages:</p><ol>        <li>Research and Planning</li>        <p>User interviews and surveys identified key needs, including user-friendly search, an interactive gallery, and secure payment options.</p>        <li>Technical Architecture and Prototyping</li>        <p>A scalable tech stack (React and Node.js) was selected to allow future growth. Interactive prototypes were created in Figma, with feedback gathered to ensure alignment with user expectations.</p>        <li>Front-End and Back-End Development</li>        <p>Agile methodologies were used to break work into sprints. A responsive interface was developed alongside robust back-end functionality for listings, user authentication, and transactions.</p>        <li>User Testing and Iteration</li>        <p>User testing provided valuable feedback, leading to refinements such as simplifying the listing process to enhance usability.</p>        <li>Collaboration and Adaptability</li>        <p>As CTO, I aligned technical development with business goals, facilitated team communication, and implemented a content management system for easy updates.</p>        <li>Deployment and Scaling</li>        <p>The platform was deployed on a cloud infrastructure to ensure scalability. Post-launch efforts focused on performance monitoring, debugging, and introducing new features based on user engagement.</p></ol>"}
 		],
 		"tags":[
 			"UI",
@@ -49,12 +51,13 @@
 		"cover": "/assets/images/work03-hover.webp",
 		"title": "Divorce.fm",
 		"text": "Development of online radio.",
-		"label": "Coming Soon",
+		"label": "Read More",
 		"pictures":[
 			"/assets/images/work03-hover.webp"
 		],
 		"details": [
-			{"title": "Context","text": ""}
+			{"title": "Context","text": "<p>The client needed an online radio website featuring SoundCloud mixes, with a design reflecting their old-school aesthetic. The interface had to be intuitive and responsive, providing a seamless listening experience.</p><p>The client also requested to be able to manage the website on their own in the future, by adding new mixes and background pictures. Therefore, I chose to add an admin panel, enabling them to make minor changes independently without needing technical expertise.</p>"}, 
+			{"title": "Approach and Development","text": "<p>The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.</p><p>Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul><p>For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.</p><p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>"}
 		],
 		"tags":[
 			"Dev"

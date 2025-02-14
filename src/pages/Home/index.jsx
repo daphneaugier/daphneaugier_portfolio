@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 //Import Components
-import Hero from '../../components/Hero'
+import Hero from '../../components/HeroGif'
 import WorkGallery from '../../components/WorkGallery'
+// import ButtonArt from '../../components/ButtonArt'
 
 import video from '../../assets/videos/daphjaune.mp4'
 
@@ -15,5 +17,7 @@ function Home() {
     </div>
   )
 }
+
+//       <ButtonArt />
 
 export default Home

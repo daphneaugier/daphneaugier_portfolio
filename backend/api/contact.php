@@ -19,6 +19,7 @@ if (empty($data["name"]) || empty($data["email"]) || empty($data["message"])) {
 $name = htmlspecialchars(strip_tags($data["name"]));
 $email = filter_var($data["email"], FILTER_VALIDATE_EMAIL);
 $message = htmlspecialchars(strip_tags($data["message"]));
+$sender_email = "daphne@daphneaugier.com";
 
 if (!$email) {
     echo json_encode(["message" => "Invalid email address"]);
@@ -28,7 +29,7 @@ if (!$email) {
 // Email settings
 $to = "daphne.augier@gmail.com";
 $subject = "New Contact Form Submission on your Portfolio";
-$headers = "From: $email\r\nReply-To: $email\r\nContent-Type: text/plain; charset=UTF-8";
+$headers = "From: $sender_email\r\nReply-To: $sender_email\r\nContent-Type: text/plain; charset=UTF-8";
 
 $body = "Name: $name\nEmail: $email\nMessage:\n$message";
 

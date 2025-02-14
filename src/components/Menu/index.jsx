@@ -24,9 +24,8 @@ function Menu({ className }) {
   );
 }
 
+Menu.propTypes = {
+  className: PropTypes.string,
+};
+
 export default Menu;
-/*
-    <li>
-        <Link to="/art" key="about">Art Stuff</Link>
-    </li>
-*/

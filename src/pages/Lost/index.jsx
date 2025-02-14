@@ -1,5 +1,5 @@
 //Import Components
-import Hero from '../../components/Hero'
+import Hero from '../../components/HeroGif'
 import Error from '../../components/Error'
 import video from '../../assets/videos/daphjaune.mp4'
 

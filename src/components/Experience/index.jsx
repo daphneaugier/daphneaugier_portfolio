@@ -1,8 +1,4 @@
-import { useState } from "react";
-import { ReactTyped } from "react-typed";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.css";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import TimeLineEntry from "../TimeLineEntry";
 
 function Experience() {
