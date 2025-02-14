@@ -29,9 +29,8 @@ function Daphne() {
         <br />
       </p>
       <p>
-        I am a lifelong multidisciplinary artist, who has always been passionate
-        about creative hobbies; whether painting (oil or watercolor), drawing,
-        photography, etc.
+        I've always loved exploring different creative hobbies—whether it's 
+        painting (oil or watercolor), drawing, photography, or any other craft.
         <br />
         <br />
       </p>

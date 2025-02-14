@@ -12,6 +12,8 @@ function Home() {
     <div>
       <Hero />
       <WorkGallery works={(works)} />
+      <br/>
+      <br/>
       <ButtonArt />
     </div>
   )

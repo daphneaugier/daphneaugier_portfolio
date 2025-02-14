@@ -14,10 +14,17 @@
   margin: 0;
 }
 
+.timeline-entry details {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
 .timeline-entry ul {
   margin-left: 1rem;
   list-style-type: circle;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
