@@ -18,7 +18,7 @@ function ArtGallery() {
             {MyArt.map((art) => (
                 <ArtCard
                   key={art.id}
-                  // title={art.title}
+                  title={art.title}
                   // description={art.description}
                   picture={art.picture}
                 />
