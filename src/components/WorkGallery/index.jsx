@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import WorkCard from '../WorkCard'
 import './index.css'
 
@@ -13,6 +14,10 @@ function WorkGallery({ works }) {
       )}
 </section>
   )
+}
+
+WorkGallery.propTypes = {
+  works: PropTypes.arrayOf(PropTypes.object).isRequired,
 }
 
 export default WorkGallery

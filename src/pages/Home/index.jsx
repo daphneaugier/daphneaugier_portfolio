@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-//Import Components
+import { useEffect } from 'react'
+
 import Hero from '../../components/HeroGif'
 import WorkGallery from '../../components/WorkGallery'
 import ButtonArt from '../../components/ButtonArt'
@@ -8,6 +8,11 @@ import ButtonArt from '../../components/ButtonArt'
 import works from '../../data/works.json'
 
 function Home() {
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
   return (
     <div>
       <Hero />

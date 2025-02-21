@@ -6,7 +6,7 @@ function WorkCard({ work }) {
   return (
     <div className="work-card">
       <img
-        src={`/assets/images/${work.cover}`}
+        src={`/assets/images/works/${work.cover}`}
         alt={work.title}
         className="work-img"
         data-aos="slide-left"

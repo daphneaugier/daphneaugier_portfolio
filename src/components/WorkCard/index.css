@@ -18,15 +18,6 @@
   display: block;
 }
 
-.work-card{
-  -webkit-filter: contrast(200%) grayscale(100%);
-  filter: contrast(200%) grayscale(100%);
-}
-.work-card:hover{
-  filter:none;
-}
-
-
 .work-text {
   display: flex;
   flex-direction: row;
@@ -102,7 +93,6 @@
 
 @media (max-width: 768px) {
   .work-card img {
-    filter: none;
     width: 100%;
   }
   .work-card {

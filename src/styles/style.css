@@ -1,5 +1,8 @@
 @import "./fonts";
-
+:root {
+  --primary-color: #fff36d;
+  --text-color: #000;
+}
 html,body{
   overflow-x: hidden;
 }
@@ -10,8 +13,8 @@ body {
   font-weight: 300;
   letter-spacing: 0.8px;
   line-height: 25px;
-  background-color: #fff36d;
-  color: black;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   margin: 0;
   padding: 0;
 }

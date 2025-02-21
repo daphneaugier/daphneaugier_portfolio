@@ -1,22 +1,45 @@
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    min-width: 18em;
-    animation: scaleUp 0.25s ease forwards;
-    gap: 10px;
+.modal-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 18em;
+  animation: scaleUp 0.25s ease forwards;
 }
 
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
+.modal-image img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
+.modal-image:hover {
+  filter: blur(8px);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; /* adjust as needed */
+  left: 50%; /* adjust as needed */
+  transform: translate(-50%, -50%);
+  color: var(--primary-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card:hover .overlay-text {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
 @keyframes scaleUp {
-    0% { transform: scale(0.5); }
-    100% { transform: scale(1); }
+  0% {
+    transform: scale(0.5);
   }
-  
+  100% {
+    transform: scale(1);
+  }
+}

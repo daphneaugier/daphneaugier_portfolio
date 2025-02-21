@@ -1,24 +1,53 @@
+.card-artist{
+  font-weight:200;
+  font-size: 0.8em;
+}
+
 .art-gallery {
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  padding: 16px;
+  max-width: 2000px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  gap: 0;
 }
-@media (max-width: 1400px) {
+
+@media (min-width: 600px) {
+  /* button + button,
+  input + button {
+    margin-left: 1rem;
+  } */
+
   .art-gallery {
-      grid-template-columns: repeat(3, 1fr);
+    column-count: 1;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 800px) {
   .art-gallery {
-      grid-template-columns: repeat(2, 1fr);
+    column-count: 2;
   }
 }
 
-@media (max-width: 700px) {
+@media (min-width: 1200px) {
   .art-gallery {
-      grid-template-columns: repeat(1, 1fr); 
+    column-count: 3;
   }
+}
+
+@media (min-width: 1400px) {
+  .art-gallery {
+    column-count: 4;
+  }
+}
+
+@media (min-width: 1600px) {
+  .art-gallery {
+    column-count: 5;
+}
+}
+.info{
+  font-weight: 300;
+  margin-left: 275px;
+  z-index: 1;
 }

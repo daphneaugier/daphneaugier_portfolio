@@ -5,14 +5,17 @@ import "./index.css";
 
 function ArtCard({ title, description, picture }) {
   return (
+    <div className="card">
     <ModalImage
-      className="card"
+      className="modal-image"
       small={`/assets/images/art/${picture}`}
       large={`/assets/images/artbig/${picture}`}
       hideDownload={true}
       hideZoom={true}
       alt={title}
     />
+      <h3 className="overlay-text">{description}</h3>
+      </div>
   );
 }
 
