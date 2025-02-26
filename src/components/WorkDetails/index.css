@@ -33,3 +33,12 @@ margin-top: 48px;
 .work-details-box h3{
  margin-top: 12px;
 }
+
+@media (max-width: 900px) {
+  .work-details{
+    padding: 12px 0 0 0;
+  }
+  .work-details p{
+    margin: 6px;
+  }
+}
