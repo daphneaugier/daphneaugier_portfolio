@@ -1,6 +1,7 @@
 header {
   display: flex;
   flex-direction: column;
+  margin-top: 12px;
 }
 
 nav {
@@ -17,12 +18,13 @@ nav li{
 }
 
 .download-nav {
-    margin: 12px;
     font-size: 14px;
     z-index: 1000;
     text-align: right;
     align-items: end;
-    position: sticky;
+    position: absolute;
+    top:12px;
+    right:12px;
   }
 
 .header-button {
@@ -40,6 +42,12 @@ nav li{
 }
 @media (min-width: 768px) {
   header{
-    flex-direction: row-reverse;
+    flex-direction: row;
+  }
+}
+@media (max-width: 900px) {
+  .download-nav{
+    margin: 12px;
+    position: sticky;
   }
 }
