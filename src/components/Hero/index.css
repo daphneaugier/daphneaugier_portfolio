@@ -35,4 +35,8 @@
     width: 100%;
     margin-left: 20px;
   }
+  .video-container video {
+    width: 90%;
+    height: 80%;
+  }  
 }
