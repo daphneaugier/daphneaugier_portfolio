@@ -13,28 +13,30 @@ function WorkCard({ work }) {
       />
       <div className="work-text" data-aos="zoom-in">
         <div className="work-text-row">
-          <div>
-          <h3>
-            {work.id}. {work.title}
-          </h3>
+          <h3>{work.id}</h3>
+          <h3>{work.title}</h3>
           <h4 className="work-text-year">{work.year}</h4>
+
+          <div className="work-text-2col">
+            <div>
+              {work.tags.map((tag) => (
+                <div key={`${tag}-${work.id}`} className="work-tag">
+                  {tag}
+                </div>
+              ))}
+            </div>
+            <div>
+              {work.label === "Coming Soon" ? (
+                <br />
+              ) : (
+                <button className="work-text-btn">
+                  <Link to={`/work/${work.id}`} key={work.id}>
+                    Read Project
+                  </Link>
+                </button>
+              )}
+            </div>
           </div>
-          {work.label === "Coming Soon" ? (
-          <br />
-        ) : (
-          <button className="work-text-btn">
-            <Link to={`/work/${work.id}`} key={work.id}>
-              Read Project
-            </Link>
-          </button>
-        )}
-        </div>
-        <div className="work-text-col">
-          {work.tags.map((tag) => (
-            <h4 key={`${tag}-${work.id}`} className="work-tag">
-              {tag}
-            </h4>
-          ))}
         </div>
       </div>
     </div>

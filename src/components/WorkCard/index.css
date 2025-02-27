@@ -31,6 +31,13 @@
   overflow: hidden;
 }
 
+.work-text-2col{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: left;
+  margin-top: 2.7rem;
+}
 .work-text-row {
   display: flex;
   justify-content: space-between;
@@ -59,7 +66,7 @@
 }
 
 .work-text-year {
-  margin-left: 3.5rem;
+  margin-left: 6px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -82,6 +89,9 @@
   font-size: x-large;
   display: inline;
   font-weight: bold;
+  background-color: var(--primary-color);
+  padding: 6px;
+  margin: 4px;
 }
 
 @media (max-width: 1024px) {
