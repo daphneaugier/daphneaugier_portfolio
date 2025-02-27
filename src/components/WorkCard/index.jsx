@@ -13,10 +13,9 @@ function WorkCard({ work }) {
       />
       <div className="work-text" data-aos="zoom-in">
         <div className="work-text-row">
-          <h3>{work.id}</h3>
-          <h3>{work.title}</h3>
+          <h3 className="work-id">{work.id}</h3>
+          <h3 className="work-title">{work.title}</h3>
           <h4 className="work-text-year">{work.year}</h4>
-
           <div className="work-text-2col">
             <div>
               {work.tags.map((tag) => (
