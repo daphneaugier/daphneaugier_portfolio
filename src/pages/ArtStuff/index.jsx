@@ -19,7 +19,6 @@ function ArtStuff() {
   return (
     <section className="daphne">
       <h1>Art Gallery</h1>
-      <h3>Film photographies</h3>
         <ArtGallery data={data} />
     </section>
   )

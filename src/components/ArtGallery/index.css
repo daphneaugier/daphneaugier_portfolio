@@ -41,7 +41,7 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .art-gallery {
     column-count: 5;
 }

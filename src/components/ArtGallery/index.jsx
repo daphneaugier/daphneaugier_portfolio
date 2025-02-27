@@ -16,7 +16,6 @@ function ArtGallery({ data }) {
       {data.map((item) => (
         <ArtCard
           key={item.id}
-          title={item.title}
           description={item.description}
           picture={item.picture}
           className="image"
