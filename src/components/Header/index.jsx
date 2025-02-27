@@ -1,5 +1,5 @@
 import "./index.css";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+//import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import Menu from "../Menu";
 
 function Header() {
