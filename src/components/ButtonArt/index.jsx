@@ -3,9 +3,9 @@ import './index.css'
 
 function Error() {
   return (
-    <button className="basic-button">
+    <button className="large-button">
     <Link to="/art" key="art">
-      ArtStuff
+      Art!
     </Link>
   </button>
   )
