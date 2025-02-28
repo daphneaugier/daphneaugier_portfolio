@@ -35,7 +35,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: left;
   margin-top: 2.7rem;
 }
 .work-text-row {
@@ -98,14 +97,14 @@
   display: inline;
   font-weight: bold;
   background-color: var(--primary-color);
-  padding: 6px;
+  padding: 8px 16px;
   margin: 4px;
+  margin-right: 32px;
 }
 
 @media (max-width: 1024px) {
   .work-text-row, .work-text-row2 {
     margin-top: 6px;
-    margin-bottom: 12px;
   }
 }
 
@@ -115,7 +114,6 @@
   }
   .work-card {
     flex-direction: column;
-    flex-grow: 1;
-    height: fit-content;
+    height: 450px;
   }
 }
