@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./index.css";
+import MyButton from "../MyButton";
 
 function WorkCard({ work }) {
   return (
@@ -8,7 +8,6 @@ function WorkCard({ work }) {
       <img
         src={`/assets/images/works/${work.cover}`}
         alt={work.title}
-        className="work-img"
         data-aos="slide-left"
       />
       <div className="workcard-text" data-aos="zoom-in">
@@ -28,11 +27,7 @@ function WorkCard({ work }) {
               {work.label === "Coming Soon" ? (
                 <br />
               ) : (
-                <button className="work-text-btn">
-                  <Link to={`/work/${work.id}`} key={work.id}>
-                    Read Project
-                  </Link>
-                </button>
+                <MyButton link={`/work/${work.id}`} key={work.id} label="Read Project" size="basic" />
               )}
             </div>
           </div>

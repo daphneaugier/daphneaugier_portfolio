@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 import Hero from '../../components/Hero'
 import WorkGallery from '../../components/WorkGallery'
-import ButtonArt from '../../components/ButtonArt'
+import ButtonArt from '../../components/MyButton'
 
 //Import Data
 import works from '../../data/works.json'
@@ -20,7 +20,7 @@ function Home() {
       <WorkGallery works={(works)} />
       <br/>
       <br/>
-      <ButtonArt />
+      <ButtonArt link="/art" key="art" label="Art!" size="large" />
     </div>
   )
 }
