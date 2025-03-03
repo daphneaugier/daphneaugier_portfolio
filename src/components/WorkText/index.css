@@ -1,0 +1,42 @@
+.work-text {
+    width: 100%;
+    font-weight: 600;
+}
+.work-text li{
+    margin-top: 24px;
+}
+.work-text h3{
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.work-line{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+}
+.work-line h3,
+h4 {
+  font-size: 40px;
+}
+.work-line p {
+  font-size: 24px;
+}
+
+.work-img{
+    width: auto;
+    height: 340px;
+}
+.work-img50{
+    margin-top: 24px;
+    width: 100%;
+}
+.work-img-p{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

@@ -1,18 +1,20 @@
 import { Navigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-import Carousel from "../../components/Carousel";
 import WorkDetails from "../../components/WorkDetails";
-import Col2 from "../../components/Col2";
 
 //Import Data
 import workList from "../../data/works.json";
 
 import "./index.css";
+import WorkTitle from "../../components/WorkTitle";
+import WorkText from "../../components/WorkText";
+import WorkBanner from "../../components/WorkBanner";
+import MyButton from "../../components/MyButton";
 
 function Work() {
   const { workId } = useParams();
-  const work = workList.find((i) => i.id === workId);
+  const work = workList.find((item) => item.id === workId);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,21 +24,15 @@ function Work() {
     return <Navigate to="/lost" />;
   }
 
-  const tools = work.tools.map((tool, index) => (
-    <li key={index}>{tool}</li>
-  ));
-
   return (
     <div>
       <section className="works">
-        <Col2
-          img={work.cover}
-          title={`${work.id}. ${work.title}`}
-          tools={tools}
-          time={work.year}
-          role={work.role}
-        />
-        <WorkDetails details={work.details} />
+        <WorkTitle work={work} />
+        <WorkBanner work={work} />
+        <WorkDetails work={work} />
+        {work.link !== "" ? <MyButton style="text-align:center" link={work.link} key={work.id} label="Visit site" size="basic" /> : ""}
+        {work.away !== "" ? <WorkText detail={work.away} /> : ""}
+        
       </section>
     </div>
   );
