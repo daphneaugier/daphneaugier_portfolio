@@ -1,4 +1,5 @@
 import { ReactTyped } from "react-typed";
+import PropTypes from "prop-types";
 import './index.css'
 
 function Hero({video}) {
@@ -23,5 +24,8 @@ function Hero({video}) {
         </section>    </div>
   )
 }
+Hero.propTypes = {
+  video: PropTypes.string.isRequired,
+};
 
 export default Hero
