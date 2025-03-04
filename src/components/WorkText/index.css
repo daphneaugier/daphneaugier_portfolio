@@ -2,6 +2,11 @@
     width: 100%;
     font-weight: 600;
 }
+.work-text-box{
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+}
 .work-text li{
     margin-top: 24px;
 }
@@ -40,3 +45,11 @@ h4 {
     height: auto;
     object-fit: cover;
 }
+@media (max-width: 768px) {
+    .work-line{
+        flex-direction: column;
+    }
+    .work-col1, .work-col2{
+        width: 100%;
+    }
+}   

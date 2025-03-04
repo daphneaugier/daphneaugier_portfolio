@@ -31,8 +31,7 @@ function Work() {
         <WorkBanner work={work} />
         <WorkDetails work={work} />
         {work.link !== "" ? <MyButton style="text-align:center" link={work.link} key={work.id} label="Visit site" size="basic" /> : ""}
-        {work.away !== "" ? <WorkText detail={work.away} /> : ""}
-        
+        {work.away !== "" ? <WorkText detail={work.away} type="box" /> : ""}
       </section>
     </div>
   );
