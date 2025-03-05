@@ -8,9 +8,9 @@ import workList from "../../data/works.json";
 
 import "./index.css";
 import WorkTitle from "../../components/WorkTitle";
-import WorkText from "../../components/WorkText";
 import WorkBanner from "../../components/WorkBanner";
 import MyButton from "../../components/MyButton";
+import WorkTakeAway from "../../components/WorkTakeAway";
 
 function Work() {
   const { workId } = useParams();
@@ -27,11 +27,11 @@ function Work() {
   return (
     <div>
       <section className="works">
-        <WorkTitle work={work} />
-        <WorkBanner work={work} />
+        {work.title !== "" ? <WorkTitle id={work.id} title={work.title} tags={work.tags} /> : ""}
+        {work.cover !== "" ? <WorkBanner cover={work.cover} title={work.title} /> : ""}
         <WorkDetails work={work} />
         {work.link !== "" ? <MyButton style="text-align:center" link={work.link} key={work.id} label="Visit site" size="basic" /> : ""}
-        {work.away !== "" ? <WorkText detail={work.away} type="box" /> : ""}
+        {work.away.title !== "" ? <WorkTakeAway title={work.away.title} text={work.away.text} /> : ""}
       </section>
     </div>
   );

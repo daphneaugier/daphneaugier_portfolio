@@ -2,27 +2,27 @@
     width: 100%;
     font-weight: 600;
 }
-.work-text-box{
-    border: 1px solid black;
-    padding: 12px;
-    margin: 12px;
-}
 .work-text li{
     margin-top: 24px;
 }
 .work-text h3{
-    font-size: 40px;
+    font-size: 38px;
+    font-weight: 700;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 .work-line{
     margin-top: 12px;
     margin-bottom: 12px;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 600;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
     gap: 24px;
+    text-align: left;
 }
 .work-line h3,
 h4 {

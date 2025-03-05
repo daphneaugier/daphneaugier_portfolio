@@ -1,16 +1,16 @@
 import PropsType from "prop-types";
 import "./index.css";
 
-function WorkTitle({ work }) {
+function WorkTitle({ id, title, tags }) {
   return (
     <>
       <h1 className="work-title">
         <div>
-        {work.id} {work.title}{" "}
+        {id} {title}{" "}
         </div>
         <div className="work-title-tag-list">
-        {work.tags.map((tag) => (
-          <div key={`${tag}-${work.id}`} className="work-title-tag">
+        {tags.map((tag) => (
+          <div key={`${tag}-${id}`} className="work-title-tag">
             {tag}
           </div>
         ))}
@@ -21,7 +21,9 @@ function WorkTitle({ work }) {
 }
 
 WorkTitle.propTypes = {
-  work: PropsType.object.isRequired,
+  id: PropsType.string.isRequired,
+  title: PropsType.string.isRequired,
+  tags: PropsType.arrayOf(PropsType.string).isRequired,
 };
 
 export default WorkTitle;

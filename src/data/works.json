@@ -27,9 +27,10 @@
       "line6": "<div><h3>Development & Implementation</h3>Using WordPress as the CMS allowed for flexible content management while ensuring smooth performance. Custom HTML and CSS were incorporated to refine styling beyond standard templates, ensuring brand consistency. Specific optimizations included:<ul><li>A fully responsive menu and booking system</li><li>Fast-loading pages with optimized media content</li><li>SEO best practices to enhance discoverability</li></ul><img class='work-img50' src='/assets/images/work01/wordpress_cache.webp' alt='WordPress Caché'/></div>"
     },
     "link": "https://cache-sf.com",
-    "away": [
-      "<div><h3>Take-aways</h3><p style='text-align:left;'>The final website successfully aligned with Caché’s identity and business goals, offering a smooth and engaging user experience. The project reinforced the importance of balancing aesthetics with functionality, particularly in the restaurant industry where first impressions matter. This case study highlights the impact of thoughtful UX/UI design in shaping a brand’s digital experience and ensuring that customers can seamlessly engage with a business online.</p></div>"
-    ],
+    "away": {
+      "title": "Take-aways",
+      "text": "The final website successfully aligned with Caché’s identity and business goals, offering a smooth and engaging user experience. The project reinforced the importance of balancing aesthetics with functionality, particularly in the restaurant industry where first impressions matter. This case study highlights the impact of thoughtful UX/UI design in shaping a brand’s digital experience and ensuring that customers can seamlessly engage with a business online."
+    },
     "tags": ["UI", "UX", "Dev"]
   },
   {
@@ -55,9 +56,10 @@
       "line1": "<div><h3>The Development</h3>The process was divided into several stages:<ol><li>Research and Planning</li><p>User interviews and surveys identified key needs, including user-friendly search, an interactive gallery, and secure payment options.</p><li>Technical Architecture and Prototyping</li><p>A scalable tech stack (React and Node.js) was selected to allow future growth. Interactive prototypes were created in Figma, with feedback gathered to ensure alignment with user expectations.</p><li>Front-End and Back-End Development</li><p>Agile methodologies were used to break work into sprints. A responsive interface was developed alongside robust back-end functionality for listings, user authentication, and transactions.</p><li>User Testing and Iteration</li><p>User testing provided valuable feedback, leading to refinements such as simplifying the listing process to enhance usability.</p><li>Collaboration and Adaptability</li><p>As CTO, I aligned technical development with business goals, facilitated team communication, and implemented a content management system for easy updates.</p><li>Deployment and Scaling</li><p>The platform was deployed on a cloud infrastructure to ensure scalability. Post-launch efforts focused on performance monitoring, debugging, and introducing new features based on user engagement.</p></ol></div>"
     },
     "link": "",
-    "away": [
-      "<div><h3>Take-aways</h3><p style='text-align:left;'>The Collectible marketplace provided a unique opportunity to showcase art and collectibles from emerging artists. By leveraging the power of the web, I was able to create a user-friendly platform that catered to the needs of both collectors and artists.</p><p>The development process was rigorous, with a focus on user experience and scalability. The platform's responsive design and seamless transactions ensured a smooth browsing experience for both buyers and sellers.</p><p>This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences.</p></div>"
-    ],
+    "away": {
+      "title": "Take-aways",
+      "text": "The Collectible marketplace provided a unique opportunity to showcase art and collectibles from emerging artists. By leveraging the power of the web, I was able to create a user-friendly platform that catered to the needs of both collectors and artists. The development process was rigorous, with a focus on user experience and scalability. The platform's responsive design and seamless transactions ensured a smooth browsing experience for both buyers and sellers.</p><p>This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences"
+    },
     "tags": ["UI", "UX", "Dev"]
   },
   {
@@ -81,15 +83,20 @@
     },
     "detail3": {
       "line1": "<h3>Approach and Development</h3>",
-	  "line2": "<p>The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.</p>",
-	  "line3": "<div><p>Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul></p></div>",
-	  "line4": "<p>For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.</p>",
-	  "line5": "<p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>"
+      "line2": "<p>The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.</p>",
+      "line3": "<div><p>Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul></p></div>",
+      "line4": "<p>For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.</p>",
+      "line5": "<p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>"
     },
     "link": "",
-    "away": [
-      "<div><h3>Take-aways</h3><p style='text-align:left;'>This project successfully combined an engaging user experience with a practical, self-managed solution for the client. By designing a visually appealing and intuitive interface, I ensured that users could easily navigate the online radio platform and enjoy a seamless listening experience.</p><p>The addition of a custom-built admin panel empowered the client to manage their content independently, ensuring the website remains dynamic and up-to-date without requiring technical intervention. With a responsive design, a robust backend, and an easy-to-use content management system, the final product not only met but exceeded the client’s expectations.</p><p>This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences.</p></div>"
-    ],
+    "away": {
+      "title": "Take-aways",
+      "text": [
+        "This project successfully combined an engaging user experience with a practical, self-managed solution for the client. By designing a visually appealing and intuitive interface, I ensured that users could easily navigate the online radio platform and enjoy a seamless listening experience.",
+        "The addition of a custom-built admin panel empowered the client to manage their content independently, ensuring the website remains dynamic and up-to-date without requiring technical intervention. With a responsive design, a robust backend, and an easy-to-use content management system, the final product not only met but exceeded the client’s expectations.",
+        "This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences."
+      ]
+    },
     "tags": ["Dev"]
   }
 ]
