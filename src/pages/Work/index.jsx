@@ -32,6 +32,11 @@ function Work() {
         <WorkDetails work={work} />
         {work.link !== "" ? <MyButton style="text-align:center" link={work.link} label="Visit site" size="basic" new_page={true} /> : ""}
         {work.away.title !== "" ? <WorkTakeAway title={work.away.title} text={work.away.text} /> : ""}
+        <br />
+        <div className="work-btn">
+          {work.previous !== "" ? <MyButton link={`/work/${work.previous}`} label="Previous Project" size="basic" /> : ""}
+          {work.next !== "" ? <MyButton link={`/work/${work.next}`} label="Next Project" size="basic" /> : ""}
+        </div>
       </section>
     </div>
   );

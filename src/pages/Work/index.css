@@ -7,3 +7,11 @@
 .works h1 {
     font-weight: bold;
 }
+
+.work-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+}

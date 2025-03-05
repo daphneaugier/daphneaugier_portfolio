@@ -31,6 +31,8 @@
       "title": "Take-aways",
       "text": "The final website successfully aligned with Caché’s identity and business goals, offering a smooth and engaging user experience. The project reinforced the importance of balancing aesthetics with functionality, particularly in the restaurant industry where first impressions matter. This case study highlights the impact of thoughtful UX/UI design in shaping a brand’s digital experience and ensuring that customers can seamlessly engage with a business online."
     },
+    "next": "02",
+    "previous": "03",
     "tags": ["UI", "UX", "Dev"]
   },
   {
@@ -58,8 +60,12 @@
     "link": "",
     "away": {
       "title": "Take-aways",
-      "text": "The Collectible marketplace provided a unique opportunity to showcase art and collectibles from emerging artists. By leveraging the power of the web, I was able to create a user-friendly platform that catered to the needs of both collectors and artists. The development process was rigorous, with a focus on user experience and scalability. The platform's responsive design and seamless transactions ensured a smooth browsing experience for both buyers and sellers.</p><p>This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences"
+      "text": ["The Collectible marketplace provided a unique opportunity to showcase art and collectibles from emerging artists. By leveraging the power of the web, I was able to create a user-friendly platform that catered to the needs of both collectors and artists. The development process was rigorous, with a focus on user experience and scalability. The platform's responsive design and seamless transactions ensured a smooth browsing experience for both buyers and sellers.",
+      "This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences"
+    ]
     },
+    "next": "03",
+    "previous": "01",
     "tags": ["UI", "UX", "Dev"]
   },
   {
@@ -86,7 +92,9 @@
       "line2": "<p>The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.</p>",
       "line3": "<div><p>Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul></p></div>",
       "line4": "<p>For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.</p>",
-      "line5": "<p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>"
+      "line5": "<p>The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.</p>",
+      "line6": "<ol><li>Color Palette</li></ol>Can you imagine anything more simple?",
+      "line7": "<img  class='work-img' src='/assets/images/work03/colorpalette_divorce.webp' alt='Color Palette Divorce'/>"
     },
     "link": "https://divorce.fm",
     "away": {
@@ -97,6 +105,8 @@
         "This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences."
       ]
     },
+    "next": "01",
+    "previous": "02",
     "tags": ["Dev"]
   }
 ]
