@@ -47,15 +47,6 @@
 .work-text-row button {
   justify-content: flex-start;
 }
-.work-text-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 36px;
-  align-items: right;
-  margin-top: 12px;
-  margin-right: 20px;
-}
 
 .work-id,
 .workcard-title {
