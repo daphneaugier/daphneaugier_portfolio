@@ -30,7 +30,7 @@ function Work() {
         {work.title !== "" ? <WorkTitle id={work.id} title={work.title} tags={work.tags} /> : ""}
         {work.cover !== "" ? <WorkBanner cover={work.cover} title={work.title} /> : ""}
         <WorkDetails work={work} />
-        {work.link !== "" ? <MyButton style="text-align:center" link={work.link} key={work.id} label="Visit site" size="basic" /> : ""}
+        {work.link !== "" ? <MyButton style="text-align:center" link={work.link} label="Visit site" size="basic" new_page={true} /> : ""}
         {work.away.title !== "" ? <WorkTakeAway title={work.away.title} text={work.away.text} /> : ""}
       </section>
     </div>
