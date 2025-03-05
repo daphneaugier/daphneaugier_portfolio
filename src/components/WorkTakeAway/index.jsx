@@ -2,8 +2,7 @@ import PropTypes from "prop-types";
 import "./index.css";
 
 function WorkTakeAway({ title, text }) {
-  console.log(title);
-  console.log(text);
+
   return (
     <div className="work-text work-text-box">
       <h3>{title}</h3>
