@@ -20,7 +20,7 @@ function Home() {
       <WorkGallery works={(works)} />
       <br/>
       <br/>
-      <ButtonArt link="/art" key="art" label="Art!" size="large" />
+      <ButtonArt link="art" label="Art!" size="large" />
     </div>
   )
 }

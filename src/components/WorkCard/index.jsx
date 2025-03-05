@@ -27,7 +27,7 @@ function WorkCard({ work }) {
               {work.label === "Coming Soon" ? (
                 <br />
               ) : (
-                <MyButton link={`/work/${work.id}`} key={work.id} label="Read Project" size="basic" />
+                <MyButton link={`/work/${work.id}`} label="Read Project" size="basic" />
               )}
             </div>
           </div>
