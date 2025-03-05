@@ -1,24 +1,26 @@
 import PropTypes from "prop-types";
 import "./index.css";
 
-function WorkTextImage({ detail }) {
+function WorkTextImage({ txt, img, alt }) {
   return (
     <div className="work-line">
       <p
         className="work-txtimg-col1"
-        dangerouslySetInnerHTML={{ __html: detail.col1 }}
+        dangerouslySetInnerHTML={{ __html: txt }}
       ></p>
       <img
         className="work-col2"
-        src={`/assets/images/${detail.img}`}
-        alt={detail.alt}
+        src={`/assets/images/${img}`}
+        alt={alt}
       />
     </div>
   );
 }
 
 WorkTextImage.propTypes = {
-  detail: PropTypes.object.isRequired,
+    txt: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
 };
 
 export default WorkTextImage;

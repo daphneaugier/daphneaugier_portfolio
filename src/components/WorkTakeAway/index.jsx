@@ -4,7 +4,7 @@ import "./index.css";
 function WorkTakeAway({ title, text }) {
 
   return (
-    <div className="work-text work-text-box">
+    <div className="work-details work-box" style={{marginTop: "24px"}}> 
       <h3>{title}</h3>
       {Array.isArray(text) ? text.map((item, index) => (
         <p className="work-line" key={index}>{item}</p>

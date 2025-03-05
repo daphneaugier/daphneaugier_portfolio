@@ -1,12 +1,13 @@
 import PropTypes from "prop-types";
 import "./index.css";
 
-function WorkText({ detail, type }) {
+function WorkText({ title, lines }) {
 
   return (
-    <div className={`work-text ${type === "box" ? "work-text-box" : ""}`}> 
-      {Object.keys(detail).map((key) => (
-        <p key={key} className="work-line" dangerouslySetInnerHTML={{ __html: detail[key] }}></p>
+    <div className="work-text">
+      <h3>{title}</h3>
+      {lines.map((line, index) => (
+        <p key={index} className="work-line" dangerouslySetInnerHTML={{ __html: line }}></p>
       ))}
     </div>
 )
@@ -14,8 +15,8 @@ function WorkText({ detail, type }) {
 }
 
 WorkText.propTypes = {
-  detail: PropTypes.object.isRequired,
-  type: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  lines: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default WorkText;

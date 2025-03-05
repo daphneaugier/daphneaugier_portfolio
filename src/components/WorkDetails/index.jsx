@@ -8,9 +8,13 @@ function WorkDetails({ work }) {
 
   return (
     <article className="work-details">
-      <WorkBoxText detail={work.detail1} />
-      <WorkTextImage detail={work.detail2} />
-      <WorkText detail={work.detail3} />
+      {work.details.map((detail, index) => (
+        <div key={index} className="work-detail">
+          {detail.type === "boxtxt" ? <WorkBoxText box={detail.box} txt={detail.txt} /> : ""}
+          {detail.type === "txtimg" ? <WorkTextImage txt={detail.txt} img={detail.img} alt={detail.alt} /> : ""}
+          {detail.type === "txt" ? <WorkText title={detail.title} lines={detail.lines} /> : ""}
+        </div>
+      ))}
     </article>
   );
 }
