@@ -1,12 +1,17 @@
-.work-col1 {
-  border: 1px solid black;
+.work-col {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  line-height: 1.4;
   width: 50%;
-  padding: 12px;
+  padding: 0;
 }
-.work-col2 {
-  width: 50%;
-  padding: 12px;
-  margin-left: 12px;
+
+.work-box{
+  border: 1px solid black;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .work-col1 h3 {
