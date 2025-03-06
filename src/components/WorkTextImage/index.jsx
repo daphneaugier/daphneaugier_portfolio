@@ -5,11 +5,11 @@ function WorkTextImage({ txt, img, alt }) {
   return (
     <div className="work-line">
       <p
-        className="work-txtimg-col1"
+        className="work-col"
         dangerouslySetInnerHTML={{ __html: txt }}
       ></p>
       <img
-        className="work-col2"
+        className="work-col work-img"
         src={`/assets/images/${img}`}
         alt={alt}
       />

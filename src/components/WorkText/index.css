@@ -6,12 +6,6 @@
     margin-top: 24px;
 }
 
-.work-details h3{
-    font-size: 38px;
-    font-weight: 700;
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
 .work-line{
     margin-top: 12px;
     margin-bottom: 12px;
@@ -35,7 +29,9 @@ h4 {
 
 .work-img{
     width: auto;
-    height: 340px;
+    height: auto;
+    max-width: 40%;
+    object-fit:contain;
 }
 .work-img50{
     margin-top: 24px;
@@ -46,11 +42,15 @@ h4 {
     height: auto;
     object-fit: cover;
 }
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .work-line{
         flex-direction: column;
     }
-    .work-col1, .work-col2{
+    .work-col{
         width: 100%;
+    }
+    .work-img{
+        max-width: 80%;
+        align-self: center;
     }
 }   
