@@ -28,10 +28,20 @@
           "The design focused on elegance and warmth, capturing the bistro’s inviting yet sophisticated atmosphere. Key elements included:",
           "<ol><li>Color Palette</li><p>I selected a terra cotta shade (#B86C51) that evokes warmth and a natural feel, complemented by an off-white background (#FBEBD9) to create a clean and airy aesthetic.</p>",
           "<img class='work-img' src='/assets/images/work01/colorpalette_cache.webp' alt='Color Palette Caché'/><img class='work-img' src='/assets/images/work01/logo_cache.webp' alt='Logo Caché'/>",
-          "<ol start='2'><li>Custom Logo Design</li><p>Instead of using an existing font, I hand-wrote the restaurant’s name on paper, scanned it, and vectorized it to create a unique and personal brand identity. This gave the logo a handcrafted, distinctive feel.</p></ol>",
-          "<ol start='3' class='work-col2'><li>Typography</li>The main text fonts are Ruffina for its refined and expressive character, paired with Lato for a modern and highly readable contrast.<li>Icons & Visual Accents</li>I designed additional custom icons, including an Instagram logo, a fish, and a carrot, allowing flexibility for the client to add visual markers for social media, seafood, or vegetarian dishes.<img class='work-img50' src='/assets/images/work01/icons_cache.webp' alt='Icons Caché'/></ol><img class='work-img-p work-col2' src='/assets/images/work01/typography_cache.webp' alt='Typography Caché'/>",
-          "<div><h3>Development & Implementation</h3>Using WordPress as the CMS allowed for flexible content management while ensuring smooth performance. Custom HTML and CSS were incorporated to refine styling beyond standard templates, ensuring brand consistency. Specific optimizations included:<ul><li>A fully responsive menu and booking system</li><li>Fast-loading pages with optimized media content</li><li>SEO best practices to enhance discoverability</li></ul><img class='work-img50' src='/assets/images/work01/wordpress_cache.webp' alt='WordPress Caché'/>"
+          "<ol start='2'><li>Custom Logo Design</li><p>Instead of using an existing font, I hand-wrote the restaurant’s name on paper, scanned it, and vectorized it to create a unique and personal brand identity. This gave the logo a handcrafted, distinctive feel.</p></ol>"
         ]
+      },
+      {
+        "type": "txtimg",
+        "txt": "<ol start='3'><li>Typography</li>The main text fonts are Ruffina for its refined and expressive character, paired with Lato for a modern and highly readable contrast.<li>Icons & Visual Accents</li>I designed additional custom icons, including an Instagram logo, a fish, and a carrot, allowing flexibility for the client to add visual markers for social media, seafood, or vegetarian dishes.<img class='work-img50' src='/assets/images/work01/icons_cache.webp' alt='Icons Caché'/></ol>",
+        "img": "work01/typography_cache.webp",
+        "alt": "Typography Caché"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h3>Development & Implementation</h3>Using WordPress as the CMS allowed for flexible content management while ensuring smooth performance. Custom HTML and CSS were incorporated to refine styling beyond standard templates, ensuring brand consistency. Specific optimizations included:<ul><li>A fully responsive menu and booking system</li><li>Fast-loading pages with optimized media content</li><li>SEO best practices to enhance discoverability</li></ul>",
+        "img": "work01/wordpress_cache.webp",
+        "alt": "WordPress Caché"
       }
     ],
     "link": "https://cache-sf.com",
@@ -108,7 +118,8 @@
           "<ol><li>Color Palette</li></ol>Can you imagine anything more simple?",
           "<img  class='work-img' src='/assets/images/work03/colorpalette_divorce.webp' alt='Color Palette Divorce'/>"
         ]
-      }    ],
+      }
+    ],
     "link": "https://divorce.fm",
     "away": {
       "title": "Take-aways",
