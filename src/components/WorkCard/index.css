@@ -105,3 +105,15 @@
     height: 450px;
   }
 }
+
+@media (max-width: 490px) {
+  .work-text-2col {
+    flex-direction: column;
+  }
+  .work-text-2col div{
+    text-align: center;
+  }
+  .work-text-2col div:nth-last-child(1) {
+    margin-top: 24px;
+  }
+}
