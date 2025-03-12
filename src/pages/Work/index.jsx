@@ -18,7 +18,7 @@ function Work() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [workId]);
 
   if (!work) {
     return <Navigate to="/lost" />;
