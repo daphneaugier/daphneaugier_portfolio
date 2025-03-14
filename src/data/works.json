@@ -66,24 +66,34 @@
     "details": [
       {
         "type": "boxtxt",
-        "box": "<h3>Context</h3>TheCollectible is an entrepreneurial initiative I co-founded with two partners, aimed at creating a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while also contributing to user research and design. This entrepreneurial journey taught me valuable lessons about business strategy and user-centered design.",
-        "txt": "<h3>The Brief</h3>Our research revealed key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content."
+        "box": "<h3>Context</h3>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.",
+        "txt": "<h3>The Brief</h3>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content."
       },
       {
-        "type": "txt",
+        "type": "txtlist",
         "title": "The Development",
+        "subtitle": "The process followed a structured UX approach:",
         "lines": [
-          "The process was divided into several stages:",
-          "<ol><li>Research and Planning</li><p>User interviews and surveys identified key needs, including user-friendly search, an interactive gallery, and secure payment options.</p><li>Technical Architecture and Prototyping</li><p>A scalable tech stack (React and Node.js) was selected to allow future growth. Interactive prototypes were created in Figma, with feedback gathered to ensure alignment with user expectations.</p><li>Front-End and Back-End Development</li><p>Agile methodologies were used to break work into sprints. A responsive interface was developed alongside robust back-end functionality for listings, user authentication, and transactions.</p><li>User Testing and Iteration</li><p>User testing provided valuable feedback, leading to refinements such as simplifying the listing process to enhance usability.</p><li>Collaboration and Adaptability</li><p>As CTO, I aligned technical development with business goals, facilitated team communication, and implemented a content management system for easy updates.</p><li>Deployment and Scaling</li><p>The platform was deployed on a cloud infrastructure to ensure scalability. Post-launch efforts focused on performance monitoring, debugging, and introducing new features based on user engagement.</p></ol>"
+          "<li>User Research & Strategy</li>",
+          "<p>To understand user behavior and needs, I conducted interviews and surveys, leading to the creation of user personas that represented our key audiences. These personas guided decision-making throughout the design process. Based on this research, I designed a user flow to map out seamless interactions, ensuring an intuitive experience from discovery to purchase.</p>",
+          "<li>Branding & Visual Identity</li>",
+          "<p>To establish a cohesive experience, I created a brand identity and logo, ensuring visual consistency across all touchpoints. A design system was developed to maintain harmony between web and mobile interfaces.</p>",
+          "<li>Wireframing & Prototyping</li>",
+          "<p>Using Figma, I created low-fidelity wireframes to structure core interactions before refining them into high-fidelity prototypes. These were iteratively tested with users, validating usability before development.</p>",
+          "<li>Technical Development</li>",
+          "<p>The platform was built using Flutter for a seamless cross-platform experience, paired with a scalable back-end infrastructure. I ensured that UX insights translated into a performant and accessible interface. Agile methodologies allowed for continuous iteration based on real-user feedback.</p>",
+          "<li>Testing & Refinement</li>",
+          "<p>Through multiple testing phases, I refined features such as the listing process and search functionality, ensuring a frictionless experience.</p>",
+          "<li>Deployment & Scaling</li>",
+          "<p>The platform was launched on a cloud infrastructure, allowing for efficient scaling. Post-launch efforts focused on monitoring performance, debugging, and implementing new features based on user engagement.</p>"
         ]
       }
     ],
     "link": "",
     "away": {
-      "title": "Take-aways",
+      "title": "Takeaways",
       "text": [
-        "The Collectible marketplace provided a unique opportunity to showcase art and collectibles from emerging artists. By leveraging the power of the web, I was able to create a user-friendly platform that catered to the needs of both collectors and artists. The development process was rigorous, with a focus on user experience and scalability. The platform's responsive design and seamless transactions ensured a smooth browsing experience for both buyers and sellers.",
-        "This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences"
+        "TheCollectible successfully bridged the gap between collectors and artists through a well-researched, user-centric approach. By integrating UX research with technical execution, I crafted a marketplace that balanced aesthetics, functionality, and business viability—demonstrating the impact of thoughtful design in shaping digital experiences."
       ]
     },
     "next": "03",
@@ -122,7 +132,7 @@
     ],
     "link": "https://divorce.fm",
     "away": {
-      "title": "Take-aways",
+      "title": "Takeaways",
       "text": [
         "This project successfully combined an engaging user experience with a practical, self-managed solution for the client. By designing a visually appealing and intuitive interface, I ensured that users could easily navigate the online radio platform and enjoy a seamless listening experience.",
         "The addition of a custom-built admin panel empowered the client to manage their content independently, ensuring the website remains dynamic and up-to-date without requiring technical intervention. With a responsive design, a robust backend, and an easy-to-use content management system, the final product not only met but exceeded the client’s expectations.",
