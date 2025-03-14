@@ -66,8 +66,8 @@
     "details": [
       {
         "type": "boxtxt",
-        "box": "<h3>Context</h3>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.",
-        "txt": "<h3>The Brief</h3>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content."
+        "box": "<h3>Context</h3><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.</p>",
+        "txt": "<h3>The Brief</h3><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
       },
       {
         "type": "txtlist",
