@@ -20,3 +20,27 @@
 .work-title-tag-list{
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 1168px) {
+  .work-title {
+    font-size: 2.5rem;
+    margin: 24px auto 12px auto;
+  }
+  .work-title-tag {
+    font-size: 1.2rem;
+    padding: 4px 8px;
+    margin-left: 16px;
+  }
+  .work-title-tag-list{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .work-title {
+    flex-direction: column;
+  }
+  .work-title-tag-list{
+    margin: 12px auto;
+  }
+}

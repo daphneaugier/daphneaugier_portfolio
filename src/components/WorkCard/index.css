@@ -93,6 +93,7 @@
   }
   .work-card img {
     width: 40%;
+    object-position: 50% 25%;
   }
 }
 

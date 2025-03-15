@@ -3,3 +3,9 @@
   height: 580px;
   object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  .work-banner {
+    height: 300px;
+  }
+  
+}
