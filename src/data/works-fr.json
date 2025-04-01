@@ -1,0 +1,144 @@
+[  {
+      "id": "01",
+      "role": "Product Design (UX/UI) - Développeur Web",
+      "tools": ["Figma", "WordPress", "HTML", "CSS"],
+      "year": "Novembre 2024 - Janvier 2025",
+      "cover": "work01-hover.webp",
+      "title": "Caché - San Francisco",
+      "text": "Design et développement d'un bistro Français à San Francisco.",
+      "label": "Discover",
+      "pictures": ["work01-hover.webp", "work01-hover.webp", "work01-hover.webp"],
+      "details": [
+        {
+          "type": "boxtxt",
+          "box": "<h3>Overview</h3><h4>Timeline:</h4><p>Novembre 2024 - Janvier 2025</p><h4>Role:</h4><p>Product Design (UX/UI) - Web Developer</p><h4>Tools:</h4><p>Figma, WordPress, HTML, CSS</p>",
+          "txt": "<h3>Background & Challenge</h3><p>Caché is a modern neighborhood bistro in San Francisco that blends a relaxed French bistro atmosphere with contemporary culinary experiences. The restaurant needed a digital presence that reflected its identity, provided essential information, and facilitated reservations while optimizing for both desktop and mobile users.</p><p>The challenge was to create a website that not only showcased the brand’s unique personality but also delivered a seamless user experience for customers seeking details about the menu, reservations, and events.</p>"
+        },
+        {
+          "type": "txtimg",
+          "txt": "<h3>Understanding the Audience</h3>To ensure the website aligned with customer needs, I identified three key audience groups:<ol><li>Local Residents & Tourists : Seeking an elevated but welcoming dining experience.</li><li>Food Enthusiasts & Millennials : Interested in modern gastronomy and natural wines.</li><li>Casual & Special Occasion Diners : Exploring options for brunch, happy hour, or dinner.</li></ol>",
+          "img": "work01/moodboard_cache.webp",
+          "alt": "Moodboard Caché"
+        },
+        {
+          "type": "txt",
+          "title": "Design Approach & Strategy",
+          "lines": [
+            "The design focused on elegance and warmth, capturing the bistro’s inviting yet sophisticated atmosphere. Key elements included:",
+            "<ol><li>Color Palette</li><p>I selected a terra cotta shade (#B86C51) that evokes warmth and a natural feel, complemented by an off-white background (#FBEBD9) to create a clean and airy aesthetic.</p>",
+            "<img class='work-img' src='/assets/images/work01/colorpalette_cache.webp' alt='Color Palette Caché'/><img class='work-img' src='/assets/images/work01/logo_cache.webp' alt='Logo Caché'/>",
+            "<ol start='2'><li>Custom Logo Design</li><p>Instead of using an existing font, I hand-wrote the restaurant’s name on paper, scanned it, and vectorized it to create a unique and personal brand identity. This gave the logo a handcrafted, distinctive feel.</p></ol>"
+          ]
+        },
+        {
+          "type": "txtimg",
+          "txt": "<ol start='3'><li>Typography</li>The main text fonts are Ruffina for its refined and expressive character, paired with Lato for a modern and highly readable contrast.<li>Icons & Visual Accents</li>I designed additional custom icons, including an Instagram logo, a fish, and a carrot, allowing flexibility for the client to add visual markers for social media, seafood, or vegetarian dishes.<img class='work-img50' src='/assets/images/work01/icons_cache.webp' alt='Icons Caché'/></ol>",
+          "img": "work01/typography_cache.webp",
+          "alt": "Typography Caché"
+        },
+        {
+          "type": "txtimg",
+          "txt": "<h3>Development & Implementation</h3>Using WordPress as the CMS allowed for flexible content management while ensuring smooth performance. Custom HTML and CSS were incorporated to refine styling beyond standard templates, ensuring brand consistency. Specific optimizations included:<ul><li>A fully responsive menu and booking system</li><li>Fast-loading pages with optimized media content</li><li>SEO best practices to enhance discoverability</li></ul>",
+          "img": "work01/wordpress_cache.webp",
+          "alt": "WordPress Caché"
+        }
+      ],
+      "link": "https://cache-sf.com",
+      "away": {
+        "title": "Take-aways",
+        "text": "The final website successfully aligned with Caché’s identity and business goals, offering a smooth and engaging user experience. The project reinforced the importance of balancing aesthetics with functionality, particularly in the restaurant industry where first impressions matter. This case study highlights the impact of thoughtful UX/UI design in shaping a brand’s digital experience and ensuring that customers can seamlessly engage with a business online."
+      },
+      "next": "02",
+      "previous": "03",
+      "tags": ["UI", "UX", "Dev"]
+    },
+    {
+      "id": "02",
+      "role": "Product Design (UX/UI) - Web Developer",
+      "tools": ["Figma", "WordPress", "HTML", "CSS"],
+      "year": "July 2024 - August 2024",
+      "cover": "work02-hover.webp",
+      "title": "The Collectible",
+      "text": "Entrepreneur project created from scratch.",
+      "label": "Read More",
+      "pictures": ["work02-hover.webp"],
+      "details": [
+        {
+          "type": "boxtxt",
+          "box": "<h3>Context</h3><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.</p>",
+          "txt": "<h3>The Brief</h3><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
+        },
+        {
+          "type": "txtlist",
+          "title": "The Development",
+          "subtitle": "The process followed a structured UX approach:",
+          "lines": [
+            "<li>User Research & Strategy</li>",
+            "<p>To understand user behavior and needs, I conducted interviews and surveys, leading to the creation of user personas that represented our key audiences. These personas guided decision-making throughout the design process. Based on this research, I designed a user flow to map out seamless interactions, ensuring an intuitive experience from discovery to purchase.</p>",
+            "<li>Branding & Visual Identity</li>",
+            "<p>To establish a cohesive experience, I created a brand identity and logo, ensuring visual consistency across all touchpoints. A design system was developed to maintain harmony between web and mobile interfaces.</p>",
+            "<li>Wireframing & Prototyping</li>",
+            "<p>Using Figma, I created low-fidelity wireframes to structure core interactions before refining them into high-fidelity prototypes. These were iteratively tested with users, validating usability before development.</p>",
+            "<li>Technical Development</li>",
+            "<p>The platform was built using Flutter for a seamless cross-platform experience, paired with a scalable back-end infrastructure. I ensured that UX insights translated into a performant and accessible interface. Agile methodologies allowed for continuous iteration based on real-user feedback.</p>",
+            "<li>Testing & Refinement</li>",
+            "<p>Through multiple testing phases, I refined features such as the listing process and search functionality, ensuring a frictionless experience.</p>",
+            "<li>Deployment & Scaling</li>",
+            "<p>The platform was launched on a cloud infrastructure, allowing for efficient scaling. Post-launch efforts focused on monitoring performance, debugging, and implementing new features based on user engagement.</p>"
+          ]
+        }
+      ],
+      "link": "",
+      "away": {
+        "title": "Takeaways",
+        "text": [
+          "TheCollectible successfully bridged the gap between collectors and artists through a well-researched, user-centric approach. By integrating UX research with technical execution, I crafted a marketplace that balanced aesthetics, functionality, and business viability—demonstrating the impact of thoughtful design in shaping digital experiences."
+        ]
+      },
+      "next": "03",
+      "previous": "01",
+      "tags": ["UI", "UX", "Dev"]
+    },
+    {
+      "id": "03",
+      "role": "Product Design (UX/UI) - Web Developer",
+      "tools": ["Figma", "WordPress", "HTML", "CSS"],
+      "year": "January 2024 - August 2024",
+      "cover": "work03-hover.webp",
+      "title": "Divorce.fm",
+      "text": "Development of online radio.",
+      "label": "Read More",
+      "pictures": ["work03-hover.webp"],
+      "details": [
+        {
+          "type": "boxtxt",
+          "box": "<h3>Context</h3><p>The client needed an online radio website featuring SoundCloud mixes, with a design reflecting their old-school aesthetic. The interface had to be intuitive and responsive, providing a seamless listening experience.</p><p>The client also requested to be able to manage the website on their own in the future, by adding new mixes and background pictures. Therefore, I chose to add an admin panel, enabling them to make minor changes independently without needing technical expertise.</p>",
+          "txt": ""
+        },
+        {
+          "type": "txt",
+          "title": "Approach and Development",
+          "lines": [
+            "The initial step involved wireframing and designing the main page to achieve a smooth user experience, including embedded audio widgets, dynamic backgrounds, and responsive controls. I focused on delivering a layout that adapts well to desktop and mobile devices, prioritizing a unique but easy-to-use player interface.",
+            "Beyond the main page design, I then worked on building the administrator panel, which became the cornerstone of this project's long-term success. The admin page was crafted using PHP and MySQL, which integrated seamlessly into the website. It provides an easy-to-use, secure login system and allows the client to:",
+            "<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul>",
+            "For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.",
+            "The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.",
+            "<ol><li>Color Palette</li></ol>Can you imagine anything more simple?",
+            "<img  class='work-img' src='/assets/images/work03/colorpalette_divorce.webp' alt='Color Palette Divorce'/>"
+          ]
+        }
+      ],
+      "link": "https://divorce.fm",
+      "away": {
+        "title": "Takeaways",
+        "text": [
+          "This project successfully combined an engaging user experience with a practical, self-managed solution for the client. By designing a visually appealing and intuitive interface, I ensured that users could easily navigate the online radio platform and enjoy a seamless listening experience.",
+          "The addition of a custom-built admin panel empowered the client to manage their content independently, ensuring the website remains dynamic and up-to-date without requiring technical intervention. With a responsive design, a robust backend, and an easy-to-use content management system, the final product not only met but exceeded the client’s expectations.",
+          "This case study highlights my ability to balance aesthetics, functionality, and user autonomy—key elements in creating impactful digital experiences."
+        ]
+      },
+      "next": "01",
+      "previous": "02",
+      "tags": ["Dev"]
+    }  ]

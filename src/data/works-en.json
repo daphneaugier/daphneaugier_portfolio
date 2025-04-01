@@ -1,5 +1,4 @@
-[
-  {
+[  {
     "id": "01",
     "role": "Product Design (UX/UI) - Web Developer",
     "tools": ["Figma", "WordPress", "HTML", "CSS"],
@@ -142,5 +141,4 @@
     "next": "01",
     "previous": "02",
     "tags": ["Dev"]
-  }
-]
+  }]

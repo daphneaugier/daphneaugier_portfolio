@@ -5,11 +5,13 @@ import "./index.css";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
+  
   const [status, setStatus] = useState(null);
 
   const handleChange = (e) => {

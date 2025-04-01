@@ -1,10 +1,6 @@
-import { Navigate } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import WorkDetails from "../../components/WorkDetails";
-
-//Import Data
-import workList from "../../data/works.json";
 
 import "./index.css";
 import WorkTitle from "../../components/WorkTitle";
@@ -12,7 +8,7 @@ import WorkBanner from "../../components/WorkBanner";
 import MyButton from "../../components/MyButton";
 import WorkTakeAway from "../../components/WorkTakeAway";
 
-function Work() {
+function Work({workList}) {
   const { workId } = useParams();
   const work = workList.find((item) => item.id === workId);
 
