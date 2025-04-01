@@ -1,8 +1,7 @@
 import ArtGallery from '../../components/ArtGallery'
-import data from '../../data/art.json'
 import { useEffect } from 'react'
 
-function ArtStuff() {
+function ArtStuff({data}) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
