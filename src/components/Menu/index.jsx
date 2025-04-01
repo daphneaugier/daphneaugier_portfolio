@@ -33,14 +33,13 @@ function Menu({ className }) {
           Contact
         </Link>
       </li>
-      <button
-        type='button'
+      <li
         onClick={handleClick}
-        className='btn btn--icon nav__theme'
-        aria-label='toggle theme'
+        aria-label='toggle language'
+        style={{ cursor: "pointer" }}
       >
-        {lang === 'fr' ? <img src={enFlagIcon} alt="English flag" className="icon" /> : <img src={frFlagIcon} alt="French flag" className="icon" />}
-      </button>
+        {lang === 'fr' ? "FR" : "EN"}
+      </li>
     </ul>
   );
 }
