@@ -15,7 +15,7 @@ function ArtCard({ description, picture }) {
         hideZoom={true}
         alt={description}
       />
-        <h3 inert="true" className="overlay-text">{description}</h3>
+        <h2 inert="true" className="overlay-text">{description}</h2>
     </div>
   );
 }

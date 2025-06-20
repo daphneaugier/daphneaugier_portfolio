@@ -4,7 +4,9 @@ import "./index.css";
 function WorkBoxText({ box, txt }) {
   return (
     <div className="work-line">
-      <p className="work-col work-box" dangerouslySetInnerHTML={{ __html: box }}></p>
+      <div className="work-col">
+      <p className="work-box" dangerouslySetInnerHTML={{ __html: box }}></p>
+      </div>
       <p className="work-col" dangerouslySetInnerHTML={{ __html: txt }}></p>
     </div>
 )

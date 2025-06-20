@@ -12,8 +12,8 @@ function WorkCard({ work }) {
       />
       <div className="workcard-text" data-aos="zoom-in">
         <div className="work-text-row">
-          <h3 className="work-id">{work.id}</h3>
-          <h3 className="workcard-title">{work.title}</h3>
+          <h2 className="work-id">{work.id}</h2>
+          <h2 className="workcard-title">{work.title}</h2>
           <h4 className="work-text-year">{work.year}</h4>
           <div className="work-text-2col">
             <div>

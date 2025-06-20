@@ -10,7 +10,7 @@ function TimeLineEntry({ title, date, details, delay }) {
       data-aos-delay={delay} 
     >
       <h2>{title}</h2>
-      <h3>{date}</h3>
+      <h2>{date}</h2>
       <ul>
         {details.map((detail, index) => (
           <li key={index}>{detail}</li>

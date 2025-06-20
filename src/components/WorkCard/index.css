@@ -60,6 +60,8 @@
 
 .workcard-title {
   font-size: 30px;
+}
+.workcard-title {
   text-transform: uppercase;
 }
 
@@ -68,7 +70,9 @@
   font-size: 18px;
   font-weight: bold;
 }
-
+.work-text li {
+  font-size: 1.5rem;
+}
 .work-text p {
   margin: 6px 12px;
 }

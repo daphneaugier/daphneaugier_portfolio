@@ -5,7 +5,7 @@ function WorkTakeAway({ title, text }) {
 
   return (
     <div className="work-details work-box" style={{marginTop: "24px"}}> 
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       {Array.isArray(text) ? text.map((item, index) => (
         <p className="work-line" key={index}>{item}</p>
       )) : <p className="work-line">{text}</p>}

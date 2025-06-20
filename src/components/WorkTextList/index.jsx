@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function WorkTextList({ title, subtitle, lines }) {
   return (
     <div className="work-text">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p
         className="work-line"
         dangerouslySetInnerHTML={{ __html: subtitle }}

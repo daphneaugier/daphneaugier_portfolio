@@ -5,7 +5,7 @@ function WorkText({ title, lines }) {
 
   return (
     <div className="work-text">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       {lines.map((line, index) => (
         <p key={index} className="work-line" dangerouslySetInnerHTML={{ __html: line }}></p>
       ))}

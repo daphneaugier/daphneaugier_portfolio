@@ -21,7 +21,8 @@ function Hero({video}) {
               Your browser does not support the video tag.
             </video>
           </div>
-        </section>    </div>
+        </section>
+    </div>
   )
 }
 Hero.propTypes = {

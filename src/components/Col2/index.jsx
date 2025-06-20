@@ -9,11 +9,11 @@ function Col2({ img, title, tools, role, time }) {
        alt="Project Screenshot" />
       <div className="col-deux-text" data-aos="zoom-in">
         <h2 data-aos="zoom-in">{title}</h2>
-        <h3>Timeline:</h3>
+        <h2>Timeline:</h2>
         <p>{time}</p>
-        <h3>Role: </h3>
+        <h2>Role: </h2>
         <p>{role}</p>
-        <h3>Tools: </h3>
+        <h2>Tools: </h2>
         <ul>{tools}</ul>
       </div>
     </div>
