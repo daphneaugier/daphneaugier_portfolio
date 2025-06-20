@@ -11,23 +11,20 @@ function Footer() {
     <footer>
       <div className="footer-row">
         <div className="footer-col1">
-          <div>
-          © Daphné Augier | 2024
-          </div>
+          <div>© Daphné Augier | 2024</div>
           <br />
           <div className="footer-address">
-          <a href="mailto:daphne.augier@gmail.com">daphne.augier@gmail.com</a>
-          <br />
-          <br />
-          706-5333 Casgrain <br />
-          Montréal (QC) H2T 1X3 <br />
-          Canada
-        </div>
+            <a href="mailto:daphne.augier@gmail.com">daphne.augier@gmail.com</a>
+            <br />
+            <br />
+            706-5333 Casgrain <br />
+            Montréal (QC) H2T 1X3 <br />
+            Canada
           </div>
+        </div>
+        <div className="footer-col2">
           <Menu className="footer-menu" />
-      </div>
-      <div className="footer-row">
-        <div className="footer-social">
+          <div className="footer-social">
           {" "}
           <a
             href="https://github.com/daphneaugier"
@@ -45,6 +42,7 @@ function Footer() {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
+      </div>
       </div>
     </footer>
   );
