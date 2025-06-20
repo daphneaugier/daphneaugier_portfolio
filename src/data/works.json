@@ -12,12 +12,12 @@
     "details": [
       {
         "type": "boxtxt",
-        "box": "<h3>Overview</h3><h4>Timeline:</h4><p>November 2024 - January 2025</p><h4>Role:</h4><p>Product Design (UX/UI) - Web Developer</p><h4>Tools:</h4><p>Figma, WordPress, HTML, CSS</p>",
-        "txt": "<h3>Background & Challenge</h3><p>Caché is a modern neighborhood bistro in San Francisco that blends a relaxed French bistro atmosphere with contemporary culinary experiences. The restaurant needed a digital presence that reflected its identity, provided essential information, and facilitated reservations while optimizing for both desktop and mobile users.</p><p>The challenge was to create a website that not only showcased the brand’s unique personality but also delivered a seamless user experience for customers seeking details about the menu, reservations, and events.</p>"
+        "box": "<h2>Overview</h2><h4>Timeline:</h4><p>November 2024 - January 2025</p><h4>Role:</h4><p>Product Design (UX/UI) - Web Developer</p><h4>Tools:</h4><p>Figma, WordPress, HTML, CSS</p>",
+        "txt": "<h2>Background & Challenge</h2><p>Caché is a modern neighborhood bistro in San Francisco that blends a relaxed French bistro atmosphere with contemporary culinary experiences. The restaurant needed a digital presence that reflected its identity, provided essential information, and facilitated reservations while optimizing for both desktop and mobile users.</p><p>The challenge was to create a website that not only showcased the brand’s unique personality but also delivered a seamless user experience for customers seeking details about the menu, reservations, and events.</p>"
       },
       {
         "type": "txtimg",
-        "txt": "<h3>Understanding the Audience</h3>To ensure the website aligned with customer needs, I identified three key audience groups:<ol><li>Local Residents & Tourists : Seeking an elevated but welcoming dining experience.</li><li>Food Enthusiasts & Millennials : Interested in modern gastronomy and natural wines.</li><li>Casual & Special Occasion Diners : Exploring options for brunch, happy hour, or dinner.</li></ol>",
+        "txt": "<h2>Understanding the Audience</h2>To ensure the website aligned with customer needs, I identified three key audience groups:<ol><li>Local Residents & Tourists : Seeking an elevated but welcoming dining experience.</li><li>Food Enthusiasts & Millennials : Interested in modern gastronomy and natural wines.</li><li>Casual & Special Occasion Diners : Exploring options for brunch, happy hour, or dinner.</li></ol>",
         "img": "work01/moodboard_cache.webp",
         "alt": "Moodboard Caché"
       },
@@ -39,7 +39,7 @@
       },
       {
         "type": "txtimg",
-        "txt": "<h3>Development & Implementation</h3>Using WordPress as the CMS allowed for flexible content management while ensuring smooth performance. Custom HTML and CSS were incorporated to refine styling beyond standard templates, ensuring brand consistency. Specific optimizations included:<ul><li>A fully responsive menu and booking system</li><li>Fast-loading pages with optimized media content</li><li>SEO best practices to enhance discoverability</li></ul>",
+        "txt": "<h2>Development & Implementation</h2>Using WordPress as the CMS allowed for flexible content management while ensuring smooth performance. Custom HTML and CSS were incorporated to refine styling beyond standard templates, ensuring brand consistency. Specific optimizations included:<ul><li>A fully responsive menu and booking system</li><li>Fast-loading pages with optimized media content</li><li>SEO best practices to enhance discoverability</li></ul>",
         "img": "work01/wordpress_cache.webp",
         "alt": "WordPress Caché"
       }
@@ -66,8 +66,8 @@
     "details": [
       {
         "type": "boxtxt",
-        "box": "<h3>Context</h3><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.</p>",
-        "txt": "<h3>The Brief</h3><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
+        "box": "<h2>Context</h2><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.</p>",
+        "txt": "<h2>The Brief</h2><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
       },
       {
         "type": "txtlist",
@@ -113,8 +113,8 @@
     "details": [
       {
         "type": "boxtxt",
-        "box": "<h3>Context</h3><p>The client needed an online radio website featuring SoundCloud mixes, with a design reflecting their old-school aesthetic. The interface had to be intuitive and responsive, providing a seamless listening experience.</p><p>The client also requested to be able to manage the website on their own in the future, by adding new mixes and background pictures. Therefore, I chose to add an admin panel, enabling them to make minor changes independently without needing technical expertise.</p>",
-        "txt": ""
+        "box": "<h2>Context</h2><p>The client needed an online radio website featuring SoundCloud mixes, with a design reflecting their old-school aesthetic. The interface had to be intuitive and responsive, providing a seamless listening experience.</p><p>The client also requested to be able to manage the website on their own in the future, by adding new mixes and background pictures. Therefore, I chose to add an admin panel, enabling them to make minor changes independently without needing technical expertise.</p>",
+        "txt": "<h2>Background & Challenge</h2><p>The client needed an online radio website featuring SoundCloud mixes, with a design reflecting their old-school aesthetic. The interface had to be intuitive and responsive, providing a seamless listening experience.</p><p>The client also requested to be able to manage the website on their own in the future, by adding new mixes and background pictures. Therefore, I chose to add an admin panel, enabling them to make minor changes independently without needing technical expertise.</p>"
       },
       {
         "type": "txt",
