@@ -125,7 +125,7 @@
           "<ul><li>Upload new SoundCloud links to be added as mixes in the radio queue.</li><li>Manage background images used for the site, allowing them to update the visuals as the brand evolves.</li><li>Edit or remove previously uploaded content, providing full control over the user experience.</li></ul>",
           "For the database, I structured a scalable solution that stores both tracks and related assets. I created tables to manage mixes and background pictures independently, making it easy for the admin to add, edit, or delete any entry without breaking site functionality.",
           "The backend interface was designed to be intuitive, with simple input forms and drag-and-drop capabilities where appropriate. Each admin page was accompanied by brief instructions to ensure that even someone with limited technical knowledge could use the tool confidently.",
-          "<ol><li>Color Palette</li></ol>Can you imagine anything more simple?",
+          "<ol><li>Color Palette</li>Can you imagine anything more simple?</ol>",
           "<img  class='work-img' src='/assets/images/work03/colorpalette_divorce.webp' alt='Color Palette Divorce'/>"
         ]
       }
