@@ -7,7 +7,7 @@ function Menu({ className }) {
     <ul className={className}>
       <li>
         <Link to="/" key="home">
-          Home
+          WORK
         </Link>
       </li>
       <li>
