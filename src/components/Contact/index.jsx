@@ -30,7 +30,7 @@ function Contact() {
       const result = await response.json();
       setStatus(result.message);
     } catch (error) {
-      setStatus("Error sending message");
+      setStatus(`Error sending message: ${error}`);
     }
   };
 
@@ -38,7 +38,7 @@ function Contact() {
     <section className="contact">
       <div className="contact-intro">
       <h1>
-      Let's get in touch,<br />
+      Let&apos;s get in touch,<br />
                 and create something {" "}
                 <ReactTyped strings={["exciting!", "useful!",  "pretty!"]} 
                 typeSpeed={100}
@@ -46,7 +46,7 @@ function Contact() {
                 cursorChar="|" loop /> 
       </h1>
         <p className="contact-text">
-          I'd love to hear from you!
+          I&apos;d love to hear from you!
           <br />
           <br />
           Whether you want to discuss a project, 
@@ -86,7 +86,7 @@ function Contact() {
             ></textarea>
 
             <button type="submit" className="contact-button">
-              Let's Talk{" "}
+              Let&apos;s Talk{" "}
               <FontAwesomeIcon icon={faPaperPlane} className="fa-icon" />
             </button>
           </form>
