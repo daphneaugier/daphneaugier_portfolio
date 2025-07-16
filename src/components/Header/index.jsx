@@ -16,7 +16,7 @@ function Header() {
           className="header-button"
           target="_blank"
         >
-          Download CV
+          CV
         </a>
       </nav>
     </>
