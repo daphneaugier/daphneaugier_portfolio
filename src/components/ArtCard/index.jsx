@@ -8,7 +8,7 @@ function ArtCard({ description, picture }) {
     <div className="card">
       <ModalImage
         className="modal-image"
-        small={`/assets/images/art/${picture}`}
+        small={`/assets/images/artbig/${picture}`}
         large={`/assets/images/artbig/${picture}`}
         title={description}
         hideDownload={true}
