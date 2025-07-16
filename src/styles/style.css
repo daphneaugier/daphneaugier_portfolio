@@ -5,6 +5,12 @@
   --text-color: #000;
 }
 
+/* pour voir les blocs 
+* {
+  outline: 1px solid rgba(0, 0, 255, 0.2); 
+}
+*/
+
 html,
 body {
   overflow-x: hidden;
@@ -12,7 +18,7 @@ body {
 
 body {
   font-family: "NeueMontreal", sans-serif;
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 300;
   letter-spacing: 0.8px;
   line-height: 25px;
@@ -22,6 +28,13 @@ body {
   padding: 0;
 }
 
+h1{
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
 h2,
 h3,
 p {
@@ -29,21 +42,12 @@ p {
   widows: 3;
 }
 
-h2 {
-  font-size: 36px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h2,
-h3 {
+h2, h3, h4 {
+  font-size: 24px;
   page-break-after: avoid;
 }
 
 p {
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -66,6 +70,7 @@ main {
 a {
   text-decoration: none;
   color: #000;
+  padding: 8px 12px;
 }
 
 p {
