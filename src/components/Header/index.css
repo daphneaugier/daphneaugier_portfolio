@@ -13,12 +13,10 @@ nav ul{
   flex-direction: row;
 }
 nav li{
-  padding: 10px;
   list-style:none;
 }
 
 .download-nav {
-    font-size: 14px;
     z-index: 1000;
     text-align: right;
     align-items: end;
@@ -32,7 +30,6 @@ nav li{
   padding: 12px 19px;
   width: fit-content;
   font-weight: bold;
-  font-size: 16px;
   background-color: #fff36d;
 }
 .main-nav{
