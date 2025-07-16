@@ -9,6 +9,7 @@
   justify-content: space-between;
   flex-grow: 1;
   border: 3.3px solid black;
+  border-radius: 3px;
 }
 
 .work-card img {
