@@ -1,0 +1,16 @@
+.rotating-curved-text {
+    font-weight: 600;
+  }
+.curved-text-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
