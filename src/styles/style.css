@@ -5,11 +5,11 @@
   --text-color: #000;
 }
 
-/* pour voir les blocs 
+/* pour voir les blocs */
 * {
   outline: 1px solid rgba(0, 0, 255, 0.2); 
 }
-*/
+
 
 html,
 body {
