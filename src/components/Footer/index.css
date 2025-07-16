@@ -30,6 +30,9 @@ footer {
     text-align: left;
     margin-top: 10px;
   }
+  .footer-address a{
+    padding: 0;
+  }
   .footer-social {
     font-size: 2rem;
     text-align: right;
