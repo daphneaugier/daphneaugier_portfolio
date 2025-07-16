@@ -15,7 +15,8 @@
 }
 
 .modal-image:hover {
-  filter: blur(8px);
+  filter: brightness(1.2);
+  cursor: pointer;
 }
 
 .overlay-text {
