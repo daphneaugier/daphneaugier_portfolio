@@ -1,27 +1,21 @@
-.large-button {
+.basic-button,.large-button {
   font-size: 16px;
   font-weight: 600;
   display: block;
   margin: 0 auto;
-  padding: 10px 32px;
   width: fit-content;
   text-align: center;
   border: 1px solid black;
   background-color: rgba(255, 255, 255, 0);
 }
 
-.basic-button {
-  font-size: 16px;
-  font-weight: 600;
-  display: block;
-  margin: 0 auto;
-  padding: 10px 16px;
-  width: fit-content;
-  text-align: center;
-  border: 1px solid black;
-  background-color: rgba(255, 255, 255, 0);
-  white-space: nowrap;
+  .large-button {
+  padding: 10px 32px;
 }
-.basic-button:hover {
+
+.basic-button {
+  padding: 10px 16px;
+}
+.basic-button:hover, .large-button:hover {
   scale: 1.05;
 }

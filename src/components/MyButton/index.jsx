@@ -4,11 +4,10 @@ import './index.css'
 
 function MyButton({link, label, size, new_page=false}) {
   return (
-    <button className={size==="basic" ? "basic-button" : "large-button"}>
-    <Link to={link} key={link} target={new_page ? "_blank" : ""}>
+    <Link to={link} key={link} target={new_page ? "_blank" : ""}
+     className={size==="basic" ? "basic-button" : "large-button"}>
       {label}
     </Link>
-  </button>
   )
 }
 
