@@ -51,7 +51,8 @@
     justify-content: flex-start;
   }
   .hero-content {
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
   }
 
   .hero-content h1 {
@@ -59,8 +60,28 @@
     width: 100%;
     margin-left: 20px;
   }
+  .video-container {
+    width: 100%;
+  }
   .video-container video {
     width: 100%;
     height: 30vh;
+  }
+}
+@media (max-width: 540px) {
+  .hero {
+    height: calc(100vh - 170px); /* Adjusting for header height */
+  }
+}
+
+@media (max-width: 510px) {
+  .hero {
+    height: calc(100vh - 150px); /* Adjusting for header height */
+  }
+  .hero-content h1{
+    font-size: 1.8em;
+  }
+  .hero-container {
+    height: 50vh;
   }
 }
