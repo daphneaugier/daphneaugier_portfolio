@@ -62,10 +62,7 @@
 
 .art-gallery {
   max-width: 2000px;
-  margin-top: 20px;
   position: relative;
-  text-align: center;
-  text-decoration: none;
   gap: 0;
 }
 

@@ -1,7 +1,6 @@
 .slider {
   position: relative;
-  max-width: 80vw;
-  max-height: 80vh;
+
   margin: 0 auto;
 }
 
@@ -10,6 +9,10 @@
   display: none;
 }
 
+.slide img {
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;}
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -31,10 +34,6 @@
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-}
-
-.slide img {
-  width: 100%;
 }
 
 .navigation-bottom {
@@ -63,12 +62,19 @@
   z-index: 10000;
 }
 
-.next {
-  right: 10px;
+.next, .prev {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 6px 10px;
+  border-radius: 20%;
+  transition: background-color 0.3s ease;
 }
 
+.next {
+  right: 20px;
+}
 .prev {
-  left: 10px;
+  left: 20px;
 }
 
 .image-list {
