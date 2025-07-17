@@ -10,3 +10,18 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 900px) {
+  .main-menu {
+    width: 80%;
+    margin-left: 0;
+  }  
+}
+@media screen and (max-width: 350px) {
+  .main-menu {
+    flex-direction: column;
+  }  
+  .main-menu li {
+    margin: 6px 0;
+  }
+}

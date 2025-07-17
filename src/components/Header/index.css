@@ -1,7 +1,8 @@
 header {
   display: flex;
-  flex-direction: column;
   margin-top: 12px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav {
@@ -17,7 +18,7 @@ nav li{
 }
 
 .download-nav {
-    z-index: 1000;
+    z-index: 99;
     text-align: right;
     align-items: end;
     position: absolute;
@@ -36,14 +37,27 @@ nav li{
   flex-direction: column;
   flex-grow: 1;
 }
-@media (min-width: 768px) {
-  header{
-    flex-direction: row;
+
+@media (max-width: 900px) {
+  nav{
+    flex-direction: column;
   }
 }
-@media (max-width: 900px) {
-  .download-nav{
-    margin: 12px;
-    position: sticky;
+@media screen and (max-width: 540px) {
+  .header-button {
+    margin-top: 12px;
+  }
+  .download-nav {
+    position: relative;
+    top: 0;
+    right: 20px;
+  }
+  
+}
+@media screen and (max-width: 350px) {
+  .download-nav {
+    position: absolute;
+    top: 0;
+    right: 2px;
   }
 }

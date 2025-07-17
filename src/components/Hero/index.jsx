@@ -9,7 +9,7 @@ function Hero({video}) {
             <div className="hero-content">
             <h1>
             Hello,<br />
-                I'm {" "}
+                I&apos;m {" "}
                 <ReactTyped strings={["Daphné Augier", "a UI/UX Designer",  "a Web Developer"]} 
                 typeSpeed={100}
                 backSpeed={100}

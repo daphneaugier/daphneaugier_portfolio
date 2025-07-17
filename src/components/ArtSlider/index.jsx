@@ -1,10 +1,8 @@
-import { useState } from "react";
 import Slide from "./Slide";
 import "./index.css";
 import PropTypes from "prop-types";
 
-const ArtSlider = ({ images }) => {
-  const [active, setActive] = useState(0);
+const ArtSlider = ({ images, active, setActive }) => {
 
   const onNext = () => {
     if (active < images.length - 1) {
@@ -51,12 +49,14 @@ const ArtSlider = ({ images }) => {
 };
 
 ArtSlider.propTypes = {
-  images: PropTypes.arrayOf(
-    PropTypes.shape({
-      description: PropTypes.string.isRequired,
-      picture: PropTypes.string.isRequired,
-    })
-  ).isRequired,
+    images: PropTypes.arrayOf(
+        PropTypes.shape({
+            description: PropTypes.string.isRequired,
+            picture: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+    active: PropTypes.number.isRequired,
+    setActive: PropTypes.func.isRequired,
 };
 
 export default ArtSlider;

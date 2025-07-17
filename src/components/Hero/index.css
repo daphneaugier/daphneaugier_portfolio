@@ -1,31 +1,39 @@
-.hero{
+.hero {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 60px); /* Adjusting for header height */
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .hero-container {
+  width: 80vw;
   height: 50vh;
 }
-.hero-content{
-    width:60%;
-    text-align: left;
+.hero-content {
+  width: 40vw;
+  text-align: left;
+  z-index: 10;
 }
 
-.hero-content h1{
+.hero-content h1 {
   font-size: 3.2em;
   font-weight: 600;
   margin-left: 100px;
 }
 
+.video-container {
+  width: 40vw;
+  z-index: 1;
+}
 .video-container video {
   width: 80%;
   height: 80%;
+  max-height: 450px;
   object-fit: contain;
-}  
+}
 
 .gif-container img {
   width: 100%;
@@ -33,20 +41,20 @@
   object-fit: contain;
 }
 @media (max-width: 768px) {
-.hero{
-  justify-content: space-around;
-  height: 90vh;
-}
+  .hero {
+    justify-content: space-around;
+    height: 90vh;
+  }
 
-  .hero-container{
+  .hero-container {
     flex-direction: column;
     justify-content: flex-start;
   }
-  .hero-content{
-  height: 80vh; 
-}
+  .hero-content {
+    height: 80vh;
+  }
 
-  .hero-content h1{
+  .hero-content h1 {
     font-size: 2em;
     width: 100%;
     margin-left: 20px;
@@ -54,5 +62,5 @@
   .video-container video {
     width: 100%;
     height: 30vh;
-  }  
+  }
 }
