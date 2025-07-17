@@ -17,7 +17,7 @@ function ArtStuff() {
   }, [ ]);
   
   return (
-    <section className="daphne">
+    <section className="art-section">
       <h1>Art Gallery</h1>
         <ArtGallery data={data} />
     </section>
