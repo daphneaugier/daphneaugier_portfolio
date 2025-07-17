@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
-  height: calc(100vh - 60px); /* Adjusting for header height */
+  height: calc(100vh - 120px); /* Adjusting for header height */
+  margin-top: 60px; /* Adjusting for header height */
   margin-bottom: 24px;
   display: flex;
   flex-direction: column;
@@ -44,6 +45,7 @@
   .hero {
     justify-content: space-around;
     height: 90vh;
+    margin-top: 30px;
   }
 
   .hero-container {
