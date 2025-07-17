@@ -1,8 +1,13 @@
+import { useState } from "react";
+import ArtModal from "../ArtModal";
+import ArtSlider from "../ArtSlider";
 import "./index.css";
-import ArtCard from "../ArtCard";
 import PropTypes from "prop-types";
 
 function ArtGallery({ data }) {
+  const [show, setShow] = useState(false);
+  const [active, setActive] = useState(0);
+
   if (!data.length) {
     return (
       <div className="art-gallery">
@@ -11,16 +16,47 @@ function ArtGallery({ data }) {
     );
   }
 
+  const handleClick = (index) => {
+    setActive(index);
+    setShow(true);
+  };
+
+  const onClose = () => {
+    setShow(false);
+  };
+
   return (
-    <div className="art-gallery">
-      {data.map((item) => (
-        <ArtCard
-          key={item.id}
-          description={item.description}
-          picture={item.picture}
-          className="image"
-        />
-      ))}
+    <div className="art">
+      <ArtModal
+        show={show}
+        onClose={onClose}
+        title={
+          data[active].description +
+          ", " +
+          data[active].lieu +
+          ", " +
+          data[active].date +
+          ", " +
+          data[active].medium
+        }
+      >
+        <ArtSlider images={data} active={active} setActive={setActive} />
+      </ArtModal>
+      <div className="art-gallery">
+        {data.map((e, i) => (
+          <div
+            className={i === active ? "active card" : "card"}
+            onClick={() => handleClick(i)}
+            key={e.description}
+          >
+            <img
+              className="modal-image"
+              src={`/assets/images/artbig/${e.picture}`}
+              alt={e.description}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -30,3 +66,9 @@ ArtGallery.propTypes = {
 };
 
 export default ArtGallery;
+
+        /*
+        <img
+          src={`/assets/images/artbig/${data[active].picture}`}
+          alt={data[active].description}
+        />*/
