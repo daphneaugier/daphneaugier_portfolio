@@ -11,7 +11,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto 60px;
   }
   .footer-col1 {
     font-weight: 600;
@@ -38,14 +37,20 @@ footer {
     text-align: right;
     width: 100%;
   }
+  .footer-social a{
+    padding: 0 0 0 20px;
+  }
   .footer-menu {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    text-align: right;
     font-weight: 600;
+}
+  .footer-menu li{
+    margin: 0 8px;
   }
+
   .footer-menu a{
     text-transform: uppercase;
   }
@@ -55,6 +60,7 @@ footer {
     .footer-menu {
       flex-direction: column;
       justify-content: flex-start;
+      text-align: end;
     }
     .footer-row {
       margin: auto;
