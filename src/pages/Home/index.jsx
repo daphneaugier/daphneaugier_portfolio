@@ -43,7 +43,9 @@ function Home() {
       </div>
       <WorkGallery works={works} />
       <br />
-      <ButtonArt link="art" label="Art" size="large" />
+      <div className="center">
+        <ButtonArt link="art" label="Art" size="large" />
+      </div>
     </div>
   );
 }
