@@ -36,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-top: 2.7rem;
+  margin-top: 1rem;
 }
 .work-text-row {
   display: flex;
@@ -53,6 +53,7 @@
 .workcard-title {
   margin: 4px 6px;
   font-weight: bold;
+  line-height: 1;
 }
 
 .work-id {
@@ -69,7 +70,6 @@
 .work-text-year {
   margin-left: 6px;
   font-size: 18px;
-  font-weight: bold;
 }
 .work-text li {
   font-size: 1.5rem;
@@ -92,9 +92,6 @@
   .work-text-row,
   .work-text-row2 {
     margin-top: 6px;
-  }
-  .work-text-2col {
-    margin-top: 2rem;
   }
   .work-card img {
     width: 40%;
