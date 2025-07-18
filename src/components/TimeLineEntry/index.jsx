@@ -9,8 +9,8 @@ function TimeLineEntry({ title, date, details, delay }) {
       data-aos-duration="1500"
       data-aos-delay={delay} 
     >
-      <h2>{title}</h2>
-      <h2>{date}</h2>
+      <h4 className="timeline-entry-title">{title}</h4>
+      <h5 className="timeline-entry-title">{date}</h5>
       <ul>
         {details.map((detail, index) => (
           <li key={index}>{detail}</li>
@@ -27,5 +27,6 @@ function TimeLineEntry({ title, date, details, delay }) {
     title: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     details: PropTypes.arrayOf(detailsShape).isRequired,
+    delay: PropTypes.string,
   }
 export default TimeLineEntry;

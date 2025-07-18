@@ -5,7 +5,7 @@ function Experience() {
   return (
     <section className="contact">
       <div className="experience">
-        <h1>Work Experience</h1>
+        <h2>Work Experience</h2>
         <TimeLineEntry
           title="Freelance UI/UX DESIGNER & WEB DEVELOPER"
           date="January, 2024 to present"
@@ -50,7 +50,7 @@ function Experience() {
           />
       </div>
       <div className="experience">
-        <h1>Education</h1>
+        <h2>Education</h2>
         <TimeLineEntry
           title="Bachelor of Engineering in Software Engineering"
           date="September, 2016 to June, 2021"

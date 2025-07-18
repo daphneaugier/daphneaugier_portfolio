@@ -11,8 +11,8 @@ function Daphne() {
 
   return (
     <section className="daphne">
-      <h1>
-        I'm Daphné Augier,
+      <h2>
+        I&apos;m Daphné Augier,
         <br />{" "}
         <ReactTyped
           strings={["nice to meet you!"]}
@@ -21,7 +21,7 @@ function Daphne() {
           cursorChar="|"
           loop
         />
-      </h1>
+      </h2>
       <p>
         I was born and raised in France by a French-Italian family before moving
         to Canada, where I’ve stayed ever since.
