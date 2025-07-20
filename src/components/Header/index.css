@@ -48,16 +48,19 @@ nav li{
     margin-top: 12px;
   }
   .download-nav {
-    position: relative;
     top: 0;
     right: 20px;
   }
   
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 420px) {
   .download-nav {
     position: absolute;
-    top: 0;
-    right: 2px;
+    top: 12px;
+    right: 12px;
+  }
+  .header-button{
+    margin-top: 0;
+    padding: 8px 10px;
   }
 }

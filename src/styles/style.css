@@ -124,3 +124,8 @@ section h2 {
     margin-top: 30px;
   }
 }
+@media (max-width: 410px) {
+  main{
+    margin-top: 0;
+  }
+}
