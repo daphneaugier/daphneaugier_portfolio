@@ -43,20 +43,18 @@ function ArtGallery({ data }) {
     setShow(false);
   };
 
+const { description, lieu, date, medium } = data[active];
+
+const title = [description, lieu, date, medium]
+  .filter(Boolean) // removes falsy values like "", null, undefined
+  .join(', ');
+  
   return (
     <div className="art">
       <ArtModal
         show={show}
         onClose={onClose}
-        title={
-          data[active].description +
-          ", " +
-          data[active].lieu +
-          ", " +
-          data[active].date +
-          ", " +
-          data[active].medium
-        }
+        title={title }
       >
         <ArtSlider images={data} active={active} setActive={setActive} />
       </ArtModal>
