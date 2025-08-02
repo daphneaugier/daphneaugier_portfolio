@@ -112,7 +112,9 @@ section {
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  margin: 0 60px;
+  margin: 0 auto;
+  max-width: 1200px;
+
 }
 
 section h2 {
