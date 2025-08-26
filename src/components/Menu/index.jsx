@@ -7,8 +7,11 @@ function Menu({ className }) {
     <ul className={className}>
       <li>
         <Link to="/" key="home">
-          WORK
+          HOME
         </Link>
+      </li>
+      <li>
+        <a href="/#works">WORKS</a>
       </li>
       <li>
         <Link to="/about" key="about">
