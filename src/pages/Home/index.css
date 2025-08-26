@@ -1,6 +1,9 @@
 .rotating-curved-text {
     font-weight: 600;
   }
+.fixed-curved-text {
+    font-weight: 600;
+  }
 .curved-text-link {
     display: flex;
     justify-content: center;

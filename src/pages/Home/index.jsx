@@ -11,7 +11,7 @@ import "./index.css";
 
 function Home() {
   const text = "Scroll down to read";
-  const fontSize = 32;
+  const fontSize = 18;
   const textPathFill = null;
 
   useEffect(() => {
@@ -24,12 +24,12 @@ function Home() {
         <Hero video={video} />
         <a href="#works" className="curved-text-link">
           <ReactCurvedText
-            width={200}
-            height={200}
-            cx={100}
-            cy={100}
-            rx={50}
-            ry={50}
+            width={110}
+            height={110}
+            cx={55}
+            cy={55}
+            rx={30}
+            ry={30}
             startOffset={0}
             reversed={true}
             text={text}
@@ -37,7 +37,7 @@ function Home() {
             textPathProps={textPathFill ? { fill: textPathFill } : null}
             tspanProps={null}
             ellipseProps={null}
-            svgProps={{ className: "rotating-curved-text" }}
+            svgProps={{ className: "fixed-curved-text" }}
           />
         </a>
       </div>
