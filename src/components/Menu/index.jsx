@@ -11,7 +11,7 @@ function Menu({ className }) {
         </Link>
       </li>
       <li>
-        <a href="/#works">WORKS</a>
+        <Link to="/#works">WORKS</Link>
       </li>
       <li>
         <Link to="/about" key="about">

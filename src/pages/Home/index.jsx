@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 
 import Hero from "../../components/Hero";
 import WorkGallery from "../../components/WorkGallery";
@@ -14,9 +15,23 @@ function Home() {
   const fontSize = 18;
   const textPathFill = null;
 
+
+  const location = useLocation();
+
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        // Optional: Add a small delay to ensure rendering
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }else{
+      window.scrollTo(0, 0);
+    }
+  }, [location.hash]);
+
 
   return (
     <div>
