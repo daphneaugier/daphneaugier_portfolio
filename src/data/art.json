@@ -3,150 +3,182 @@
         "id": "1",
         "title": "",
         "description": "Blurry Snow Lake",
-        "picture": "001.webp"
+        "picture": "001.webp",
+        "category": "photography"
     },
     {
         "id": "2",
         "title": "",
         "description": "People on the Beach",
-        "picture": "002.webp"
+        "picture": "002.webp",
+        "category": "photography"
     },
     {
         "id": "3",
         "title": "",
         "description": "A girl at the window",
-        "picture": "003.webp"
+        "picture": "003.webp",
+        "category": "photography"
     },
     {
         "id": "4",
         "title": "",
         "description": "Daphné by Daphné and the mirror",
-        "picture": "004.webp"
+        "picture": "004.webp",
+        "category": "photography"
     },
     {
         "id": "5",
         "title": "",
         "description": "Photo by Daphné reflecting in the mirror",
-        "picture": "005.webp"
+        "picture": "005.webp",
+        "category": "photography"
     },
     {
         "id": "7",
         "title": "",
         "description": "Daphné by Daphné with books",
-        "picture": "007.webp"
+        "picture": "007.webp",
+        "category": "photography"
     },
     {
         "id": "8",
         "title": "",
         "description": "The girl in the old ruins",
-        "picture": "008.webp"
+        "picture": "008.webp",
+        "category": "photography"
     },
     {
         "id": "9",
         "title": "",
         "description": "A town on the Riviera",
-        "picture": "009.webp"
+        "picture": "009.webp",
+        "category": "photography"
     },
     {
         "id": "10",
         "title": "",
         "description": "Daphné by Daphné in the round mirror",
-        "picture": "010.webp"
+        "picture": "010.webp",
+        "category": "photography"
     },
     {
         "id": "11",
         "title": "",
         "description": "Daphné by Daphné in the square mirror",
-        "picture": "011.webp"
+        "picture": "011.webp",
+        "category": "photography"
     },
     {
         "id": "12",
         "title": "",
         "description": "Failed in a plane",
-        "picture": "012.webp"
+        "picture": "012.webp",
+        "category": "photography"
     },
     {
         "id": "13",
         "title": "",
         "description": "The sun lies down",
-        "picture": "013.webp"
+        "picture": "013.webp",
+        "category": "photography"
     },
     {
         "id": "14",
         "title": "",
         "description": "Pink Flowers",
-        "picture": "014.webp"
+        "picture": "014.webp",
+        "category": "photography"
+    },
+    {
+        "id": "15",
+        "title": "",
+        "description": "Tracks Toward the Dome",
+        "picture": "015.webp",
+        "category": "photography"
     },
     {
         "id": "16",
         "title": "",
         "description": "A girl in Summer",
-        "picture": "016.webp"
+        "picture": "016.webp",
+        "category": "photography"
     },
     {
         "id": "17",
         "title": "",
         "description": "Old Ruins by the Sea",
-        "picture": "017.webp"
+        "picture": "017.webp",
+        "category": "photography"
     },
     {
         "id": "18",
         "title": "",
         "description": "The town by the hill",
-        "picture": "018.webp"
+        "picture": "018.webp",
+        "category": "photography"
     },
     {
         "id": "19",
         "title": "",
         "description": "The is light at the end of the road",
-        "picture": "019.webp"
+        "picture": "019.webp",
+        "category": "photography"
     },
     {
         "id": "20",
         "title": "",
         "description": "Mediterranean Hills",
-        "picture": "020.webp"
+        "picture": "020.webp",
+        "category": "photography"
     },
     {
         "id": "21",
         "title": "",
         "description": "The Park",
-        "picture": "021.webp"
+        "picture": "021.webp",
+        "category": "photography"
     },
     {
         "id": "22",
         "title": "",
         "description": "Ode to the Sun in front of a Pyramid",
-        "picture": "022.webp"
+        "picture": "022.webp",
+        "category": "photography"
     },
     {
         "id": "23",
         "title": "",
         "description": "On My Way",
-        "picture": "023.webp"
+        "picture": "023.webp",
+        "category": "photography"
     },
     {
         "id": "24",
         "title": "",
         "description": "Old Temple",
-        "picture": "024.webp"
+        "picture": "024.webp",
+        "category": "photography"
     },
     {
         "id": "25",
         "title": "",
         "description": "Lighthouse, too much light",
-        "picture": "025.webp"
+        "picture": "025.webp",
+        "category": "photography"
     },
     {
         "id": "26",
         "title": "",
         "description": "Don't walk on the daffodils",
-        "picture": "026.webp"
+        "picture": "026.webp",
+        "category": "photography"
     },
     {
         "id": "27",
         "title": "",
         "description": "Don't Touch",
-        "picture": "027.webp"
+        "picture": "027.webp",
+        "category": "photography"
     }
 ]

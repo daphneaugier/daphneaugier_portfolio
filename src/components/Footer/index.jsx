@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -7,19 +6,16 @@ import "./index.css";
 import Menu from "../Menu";
 
 function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer>
       <div className="footer-row">
         <div className="footer-col1">
-          <div>© Daphné Augier | 2024</div>
+          <div>© Daphné Augier | {year}</div>
           <br />
           <div className="footer-address">
             <a href="mailto:daphne.augier@gmail.com">daphne.augier@gmail.com</a>
-            <br />
-            <br />
-            706-5333 Casgrain <br />
-            Montréal (QC) H2T 1X3 <br />
-            Canada
           </div>
         </div>
         <div className="footer-col2">

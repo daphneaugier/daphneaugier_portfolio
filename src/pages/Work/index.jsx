@@ -1,6 +1,7 @@
 import { Navigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import WorkDetails from "../../components/WorkDetails";
 
 //Import Data
@@ -26,7 +27,11 @@ function Work() {
 
   return (
     <div>
-      <section className="works">
+      <Helmet>
+        <title>{work.title} | Daphné Augier</title>
+        <meta name="description" content={work.text} />
+      </Helmet>
+      <section className="works page-container">
         {work.title !== "" ? <WorkTitle id={work.id} title={work.title} tags={work.tags} /> : ""}
         {work.cover !== "" ? <WorkBanner cover={work.cover} title={work.title} /> : ""}
         <WorkDetails work={work} />

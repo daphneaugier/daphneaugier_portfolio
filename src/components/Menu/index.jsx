@@ -16,6 +16,11 @@ function Menu({ className }) {
         </Link>
       </li>
       <li>
+        <Link to="/art" key="art">
+          Art
+        </Link>
+      </li>
+      <li>
         <Link to="/contact" key="contact">
           Contact
         </Link>

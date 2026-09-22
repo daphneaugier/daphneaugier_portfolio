@@ -1,13 +1,7 @@
 .contact {
   flex-direction: column;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 20px;
   text-align: left;
   align-items: flex-start;
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .contact-intro h1{
@@ -71,16 +65,18 @@ textarea.form-control {
 .contact-button {
   background-color: #000;
   color: #fff;
-  border: none;
-  padding: 12px 20px;
+  border: 1.5px solid #000;
+  border-radius: 999px;
+  padding: 14px 20px;
   width: 100%;
   margin-top: 20px;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
 }
 
 .contact-button:hover {
-  border: 1px solid #000;
-  background-color: #d8d859;
+  background-color: var(--primary-color-dark);
   color: #000;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {

@@ -27,10 +27,18 @@ nav li{
   }
 
 .header-button {
-  border: 1px solid black;
-  padding: 12px 19px;
+  border: 1.5px solid black;
+  border-radius: 999px;
+  padding: 12px 22px;
   width: fit-content;
   font-weight: bold;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+}
+
+.header-button:hover {
+  background-color: #000;
+  color: var(--primary-color);
+  transform: translateY(-2px);
 }
 .main-nav{
   display: flex;

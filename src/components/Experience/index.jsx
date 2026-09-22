@@ -3,9 +3,21 @@ import TimeLineEntry from "../TimeLineEntry";
 
 function Experience() {
   return (
-    <section className="contact">
+    <section className="experience-section page-container">
       <div className="experience">
         <h1>Work Experience</h1>
+        <TimeLineEntry
+          title="QA ENGINEER at GameAddik"
+          date="August, 2025 to present"
+          details={[
+            "Joined as the first dedicated QA hire and built the QA branch from scratch: test strategy, test plans, and test cases for new and existing features.",
+            "Developed integration tests with pytest for REST APIs, data contracts, and core platform logic.",
+            "Automated end-to-end tests with Playwright covering critical user flows, functional and regression.",
+            "Built a React test management platform so manual testers can run functional tests, log results, and keep an execution history for UAT and release sign-off.",
+            "Tracked defects in Jira with reproduction steps and integrated automated tests into the CI/CD pipeline across Dev, Staging, and Production."
+          ]}
+          delay="0"
+        />
         <TimeLineEntry
           title="Freelance UI/UX DESIGNER & WEB DEVELOPER"
           date="January, 2024 to present"
@@ -16,7 +28,7 @@ function Experience() {
             "Engineered a custom online radio platform with an integrated content management system, enabling real-time playlist updates and improving client's operational efficiency.",
             "Led the development of a Flutter-based online art sales platform as Product Owner and Web Developer, managing a team of three to drive product strategy, design, and implementation."
           ]}
-          delay="0"
+          delay="200"
         />
         <TimeLineEntry
           title="UI/UX DESIGNER at Solotech Inc."
@@ -26,7 +38,7 @@ function Experience() {
             "Created UI mockups and interactive prototypes, using Figma and Miro to illustrate client requirements.",
             "Designed user-friendly graphical interfaces, following best practices in interaction design and ensuring accessibility."
           ]}
-          delay="200"
+          delay="400"
         />
         <TimeLineEntry
           title="JUNIOR SOFTWARE DEVELOPER at MindGeek"
@@ -36,7 +48,7 @@ function Experience() {
             "Consistently met sprint goals resolving stories and bugs, contributing to our agile development team.",
             "Managed large datasets and microservices architecture, collaborating with cross-functional teams resulting in improved system reliability."
           ]}
-          delay="400"
+          delay="600"
         />
         <TimeLineEntry
           title="Freelance WEB DESIGNER & DEVELOPER"
@@ -46,7 +58,7 @@ function Experience() {
             "Created and maintained an e-commerce and online reservation system for a campsite.",
             "Developed a custom Discourse plugin for a psychological help forum, improving user reporting features."
           ]}
-          delay="600"
+          delay="800"
           />
       </div>
       <div className="experience">

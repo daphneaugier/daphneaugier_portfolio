@@ -5,7 +5,7 @@ import './index.css'
 //Component
 function WorkGallery({ works }) {
   return (
-    <section className="works" id="works">
+    <section className="work-gallery page-container" id="works">
     <div className="works-header">
         <h1>Featured Projects</h1>
     </div>

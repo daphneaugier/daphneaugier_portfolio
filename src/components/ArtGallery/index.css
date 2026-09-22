@@ -3,9 +3,6 @@
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
-  width: 100%;
-  max-width: 90vw;
-  margin: 0 auto;
 }
 
 .art-section h1 {
@@ -13,9 +10,23 @@
   width: 100%;
 }
 
+.art {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.art-intro {
+  margin: -30px 0 30px;
+  max-width: 60ch;
+  opacity: 0.8;
+}
+
 .card{
-  padding-bottom: 8px; 
+  position: relative;
+  padding-bottom: 8px;
   padding-right: 8px;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .modal-image {
@@ -26,12 +37,35 @@
   width: 100%;
   min-width: 18em;
   animation: scaleUp 0.25s ease forwards;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .modal-image img {
   object-fit: cover;
   width: 100%;
   height: auto;
+}
+
+.art-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.art-filters button {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+.art-filters button.active {
+  opacity: 1;
+  font-weight: 600;
 }
 
 .modal-image:hover {
@@ -61,7 +95,8 @@
 }
 
 .art-gallery {
-  max-width: 2000px;
+  width: 100%;
+  box-sizing: border-box;
   position: relative;
   gap: 0;
 }

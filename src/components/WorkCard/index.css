@@ -9,7 +9,14 @@
   justify-content: space-between;
   flex-grow: 1;
   border: 3.3px solid black;
-  border-radius: 3px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 0 #000;
 }
 
 .work-card img {
@@ -17,6 +24,11 @@
   object-fit: cover;
   object-position: 25% 25%;
   display: block;
+  transition: transform 0.4s ease;
+}
+
+.work-card:hover img {
+  transform: scale(1.05);
 }
 
 .workcard-text {
@@ -80,9 +92,10 @@
 
 .work-tag {
   font-size: x-large;
-  display: inline;
+  display: inline-block;
   font-weight: bold;
   background-color: var(--primary-color);
+  border-radius: 999px;
   padding: 8px 16px;
   margin: 4px;
   margin-right: 32px;

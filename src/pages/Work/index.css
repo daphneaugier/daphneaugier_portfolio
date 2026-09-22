@@ -1,8 +1,8 @@
-.works{
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.works {
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
 
 .works h1 {
     font-weight: bold;

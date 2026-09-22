@@ -22,23 +22,16 @@ import Footer from "./components/Footer";
 
 import "./styles/style.css";
 
-let path = window.location.pathname;
-if (path === "/") {
-  path = "Portfolio";
-}else{
-  path = path.replace("/", "");
-}
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <HelmetProvider>
         <Helmet>
-          <title>Daphné Augier UI/UX and Web Designer in Montréal | {path}</title>
+          <title>Daphné Augier | QA Engineer & UI/UX Designer in Montréal</title>
           <link rel="canonical" href={window.location.href} />
-          <meta property="og:title" content={`Daphné Augier - UI/UX and Web Designer - ${path}`} /> 
-          <meta property="og:url" content={window.location.href} /> 
+          <meta property="og:title" content="Daphné Augier - QA Engineer & UI/UX Designer" />
+          <meta property="og:url" content={window.location.href} />
           </Helmet>
-      </HelmetProvider>
         <Header />
         <main>
           <Routes>
@@ -52,6 +45,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           </Routes>
         </main>
         <Footer />
+      </HelmetProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -9,9 +9,22 @@
 }
 
 .work-box{
-  border: 1px solid black;
-  padding-left: 3%;
-  padding-right: 3%;
+  border: 1.5px solid black;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 24px;
+}
+
+.work-box h2 {
+  margin-top: 0;
+}
+
+.work-box h4 {
+  margin-bottom: 4px;
+}
+
+.work-box p {
+  margin-bottom: 16px;
 }
 
 .work-box h3 {

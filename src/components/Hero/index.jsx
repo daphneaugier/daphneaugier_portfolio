@@ -10,7 +10,7 @@ function Hero({video}) {
             <h1>
             Hello,<br />
                 I&apos;m {" "}
-                <ReactTyped strings={["Daphné Augier", "a UI/UX Designer",  "a Web Developer"]} 
+                <ReactTyped strings={["Daphné Augier", "a QA Engineer", "a UI/UX Designer",  "a Web Developer"]}
                 typeSpeed={100}
                 backSpeed={100}
                 cursorChar="|" loop />            </h1>

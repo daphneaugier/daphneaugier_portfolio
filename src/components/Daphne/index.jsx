@@ -10,7 +10,7 @@ function Daphne() {
   const textPathFill = null;
 
   return (
-    <section className="daphne">
+    <section className="daphne page-container">
       <h1>
         I'm Daphné Augier,
         <br />{" "}
@@ -45,13 +45,15 @@ function Daphne() {
       <p>
         I’ve worked first as a developer,
         then a UI/UX designer, collaborating with a variety of clients and
-        projects. I aim to create
-        experiences that feel engaging and human-centered.
+        projects. Those two sides ended up meeting in my current role as a
+        QA Engineer, where I get to think like a developer and a user at
+        the same time: building test automation and catching the kind of
+        issues that only show up once real people touch a product.
         <br />
         <br />
       </p>
       <p>
-        When I’m not designing, you’ll find me painting, reading or cooking.
+        When I’m not testing or designing, you’ll find me painting, reading or cooking.
       </p>
       <div className="daphne-row">
         <div className="daphne-col1">

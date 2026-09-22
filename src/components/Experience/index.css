@@ -1,3 +1,9 @@
+.experience-section {
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
 .experience h1 {
   font-weight: bold;
   margin: 50px auto;

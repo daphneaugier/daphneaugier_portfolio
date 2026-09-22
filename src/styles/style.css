@@ -2,7 +2,25 @@
 
 :root {
   --primary-color: #fff36d;
+  --primary-color-dark: #e6da4c;
   --text-color: #000;
+
+  --container-width: 1200px;
+  --container-padding: 6vw;
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+}
+
+.page-container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  box-sizing: border-box;
 }
 
 /* pour voir les blocs 

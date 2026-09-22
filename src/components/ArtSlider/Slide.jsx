@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 const Slide = ({ picture, description, active }) => {
   return (
     <div className={`slide ${active ? "active" : ""}`}>
-      <img src={`/assets/images/artbig/${picture}`} alt={description} />
+      <img
+        src={`/assets/images/artbig/${picture}`}
+        alt={description}
+        draggable={false}
+      />
     </div>
   );
 };

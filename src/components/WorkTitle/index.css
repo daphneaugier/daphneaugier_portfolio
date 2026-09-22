@@ -10,10 +10,11 @@
 }
 
 .work-title-tag {
-  display: inline;
+  display: inline-block;
   font-weight: bold;
   background-color: black;
   color: var(--primary-color);
+  border-radius: 999px;
   padding: 8px 16px;
   margin-left: 32px;
 }
