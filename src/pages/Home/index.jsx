@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet-async";
 
 import Hero from "../../components/Hero";
 import WorkGallery from "../../components/WorkGallery";
-import ButtonArt from "../../components/MyButton";
 import ReactCurvedText from "react-curved-text";
 //Import Data
 import works from "../../data/works.json";
@@ -47,8 +46,6 @@ function Home() {
         </a>
       </div>
       <WorkGallery works={works} />
-      <br />
-      <ButtonArt link="art" label="Art" size="large" />
     </div>
   );
 }

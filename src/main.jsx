@@ -10,6 +10,7 @@ AOS.init();
 
 //Import Pages
 import Home from "./pages/Home";
+import WorkPage from "./pages/WorkPage";
 import Work from "./pages/Work";
 import About from "./pages/About";
 import ArtStuff from "./pages/ArtStuff";
@@ -36,6 +37,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <main>
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/work" element={<WorkPage />} />
             <Route path="/work/:workId" element={<Work />} />
             <Route path="/about" element={<About />} />
             <Route path="/art" element={<ArtStuff />} />

@@ -1,5 +1,4 @@
 import Daphne from '../../components/Daphne'
-import Experience from '../../components/Experience'
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 
@@ -13,13 +12,9 @@ function About() {
     <div>
         <Helmet>
           <title>About | Daphné Augier</title>
-          <meta name="description" content="QA Engineer with a background in software engineering, web development, and UI/UX design. Here's my path so far." />
+          <meta name="description" content="Born in France, based in Montréal. Software engineer turned QA engineer with a background in UI/UX design. Painter, photographer, and creative at heart." />
         </Helmet>
         <Daphne/>
-        <br />{" "}
-        <br />{" "}
-        <br />{" "}
-        <Experience />
     </div>
   )
 }

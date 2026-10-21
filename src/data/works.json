@@ -11,7 +11,7 @@
       {
         "type": "boxtxt",
         "box": "<h2>Overview</h2><h4>Timeline:</h4><p>November 2024 - January 2025</p><h4>Role:</h4><p>Product Design (UX/UI) - Web Developer</p><h4>Tools:</h4><p>Figma, WordPress, HTML, CSS</p>",
-        "txt": "<h2>Background & Challenge</h2><p>Caché is a modern neighborhood bistro in San Francisco that blends a relaxed French bistro atmosphere with contemporary culinary experiences. The restaurant needed a digital presence that reflected its identity, provided essential information, and facilitated reservations while optimizing for both desktop and mobile users.</p><p>The challenge was to create a website that not only showcased the brand’s unique personality but also delivered a seamless user experience for customers seeking details about the menu, reservations, and events.</p>"
+        "txt": "<h2>Background & Challenge</h2><p>Caché is a modern neighborhood bistro in San Francisco that blends a relaxed French bistro atmosphere with contemporary culinary experiences. The restaurant needed a digital presence that reflected its identity, provided essential information, and facilitated reservations while optimizing for both desktop and mobile users.</p><p>The challenge was to create a website that not only showcased the brand's unique personality but also delivered a seamless user experience for customers seeking details about the menu, reservations, and events.</p>"
       },
       {
         "type": "txtimg",
@@ -23,10 +23,10 @@
         "type": "txt",
         "title": "Design Approach & Strategy",
         "lines": [
-          "The design focused on elegance and warmth, capturing the bistro’s inviting yet sophisticated atmosphere. Key elements included:",
+          "The design focused on elegance and warmth, capturing the bistro's inviting yet sophisticated atmosphere. Key elements included:",
           "<ol><li>Color Palette</li><p>I selected a terra cotta shade (#B86C51) that evokes warmth and a natural feel, complemented by an off-white background (#FBEBD9) to create a clean and airy aesthetic.</p>",
           "<img class='work-img' src='/assets/images/work01/colorpalette_cache.webp' alt='Color Palette Caché'/><img class='work-img' src='/assets/images/work01/logo_cache.webp' alt='Logo Caché'/>",
-          "<ol start='2'><li>Custom Logo Design</li><p>Instead of using an existing font, I hand-wrote the restaurant’s name on paper, scanned it, and vectorized it to create a unique and personal brand identity. This gave the logo a handcrafted, distinctive feel.</p></ol>"
+          "<ol start='2'><li>Custom Logo Design</li><p>Instead of using an existing font, I hand-wrote the restaurant's name on paper, scanned it, and vectorized it to create a unique and personal brand identity. This gave the logo a handcrafted, distinctive feel.</p></ol>"
         ]
       },
       {
@@ -53,35 +53,53 @@
   },
   {
     "id": "02",
-    "year": "July 2024 - August 2024",
+    "year": "January 2023 - August 2024",
     "cover": "work02-hover.webp",
     "title": "The Collectible",
-    "text": "Entrepreneur project created from scratch.",
+    "text": "Co-founded and built an art marketplace mobile app — Flutter/Dart on GCP/Firebase.",
     "label": "Read More",
     "pictures": ["work02-hover.webp"],
     "details": [
       {
         "type": "boxtxt",
-        "box": "<h2>Overview</h2><h4>Timeline:</h4><p>July 2024 - August 2024</p><h4>Role:</h4><p>Co-Founder & CTO - Product Design, UX Research</p><h4>Tools:</h4><p>Figma, Flutter, Firebase</p>",
-        "txt": "<h2>Context</h2><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and design. This experience strengthened my ability to balance business strategy, user needs, and technical constraints.</p><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
+        "box": "<h2>Overview</h2><h4>Timeline:</h4><p>January 2023 - August 2024</p><h4>Role:</h4><p>Co-Founder, CTO & Product Designer</p><h4>Tools:</h4><p>Figma, Flutter, Dart, Firebase, GCP</p>",
+        "txt": "<h2>Context</h2><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and product design. The core problem we set out to solve was trust: collectors couldn't evaluate condition, provenance, or authenticity from a standard listing, and they had no one to ask.</p><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>Audience & Research</h2><p>I started with interviews with people who collect art or one-off pieces, plus a short survey shared in collector communities. The recurring frustration was trust: people didn't know how to judge condition or authenticity from a listing. That shaped two personas:</p><ul><li><strong>The Careful Collector</strong> — disposable income, wants provenance and detail before spending, will not rush.</li><li><strong>The Casual Browser</strong> — drawn in by a specific piece, needs the buying process explained in plain language.</li></ul><p>From there I mapped the user flow around a single goal: get a browser from a listing they like to a confident purchase without needing to message anyone first. Provenance and condition details moved up next to the price — before any high-fidelity work started — which was the single biggest structural change to come out of this research stage.</p>",
+        "img": "work02/browse.jpg",
+        "alt": "TheCollectible browse screen"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>Product Design & Brand</h2><p>The brand needed to feel more like a gallery than a marketplace. I leaned into a darker, editorial palette with a serif wordmark instead of the bright, high-contrast look most marketplace apps use. I built a small design system — type scale, spacing tokens, component states — early on so the web and mobile builds wouldn't drift apart as the team grew.</p><p>Low-fidelity wireframes settled the listing page layout first, since that's where the trust problem lived. I then built high-fidelity prototypes in Figma and walked a handful of collectors through them before any code was written.</p>",
+        "img": "work02/listing.jpg",
+        "alt": "TheCollectible listing detail screen"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>Technical Architecture</h2><p>The platform was built in Flutter/Dart for a shared codebase across web and mobile, on top of a Firebase backend for auth, listings, and storage on GCP. As CTO I made the call to keep the stack small and boring on purpose — we were a small team and I didn't want to be debugging infrastructure instead of shipping the listing flow.</p><p>We launched with a small, invite-based seller pool so I could watch how real listings performed before opening things up. That let me catch edge cases in the listing form (multiple images, pricing in different currencies) before they became support tickets. As Scrum Master I coordinated delivery across engineering and product, communicating priorities and risk to both technical and non-technical partners.</p>",
+        "img": "work02/branding.jpg",
+        "alt": "TheCollectible brand identity and design system"
       },
       {
         "type": "txtlist",
-        "title": "The Development",
-        "subtitle": "The process followed a structured UX approach:",
+        "title": "The Development Process",
+        "subtitle": "The process followed a structured UX and engineering approach:",
         "lines": [
           "<li>User Research & Strategy</li>",
-          "<p>I started with a round of interviews with people who collect art or one-off pieces, plus a short survey shared in a couple of collector communities. The recurring frustration was trust: people didn't know how to judge condition or authenticity from a listing, and they didn't know who to ask. That shaped two personas I designed around for the rest of the project: the 'Careful Collector', someone with disposable income who wants provenance and detail before they'll spend, and the 'Casual Browser', someone drawn in by a specific piece who needs the buying process explained in plain language. From there I mapped the user flow around a single goal: get a browser from a piece they like to a confident purchase without needing to message anyone first.</p>",
+          "<p>Interviews and surveys with collectors shaped two key personas and a north-star user flow: from discovery to confident purchase without needing to message anyone first.</p>",
           "<li>Branding & Visual Identity</li>",
-          "<p>The brand needed to feel more like a gallery than a marketplace, so I leaned into a darker, editorial palette with a serif wordmark instead of the bright, high-contrast look most marketplace apps use. I built a small design system (type scale, spacing, component states) early on so the web and mobile builds wouldn't drift apart as the team grew.</p>",
+          "<p>Dark editorial palette, serif wordmark, and a design system (type scale, spacing, component states) built early to keep web and mobile consistent as the team grew.</p>",
           "<li>Wireframing & Prototyping</li>",
-          "<p>Low-fidelity wireframes came first, mostly to settle the listing page layout, since that's where the trust problem lived. The early version buried provenance and condition details below the fold; moving them up next to the price, before any high-fidelity work started, was the single biggest change to come out of this stage. I then built high-fidelity prototypes in Figma and walked a handful of collectors through them before any code was written.</p>",
+          "<p>Low-fidelity wireframes settled the listing page structure. Provenance and condition moved next to price before any high-fidelity work started — the single biggest change from research. High-fidelity Figma prototypes were tested with real collectors before code was written.</p>",
           "<li>Technical Development</li>",
-          "<p>The platform was built in Flutter for a shared codebase across web and mobile, on top of a Firebase back end for auth, listings, and storage. As CTO I made the call to keep the stack small and boring on purpose, since we were a small team and I didn't want to be debugging infrastructure instead of shipping the listing flow.</p>",
+          "<p>Flutter/Dart shared codebase for web and mobile; Firebase for auth, listings, and storage on GCP. Small, stable stack kept the team focused on shipping the listing flow rather than infrastructure.</p>",
           "<li>Testing & Refinement</li>",
-          "<p>The listing flow and search were the two areas that changed the most after early feedback. Search in particular needed filtering by medium and price range added earlier than planned, once it was clear people were arriving with a specific type of piece in mind rather than browsing everything.</p>",
+          "<p>Listing flow and search changed the most after early feedback. Filtering by medium and price range was added earlier than planned once it became clear users arrived with a specific piece in mind, not browsing everything.</p>",
           "<li>Deployment & Scaling</li>",
-          "<p>We launched with a small, invite-based seller pool so I could watch how real listings performed before opening things up. That let me catch a handful of edge cases in the listing form (multiple images, pricing in different currencies) before they became support tickets.</p>"
+          "<p>Invite-based seller launch caught edge cases in the listing form (multiple images, multi-currency pricing) before they became support tickets.</p>"
         ]
       }
     ],
@@ -89,7 +107,8 @@
     "away": {
       "title": "Takeaways",
       "text": [
-        "The biggest lesson from TheCollectible wasn't a design pattern, it was how much of the UX work turned out to be about trust rather than layout. Once I understood that collectors needed proof and context before they'd buy, most of the interface decisions followed naturally. Wearing both the CTO and design hats also taught me to pick fights carefully: I said no to a few feature ideas that would have looked good in a pitch deck but would have slowed down the one flow that actually mattered, getting from a listing to a confident purchase."
+        "The biggest lesson from TheCollectible wasn't a design pattern, it was how much of the UX work turned out to be about trust rather than layout. Once I understood that collectors needed proof and context before they'd buy, most of the interface decisions followed naturally.",
+        "Wearing both the CTO and design hats also taught me to pick fights carefully: I said no to a few feature ideas that would have looked good in a pitch deck but would have slowed down the one flow that actually mattered — getting from a listing to a confident purchase."
       ]
     },
     "next": "03",
@@ -101,14 +120,20 @@
     "year": "January 2024 - August 2024",
     "cover": "work03-hover.webp",
     "title": "Divorce.fm",
-    "text": "Development of online radio.",
+    "text": "Development of an online radio with a self-managed CMS.",
     "label": "Read More",
     "pictures": ["work03-hover.webp"],
     "details": [
       {
         "type": "boxtxt",
         "box": "<h2>Overview</h2><h4>Timeline:</h4><p>January 2024 - August 2024</p><h4>Role:</h4><p>Web Developer</p><h4>Tools:</h4><p>PHP, Laravel, MySQL, Tailwind CSS, Alpine.js, SoundCloud API</p>",
-        "txt": "<h2>Background & Challenge</h2><p>The client wanted an online radio built around SoundCloud mixes, with a deliberately old-school, slightly chaotic feel: random backgrounds, a hue-shifting logo, playful button art. The visual direction and branding on this project came from my partner, my job was turning that into a real site the client could run day to day.</p><p>The brief also included self-management: the client wanted to add new mixes and swap background images without calling me every time. That made the real engineering problem the admin panel, not the player.</p>"
+        "txt": "<h2>Background & Challenge</h2><p>The client wanted an online radio built around SoundCloud mixes, with a deliberately old-school, slightly chaotic feel: random backgrounds, a hue-shifting logo, playful button art. The visual direction and branding came from my partner — my job was turning that into a real site the client could run day to day.</p><p>The brief also included self-management: the client needed to add new mixes and swap background images without calling me every time. That made the real engineering problem the admin panel, not the player.</p>"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>The Radio Player</h2><p>The public-facing side is plain JavaScript wrapped around the SoundCloud widget: play, pause, skip, and a volume control that occasionally lands on a joke value instead of a real percentage — the client wanted the whole thing to feel a bit unserious. The logo and buttons get a random hue shift on load, and long track titles scroll like a vintage marquee instead of being cut off.</p><p>Ads are skipped on mobile on purpose: autoplaying a sponsor track over mobile data felt like the wrong default. The palette stayed deliberately minimal — black and white with a single accent color — so the background images the client uploads stay the focal point.</p>",
+        "img": "work03/player.jpg",
+        "alt": "Divorce.fm radio player"
       },
       {
         "type": "txt",
@@ -116,6 +141,12 @@
         "lines": [
           "The first version shipped in July 2024: a plain PHP and MySQL site running on Apache, built fast to get the client something real to test and use. Once it was clear the admin side needed to do more than a login form and a few uploads, I rebuilt the backend in Laravel over the following months, with Breeze handling authentication and a proper admin panel replacing the hand-rolled one."
         ]
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>The Admin Panel</h2><p>Once rebuilt in Laravel, the admin panel became the core of the product. The client pastes a raw SoundCloud link and the app parses artist and title straight out of the URL — no manual data entry. A separate pool of sponsor tracks plays between mixes, chosen by whichever has been played least, so no single ad gets overplayed.</p><p>Background images can be uploaded one at a time or dropped as a folder — the app syncs them into the database and resizes and compresses each one automatically, including animated GIFs. If the database connection drops, the site falls back to a maintenance page instead of crashing. A radio going down felt worse than most sites going down.</p>",
+        "img": "work03/admin.jpg",
+        "alt": "Divorce.fm admin panel"
       },
       {
         "type": "txtlist",
@@ -127,16 +158,16 @@
           "<li>Ad rotation</li>",
           "<p>A separate pool of sponsor tracks plays between mixes, chosen by whichever has been played the least, so no single ad gets overplayed.</p>",
           "<li>Background management</li>",
-          "<p>The client uploads images directly, or drops a folder of files in and the app syncs them into the database. Every image gets resized and compressed automatically, including animated GIFs, since a couple of the backgrounds are old joke GIFs that needed to keep moving.</p>",
+          "<p>The client uploads images directly, or drops a folder of files and the app syncs them into the database. Every image gets resized and compressed automatically, including animated GIFs.</p>",
           "<li>Fallback handling</li>",
           "<p>If the database connection drops, the site falls back to a maintenance page instead of crashing. A radio station going down felt worse than most sites going down.</p>"
         ]
       },
       {
         "type": "txtimg",
-        "txt": "<h2>The Player Itself</h2><p>The public-facing side is plain JavaScript wrapped around the SoundCloud widget: play, pause, skip, and a volume control that occasionally lands on a joke value instead of a real percentage, since the client wanted the whole thing to feel a bit unserious. The logo and buttons get a random hue shift on load, and long track titles scroll like an old marquee instead of getting cut off. Ads are skipped on mobile on purpose, autoplaying a sponsor track over mobile data felt like the wrong default.</p><ol><li>Color Palette</li><p>The palette stayed deliberately minimal, black and white with a single accent color, so the background images the client uploads through the admin panel stay the focal point instead of competing with the UI.</p></ol>",
+        "txt": "<h2>Color & Visual Identity</h2><p>The palette stayed deliberately minimal — black and white with a single accent color — so the background images the client uploads stay the focal point instead of competing with the UI. The accent color shifts hue on every page load, giving each visit a slightly different feel without changing the structure.</p>",
         "img": "work03/colorpalette_divorce.webp",
-        "alt": "Color Palette Divorce"
+        "alt": "Color Palette Divorce.fm"
       }
     ],
     "link": "https://divorce.fm",
