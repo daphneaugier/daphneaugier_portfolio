@@ -1,11 +1,41 @@
-.work-banner {
+.work-banner-frame {
   width: 100%;
-  height: 580px;
-  object-fit: cover;
+  max-width: 560px;
+  margin: 8px 0 48px;
+  border: 1.5px solid #000;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 14px 14px 0 #000;
+  transform: perspective(1600px) rotateX(2.5deg);
+  transform-origin: center top;
 }
+
+.work-banner-zoom {
+  display: block;
+  width: 100%;
+}
+
+.work-banner {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+.work-banner:hover {
+  filter: brightness(1.06);
+}
+
 @media screen and (max-width: 768px) {
-  .work-banner {
-    height: 300px;
+  .work-banner-frame {
+    max-width: 100%;
+    box-shadow: 8px 8px 0 #000;
+    transform: none;
   }
-  
+
+  .work-banner {
+    height: 180px;
+  }
 }

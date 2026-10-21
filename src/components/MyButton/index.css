@@ -8,7 +8,7 @@
   width: fit-content;
   text-align: center;
   border: 1.5px solid #000;
-  border-radius: 999px;
+  border-radius: 2px;
   background-color: transparent;
   color: #000;
   transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;

@@ -2,32 +2,42 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: top;
-  line-height: 1.4;
+  justify-content: flex-start;
+  line-height: 1.55;
   width: 50%;
   padding: 0;
 }
 
-.work-box{
-  border: 1.5px solid black;
-  border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.04);
-  padding: 24px;
+.work-box {
+  border: 1.5px solid #000;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 28px 28px 12px;
+  box-shadow: 10px 10px 0 #000;
 }
 
 .work-box h2 {
-  margin-top: 0;
+  margin: 0 0 20px;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .work-box h4 {
-  margin-bottom: 4px;
+  margin: 16px 0 4px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .work-box p {
-  margin-bottom: 16px;
+  margin: 0 0 8px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.45;
 }
 
 .work-box h3 {
   text-align: center;
 }
-

@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import "./index.css";
 
 function WorkTextImage({ txt, img, alt }) {
   return (
@@ -8,11 +7,13 @@ function WorkTextImage({ txt, img, alt }) {
         className="work-col"
         dangerouslySetInnerHTML={{ __html: txt }}
       ></p>
-      <img
-        className="work-col work-img"
-        src={`/assets/images/${img}`}
-        alt={alt}
-      />
+      <button type="button" className="work-zoom" aria-label={`View larger: ${alt}`}>
+        <img
+          className="work-img"
+          src={`/assets/images/${img}`}
+          alt={alt}
+        />
+      </button>
     </div>
   );
 }

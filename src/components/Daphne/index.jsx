@@ -29,7 +29,7 @@ function Daphne() {
         <br />
       </p>
       <p>
-        I've always loved exploring different creative hobbies—whether it's 
+        I've always loved exploring different creative hobbies, whether it's 
         painting (oil or watercolor), drawing, photography, or any other craft.
         <br />
         <br />

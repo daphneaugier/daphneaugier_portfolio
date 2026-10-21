@@ -56,50 +56,64 @@
     "year": "January 2023 - August 2024",
     "cover": "work02-hover.webp",
     "title": "The Collectible",
-    "text": "Co-founded and built an art marketplace mobile app — Flutter/Dart on GCP/Firebase.",
+    "text": "Co-founded an auction-house marketplace for authenticated collectibles. Product design and UX for B2C + B2B, prototyped in Figma.",
     "label": "Read More",
     "pictures": ["work02-hover.webp"],
     "details": [
       {
         "type": "boxtxt",
         "box": "<h2>Overview</h2><h4>Timeline:</h4><p>January 2023 - August 2024</p><h4>Role:</h4><p>Co-Founder, CTO & Product Designer</p><h4>Tools:</h4><p>Figma, Flutter, Dart, Firebase, GCP</p>",
-        "txt": "<h2>Context</h2><p>TheCollectible is an entrepreneurial initiative I co-founded to create a user-friendly marketplace for art and collectibles. As CTO, I led the technical direction while actively contributing to UX research and product design. The core problem we set out to solve was trust: collectors couldn't evaluate condition, provenance, or authenticity from a standard listing, and they had no one to ask.</p><p>Research identified key pain points: difficulty accessing art, evaluating collectibles, and navigating existing platforms. Users needed a trustworthy, intuitive marketplace with seamless transactions and curated content.</p>"
+        "txt": "<h2>Context</h2><p>TheCollectible is a marketplace I co-founded to make authenticated collectibles accessible: pieces that come from auction houses, sold at a fair price to collectors and amateurs. The product problem was trust and access: people who wanted a specific work could not easily find provenance, estimates, or a clean buying path outside the auction room.</p><p>I designed the full product in Figma: a public B2C site (homepage, artwork detail, artists, favorites, auth) and a B2B dashboard for auction houses (catalogue, estimates, tracking, invoices). Those frames are the source of the screens in this case study.</p>"
       },
       {
         "type": "txtimg",
-        "txt": "<h2>Audience & Research</h2><p>I started with interviews with people who collect art or one-off pieces, plus a short survey shared in collector communities. The recurring frustration was trust: people didn't know how to judge condition or authenticity from a listing. That shaped two personas:</p><ul><li><strong>The Careful Collector</strong> — disposable income, wants provenance and detail before spending, will not rush.</li><li><strong>The Casual Browser</strong> — drawn in by a specific piece, needs the buying process explained in plain language.</li></ul><p>From there I mapped the user flow around a single goal: get a browser from a listing they like to a confident purchase without needing to message anyone first. Provenance and condition details moved up next to the price — before any high-fidelity work started — which was the single biggest structural change to come out of this research stage.</p>",
-        "img": "work02/browse.jpg",
-        "alt": "TheCollectible browse screen"
+        "txt": "<h2>Brand & landing</h2><p>The brand needed to feel like a house of auction, not a generic shop. Deep green, cream, and a serif wordmark. The marketing landing explains the offer in one sentence (authenticated objects from auction houses, at accessible prices), then walks through how it works, what an auction is, and who is behind the product.</p><p>Two entry points sit on the hero: <em>Explorer les ventes</em> for browsers, <em>Se connecter</em> for returning collectors. The illustrated landing (line drawings, newsletter, team) was designed to feel human and light next to the more formal marketplace.</p>",
+        "img": "work02/hero.png",
+        "alt": "TheCollectible homepage hero from Figma"
       },
       {
         "type": "txtimg",
-        "txt": "<h2>Product Design & Brand</h2><p>The brand needed to feel more like a gallery than a marketplace. I leaned into a darker, editorial palette with a serif wordmark instead of the bright, high-contrast look most marketplace apps use. I built a small design system — type scale, spacing tokens, component states — early on so the web and mobile builds wouldn't drift apart as the team grew.</p><p>Low-fidelity wireframes settled the listing page layout first, since that's where the trust problem lived. I then built high-fidelity prototypes in Figma and walked a handful of collectors through them before any code was written.</p>",
-        "img": "work02/listing.jpg",
-        "alt": "TheCollectible listing detail screen"
+        "txt": "<h2>Marketing site</h2><p>The illustrated landing page (Figma: Landing Page / Final) is the story layer: newsletter capture, a three-step “comment ça marche”, an explainer on auctions, and a team block. I treated this as a separate surface from the marketplace so the product UI could stay quiet and the brand page could carry the personality.</p>",
+        "img": "work02/landing.png",
+        "alt": "TheCollectible illustrated landing page from Figma"
       },
       {
         "type": "txtimg",
-        "txt": "<h2>Technical Architecture</h2><p>The platform was built in Flutter/Dart for a shared codebase across web and mobile, on top of a Firebase backend for auth, listings, and storage on GCP. As CTO I made the call to keep the stack small and boring on purpose — we were a small team and I didn't want to be debugging infrastructure instead of shipping the listing flow.</p><p>We launched with a small, invite-based seller pool so I could watch how real listings performed before opening things up. That let me catch edge cases in the listing form (multiple images, pricing in different currencies) before they became support tickets. As Scrum Master I coordinated delivery across engineering and product, communicating priorities and risk to both technical and non-technical partners.</p>",
-        "img": "work02/branding.jpg",
-        "alt": "TheCollectible brand identity and design system"
+        "txt": "<h2>Artwork detail, where trust lives</h2><p>The listing page is the core of the B2C product. Price, estimate range, dimensions, medium, artist, and a short description sit next to a large object photo, with a thumbnail strip and related works in the same category.</p><p>That layout came from research: collectors would not buy from a thumbnail and a price. Provenance and estimates had to be visible before “Acheter maintenant” or “Favoris”. Search by name or artist stays in the header so someone arriving with a specific piece in mind never has to start over.</p>",
+        "img": "work02/artwork-detail.png",
+        "alt": "TheCollectible artwork detail page from Figma"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>B2B dashboard</h2><p>Auction houses needed a different product: lots listed vs sold, yearly results, conversion, and recent orders. The dashboard (Tableau de bord) is the first screen after login, with a sidebar for Catalogue, Estimations, Suivi, Réglages, Factures, and Compte.</p><p>I designed it as a working tool, not a marketing page: charts first, house switcher in the header, export later in the catalogue. The house (e.g. Drouot) is the account context for every number on the page.</p>",
+        "img": "work02/dashboard.png",
+        "alt": "TheCollectible B2B dashboard from Figma"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>Catalogue, the operational table</h2><p>The catalogue is how a house manages lots: title, description, photo, price, provenance, post date, status (en cours, actif, vendu). Bulk actions, search, export, and “soumettre lot(s)” sit at the top so a busy operator can work from one table.</p><p>This is the other half of the trust problem. If the house cannot keep provenance and status accurate, the public listing page fails. I designed both screens as one system.</p>",
+        "img": "work02/catalogue.png",
+        "alt": "TheCollectible B2B catalogue from Figma"
+      },
+      {
+        "type": "txtimg",
+        "txt": "<h2>Design system</h2><p>The palette is short on purpose: cream, sage, forest green, near-black. Green is the brand and the primary action; cream is the page; sage is the illustrated landing. I kept the marketplace chrome white so object photos stay the focus, and used the dark green for hero, footer, and primary buttons.</p><p>The same logo, header, and button language run across B2C and B2B so a house employee and a collector still feel they are in the same product.</p>",
+        "img": "work02/palette.png",
+        "alt": "TheCollectible color palette from Figma"
       },
       {
         "type": "txtlist",
-        "title": "The Development Process",
-        "subtitle": "The process followed a structured UX and engineering approach:",
+        "title": "What I designed in Figma",
+        "subtitle": "The prototype covers two products sharing one system:",
         "lines": [
-          "<li>User Research & Strategy</li>",
-          "<p>Interviews and surveys with collectors shaped two key personas and a north-star user flow: from discovery to confident purchase without needing to message anyone first.</p>",
-          "<li>Branding & Visual Identity</li>",
-          "<p>Dark editorial palette, serif wordmark, and a design system (type scale, spacing, component states) built early to keep web and mobile consistent as the team grew.</p>",
-          "<li>Wireframing & Prototyping</li>",
-          "<p>Low-fidelity wireframes settled the listing page structure. Provenance and condition moved next to price before any high-fidelity work started — the single biggest change from research. High-fidelity Figma prototypes were tested with real collectors before code was written.</p>",
-          "<li>Technical Development</li>",
-          "<p>Flutter/Dart shared codebase for web and mobile; Firebase for auth, listings, and storage on GCP. Small, stable stack kept the team focused on shipping the listing flow rather than infrastructure.</p>",
-          "<li>Testing & Refinement</li>",
-          "<p>Listing flow and search changed the most after early feedback. Filtering by medium and price range was added earlier than planned once it became clear users arrived with a specific piece in mind, not browsing everything.</p>",
-          "<li>Deployment & Scaling</li>",
-          "<p>Invite-based seller launch caught edge cases in the listing form (multiple images, multi-currency pricing) before they became support tickets.</p>"
+          "<li>B2C marketplace</li>",
+          "<p>Homepage (hero, categories, about), artwork detail, artist list and artist detail, favorites, orders, sign up and log in.</p>",
+          "<li>B2B house tools</li>",
+          "<p>Dashboard, catalogue, estimates, tracking, settings, invoices, account.</p>",
+          "<li>Brand & system</li>",
+          "<p>Logo, type, color palette, illustrations, and the illustrated marketing landing.</p>",
+          "<li>Build</li>",
+          "<p>Flutter/Dart on Firebase/GCP for the shared app. Figma stayed the source of truth for UX before and during development.</p>"
         ]
       }
     ],
@@ -107,8 +121,8 @@
     "away": {
       "title": "Takeaways",
       "text": [
-        "The biggest lesson from TheCollectible wasn't a design pattern, it was how much of the UX work turned out to be about trust rather than layout. Once I understood that collectors needed proof and context before they'd buy, most of the interface decisions followed naturally.",
-        "Wearing both the CTO and design hats also taught me to pick fights carefully: I said no to a few feature ideas that would have looked good in a pitch deck but would have slowed down the one flow that actually mattered — getting from a listing to a confident purchase."
+        "The product only works if both sides of the table are designed together. A beautiful artwork page is useless if the house cannot keep provenance and lot status accurate in the catalogue. Designing B2C and B2B in the same Figma file forced those two screens to share one system.",
+        "Trust is not a visual style. On this project it meant estimate ranges next to price, a search that starts from artist or object name, and a dashboard a house can actually operate. I said no to extra marketplace features until those three things were solid."
       ]
     },
     "next": "03",
@@ -127,13 +141,15 @@
       {
         "type": "boxtxt",
         "box": "<h2>Overview</h2><h4>Timeline:</h4><p>January 2024 - August 2024</p><h4>Role:</h4><p>Web Developer</p><h4>Tools:</h4><p>PHP, Laravel, MySQL, Tailwind CSS, Alpine.js, SoundCloud API</p>",
-        "txt": "<h2>Background & Challenge</h2><p>The client wanted an online radio built around SoundCloud mixes, with a deliberately old-school, slightly chaotic feel: random backgrounds, a hue-shifting logo, playful button art. The visual direction and branding came from my partner — my job was turning that into a real site the client could run day to day.</p><p>The brief also included self-management: the client needed to add new mixes and swap background images without calling me every time. That made the real engineering problem the admin panel, not the player.</p>"
+        "txt": "<h2>Background & Challenge</h2><p>The client wanted an online radio built around SoundCloud mixes, with a deliberately old-school, slightly chaotic feel: random backgrounds, a hue-shifting logo, playful button art. The visual direction and branding came from my partner. My job was turning that into a real site the client could run day to day.</p><p>The brief also included self-management: the client needed to add new mixes and swap background images without calling me every time. That made the real engineering problem the admin panel, not the player.</p>"
       },
       {
-        "type": "txtimg",
-        "txt": "<h2>The Radio Player</h2><p>The public-facing side is plain JavaScript wrapped around the SoundCloud widget: play, pause, skip, and a volume control that occasionally lands on a joke value instead of a real percentage — the client wanted the whole thing to feel a bit unserious. The logo and buttons get a random hue shift on load, and long track titles scroll like a vintage marquee instead of being cut off.</p><p>Ads are skipped on mobile on purpose: autoplaying a sponsor track over mobile data felt like the wrong default. The palette stayed deliberately minimal — black and white with a single accent color — so the background images the client uploads stay the focal point.</p>",
-        "img": "work03/player.jpg",
-        "alt": "Divorce.fm radio player"
+        "type": "txt",
+        "title": "The Radio Player",
+        "lines": [
+          "The public-facing side is plain JavaScript wrapped around the SoundCloud widget: play, pause, skip, and a volume control that occasionally lands on a joke value instead of a real percentage, because the client wanted the whole thing to feel a bit unserious. The logo and buttons get a random hue shift on load, and long track titles scroll like a vintage marquee instead of being cut off.",
+          "Ads are skipped on mobile on purpose: autoplaying a sponsor track over mobile data felt like the wrong default. The palette stayed deliberately minimal (black and white with a single accent color) so the background images the client uploads stay the focal point."
+        ]
       },
       {
         "type": "txt",
@@ -144,7 +160,7 @@
       },
       {
         "type": "txtimg",
-        "txt": "<h2>The Admin Panel</h2><p>Once rebuilt in Laravel, the admin panel became the core of the product. The client pastes a raw SoundCloud link and the app parses artist and title straight out of the URL — no manual data entry. A separate pool of sponsor tracks plays between mixes, chosen by whichever has been played least, so no single ad gets overplayed.</p><p>Background images can be uploaded one at a time or dropped as a folder — the app syncs them into the database and resizes and compresses each one automatically, including animated GIFs. If the database connection drops, the site falls back to a maintenance page instead of crashing. A radio going down felt worse than most sites going down.</p>",
+        "txt": "<h2>The Admin Panel</h2><p>Once rebuilt in Laravel, the admin panel became the core of the product. The client pastes a raw SoundCloud link and the app parses artist and title straight out of the URL, with no manual data entry. A separate pool of sponsor tracks plays between mixes, chosen by whichever has been played least, so no single ad gets overplayed.</p><p>Background images can be uploaded one at a time or dropped as a folder. The app syncs them into the database and resizes and compresses each one automatically, including animated GIFs. If the database connection drops, the site falls back to a maintenance page instead of crashing. A radio going down felt worse than most sites going down.</p>",
         "img": "work03/admin.jpg",
         "alt": "Divorce.fm admin panel"
       },
@@ -165,7 +181,7 @@
       },
       {
         "type": "txtimg",
-        "txt": "<h2>Color & Visual Identity</h2><p>The palette stayed deliberately minimal — black and white with a single accent color — so the background images the client uploads stay the focal point instead of competing with the UI. The accent color shifts hue on every page load, giving each visit a slightly different feel without changing the structure.</p>",
+        "txt": "<h2>Color & Visual Identity</h2><p>The palette stayed deliberately minimal (black and white with a single accent color) so the background images the client uploads stay the focal point instead of competing with the UI. The accent color shifts hue on every page load, giving each visit a slightly different feel without changing the structure.</p>",
         "img": "work03/colorpalette_divorce.webp",
         "alt": "Color Palette Divorce.fm"
       }

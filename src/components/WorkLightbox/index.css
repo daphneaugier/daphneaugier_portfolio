@@ -1,0 +1,27 @@
+.work-lightbox-image {
+  display: block;
+  max-width: min(1100px, 90vw);
+  max-height: 82vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  border: 1.5px solid #fff;
+}
+
+.work-zoom {
+  appearance: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: zoom-in;
+  font: inherit;
+  color: inherit;
+}
+
+.work-zoom:focus-visible {
+  outline: 1.5px solid #000;
+  outline-offset: 4px;
+}

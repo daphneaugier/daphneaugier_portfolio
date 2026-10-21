@@ -5,10 +5,7 @@ import './index.css'
 //Component
 function WorkGallery({ works }) {
   return (
-    <section className="work-gallery page-container" id="works">
-    <div className="works-header">
-        <h1>Featured Projects</h1>
-    </div>
+    <section className="work-gallery" id="works">
     {works.map((work) =>
       <WorkCard work={work} key={work.id} />
       )}

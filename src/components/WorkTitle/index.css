@@ -14,7 +14,7 @@
   font-weight: bold;
   background-color: black;
   color: var(--primary-color);
-  border-radius: 999px;
+  border-radius: 2px;
   padding: 8px 16px;
   margin-left: 32px;
 }
