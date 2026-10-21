@@ -1,0 +1,97 @@
+.work-line:has(> .work-zoom:only-child),
+.work-line:has(> .work-img:only-child),
+.work-line:has(> .work-img50:only-child),
+.work-line:has(> .work-img-p:only-child),
+.work-line-center-img:not(:has(.work-col)) {
+  justify-content: center;
+  align-items: center;
+}
+
+.work-line:has(> .work-zoom:only-child) > .work-zoom,
+.work-line-center-img:not(:has(.work-col)) > .work-zoom {
+  flex: 0 1 auto;
+  align-self: center;
+  width: auto;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.work-line:has(> .work-zoom:only-child) > .work-zoom > .work-img,
+.work-line-center-img:not(:has(.work-col)) > .work-zoom > .work-img {
+  align-self: center;
+  margin-inline: auto;
+}
+
+.work-line > .work-col:only-child {
+  width: 100%;
+}
+
+.work-line > .work-zoom.work-zoom-split,
+.work-zoom-split {
+  position: relative;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 16px;
+  cursor: zoom-in;
+}
+
+.work-img-half {
+  display: block;
+  box-sizing: border-box;
+  width: min(300px, calc(46vw - 24px));
+  aspect-ratio: 488 / 700;
+  flex: 0 0 auto;
+  background-color: #fff;
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  border: 1.5px solid #000;
+  border-radius: 2px;
+  box-shadow: 12px 12px 0 #000;
+  transform: perspective(1200px) rotateY(-5deg);
+  transform-origin: center right;
+}
+
+.work-img-half-top {
+  background-position: top center;
+}
+
+.work-img-half-bottom {
+  background-position: bottom center;
+}
+
+.work-img-split-source {
+  display: none;
+}
+
+.work-zoom-split:hover .work-img-half {
+  filter: brightness(1.06);
+}
+
+@media (max-width: 1100px) {
+  .work-line:has(> .work-zoom:only-child),
+  .work-line-center-img:not(:has(.work-col)) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work-line:has(> .work-zoom:only-child) > .work-zoom,
+  .work-line-center-img:not(:has(.work-col)) > .work-zoom {
+    width: auto;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .work-line:has(> .work-zoom:only-child) > .work-zoom > .work-img,
+  .work-line-center-img:not(:has(.work-col)) .work-img {
+    align-self: center;
+    margin-inline: auto;
+  }
+
+  .work-img-half {
+    width: min(220px, calc(50vw - 40px));
+    box-shadow: 8px 8px 0 #000;
+    transform: none;
+  }
+}

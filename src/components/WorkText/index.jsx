@@ -5,7 +5,7 @@ function WorkText({ title, lines }) {
 
   return (
     <div className="work-text">
-      <h2>{title}</h2>
+      {title ? <h2>{title}</h2> : null}
       {lines.map((line, index) => (
         <p key={index} className="work-line" dangerouslySetInnerHTML={{ __html: line }}></p>
       ))}
@@ -15,7 +15,7 @@ function WorkText({ title, lines }) {
 }
 
 WorkText.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   lines: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 

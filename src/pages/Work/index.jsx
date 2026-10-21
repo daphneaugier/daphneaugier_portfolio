@@ -52,7 +52,17 @@ function Work() {
         {work.cover !== "" ? <WorkBanner cover={work.cover} title={work.title} /> : ""}
         <WorkDetails work={work} />
         <WorkLightbox image={lightbox} onClose={closeLightbox} />
-        {work.link !== "" ? <MyButton style="text-align:center" link={work.link} label="Visit site" size="basic" new_page={true} /> : ""}
+        {work.link !== "" ? (
+          <MyButton
+            style="text-align:center"
+            link={work.link}
+            label="Visit site"
+            size="basic"
+            new_page={true}
+            inactive={work.linkInactive}
+            hoverLabel={work.linkInactive ? "site deactivated" : undefined}
+          />
+        ) : ""}
         {work.away.title !== "" ? <WorkTakeAway title={work.away.title} text={work.away.text} /> : ""}
         <br />
         <div className="work-btn">

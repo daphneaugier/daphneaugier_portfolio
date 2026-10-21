@@ -25,15 +25,16 @@
         "lines": [
           "The design focused on elegance and warmth, capturing the bistro's inviting yet sophisticated atmosphere. Key elements included:",
           "<ol><li>Color Palette</li><p>I selected a terra cotta shade (#B86C51) that evokes warmth and a natural feel, complemented by an off-white background (#FBEBD9) to create a clean and airy aesthetic.</p>",
-          "<img class='work-img' src='/assets/images/work01/colorpalette_cache.webp' alt='Color Palette Caché'/><img class='work-img' src='/assets/images/work01/logo_cache.webp' alt='Logo Caché'/>",
+          "<span class='work-img-pair'><img class='work-img' src='/assets/images/work01/colorpalette_cache.webp' alt='Color Palette Caché'/><img class='work-img' src='/assets/images/work01/logo_cache.webp' alt='Logo Caché'/></span>",
           "<ol start='2'><li>Custom Logo Design</li><p>Instead of using an existing font, I hand-wrote the restaurant's name on paper, scanned it, and vectorized it to create a unique and personal brand identity. This gave the logo a handcrafted, distinctive feel.</p></ol>"
         ]
       },
       {
-        "type": "txtimg",
-        "txt": "<ol start='3'><li>Typography</li>The main text fonts are Ruffina for its refined and expressive character, paired with Lato for a modern and highly readable contrast.<li>Icons & Visual Accents</li>I designed additional custom icons, including an Instagram logo, a fish, and a carrot, allowing flexibility for the client to add visual markers for social media, seafood, or vegetarian dishes.<img class='work-img50' src='/assets/images/work01/icons_cache.webp' alt='Icons Caché'/></ol>",
-        "img": "work01/typography_cache.webp",
-        "alt": "Typography Caché"
+        "type": "txt",
+        "lines": [
+          "<ol start='3'><li>Typography</li>The main text fonts are Ruffina for its refined and expressive character, paired with Lato for a modern and highly readable contrast.<li>Icons & Visual Accents</li>I designed additional custom icons, including an Instagram logo, a fish, and a carrot, allowing flexibility for the client to add visual markers for social media, seafood, or vegetarian dishes.</ol>",
+          "<span class='work-img-pair'><img class='work-img50' src='/assets/images/work01/icons_cache.webp' alt='Icons Caché'/><img class='work-img' src='/assets/images/work01/typography_cache.webp' alt='Typography Caché'/></span>"
+        ]
       },
       {
         "type": "txtimg",
@@ -45,7 +46,12 @@
     "link": "https://cache-sf.com",
     "away": {
       "title": "Take-aways",
-      "text": "The site launched with the menu and reservation flow front and center, which is exactly what the owners had asked for after seeing how many of their regulars were booking from their phones. Building the logo from a scanned, hand-written mark instead of a stock font turned out to be the detail people mentioned most, it gave the brand a handmade feel that matched the food. Working inside WordPress also meant the owners could update the menu themselves once I handed the site off, which mattered more to them long-term than any single design decision I made. If I revisited this project, I'd push for a short round of user testing with real diners before launch rather than relying on my own walkthroughs, since a couple of the reservation-flow tweaks I made post-launch would have surfaced earlier."
+      "text": [
+        "The site launched with the menu and reservation flow front and center, which is exactly what the owners had asked for after seeing how many of their regulars were booking from their phones.",
+        "Building the logo from a scanned, hand-written mark instead of a stock font turned out to be the detail people mentioned most. It gave the brand a handmade feel that matched the food.",
+        "Working inside WordPress also meant the owners could update the menu themselves once I handed the site off, which mattered more to them long-term than any single design decision I made.",
+        "If I revisited this project, I'd push for a short round of user testing with real diners before launch rather than relying on my own walkthroughs, since a couple of the reservation-flow tweaks I made post-launch would have surfaced earlier."
+      ]
     },
     "next": "02",
     "previous": "03",
@@ -187,6 +193,7 @@
       }
     ],
     "link": "https://divorce.fm",
+    "linkInactive": true,
     "away": {
       "title": "Takeaways",
       "text": [

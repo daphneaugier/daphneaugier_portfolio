@@ -22,7 +22,8 @@
   padding: 11px 24px;
 }
 
-.basic-button:hover, .large-button:hover {
+.basic-button:hover, .large-button:hover,
+.basic-button:focus-visible, .large-button:focus-visible {
   background-color: #000;
   color: var(--primary-color);
   transform: translateY(-2px);
@@ -30,4 +31,31 @@
 
 .basic-button:active, .large-button:active {
   transform: translateY(0);
+}
+
+.basic-button--inactive {
+  cursor: pointer;
+  display: inline-grid;
+  justify-items: center;
+}
+
+.basic-button--inactive .button-idle-label,
+.basic-button--inactive .button-hover-label {
+  grid-area: 1 / 1;
+}
+
+.basic-button--inactive .button-hover-label {
+  visibility: hidden;
+}
+
+.basic-button--inactive:hover .button-idle-label,
+.basic-button--inactive:focus .button-idle-label,
+.basic-button--inactive:focus-visible .button-idle-label {
+  visibility: hidden;
+}
+
+.basic-button--inactive:hover .button-hover-label,
+.basic-button--inactive:focus .button-hover-label,
+.basic-button--inactive:focus-visible .button-hover-label {
+  visibility: visible;
 }

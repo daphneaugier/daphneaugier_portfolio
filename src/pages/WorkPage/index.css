@@ -5,17 +5,15 @@
 
 .work-tabs {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 4px;
   margin: 0 0 36px;
   border-bottom: 1.5px solid #000;
-  overflow-x: auto;
 }
 
 .work-tab {
   display: inline-flex;
   align-items: center;
-  flex-shrink: 0;
   gap: 8px;
   appearance: none;
   background: none;

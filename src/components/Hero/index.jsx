@@ -16,7 +16,14 @@ function Hero({video}) {
                 cursorChar="|" loop />            </h1>
           </div>
           <div className="video-container">
-            <video autoPlay loop muted>
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              width={383}
+              height={383}
+            >
               <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
