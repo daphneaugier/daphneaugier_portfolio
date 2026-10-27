@@ -32,7 +32,7 @@ function Work() {
     const img =
       event.target.closest(ZOOMABLE) ||
       event.target.closest(".work-zoom")?.querySelector("img");
-    if (!img) return;
+    if (!img || img.closest("a[target='_blank']")) return;
     event.preventDefault();
     setLightbox({ src: img.currentSrc || img.src, alt: img.alt || "" });
   };

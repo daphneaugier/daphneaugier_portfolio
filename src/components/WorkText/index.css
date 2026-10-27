@@ -21,12 +21,14 @@
 .work-line:has(> .work-zoom:only-child),
 .work-line:has(> .work-img:only-child),
 .work-line:has(> .work-img50:only-child),
-.work-line:has(> .work-img-p:only-child) {
+.work-line:has(> .work-img-p:only-child),
+.work-line:has(> a:only-child > :is(.work-img, .work-img50, .work-img-p):only-child) {
     justify-content: center;
     align-items: center;
 }
 
-.work-line:has(> .work-zoom:only-child) > .work-zoom {
+.work-line:has(> .work-zoom:only-child) > .work-zoom,
+.work-line:has(> a:only-child > :is(.work-img, .work-img50, .work-img-p):only-child) > a {
     flex: 0 1 auto;
     align-self: center;
     width: auto;
@@ -34,6 +36,11 @@
     display: flex;
     justify-content: center;
     min-width: 0;
+    text-decoration: none;
+}
+
+.work-line > a:only-child > :is(.work-img, .work-img50, .work-img-p):only-child {
+    cursor: pointer;
 }
 
 .work-line > .work-col:only-child {
@@ -42,6 +49,13 @@
 
 .work-text h4 {
   font-size: 40px;
+}
+
+.work-col a,
+.work-line a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 0;
 }
 
 .work-img-pair {

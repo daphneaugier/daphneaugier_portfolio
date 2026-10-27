@@ -147,7 +147,7 @@
       {
         "type": "boxtxt",
         "box": "<h2>Overview</h2><h4>Timeline:</h4><p>January 2024 - August 2024</p><h4>Role:</h4><p>Web Developer</p><h4>Tools:</h4><p>PHP, Laravel, MySQL, Tailwind CSS, Alpine.js, SoundCloud API</p>",
-        "txt": "<h2>Background & Challenge</h2><p>The client wanted an online radio built around SoundCloud mixes, with a deliberately old-school, slightly chaotic feel: random backgrounds, a hue-shifting logo, playful button art. The visual direction and branding came from my partner. My job was turning that into a real site the client could run day to day.</p><p>The brief also included self-management: the client needed to add new mixes and swap background images without calling me every time. That made the real engineering problem the admin panel, not the player.</p>"
+        "txt": "<h2>Background & Challenge</h2><p>The client wanted an online radio built around SoundCloud mixes, with a deliberately old-school, slightly chaotic feel: random backgrounds, a hue-shifting logo, playful button art. The visual direction and branding came from the friend I built the site with. My job was turning that into a real site the client could run day to day.</p><p>The brief also included self-management: the client needed to add new mixes and swap background images without calling me every time. That made the real engineering problem the admin panel, not the player.</p>"
       },
       {
         "type": "txt",
@@ -190,6 +190,13 @@
         "txt": "<h2>Color & Visual Identity</h2><p>The palette stayed deliberately minimal (black and white with a single accent color) so the background images the client uploads stay the focal point instead of competing with the UI. The accent color shifts hue on every page load, giving each visit a slightly different feel without changing the structure.</p>",
         "img": "work03/colorpalette_divorce.webp",
         "alt": "Color Palette Divorce.fm"
+      },
+      {
+        "type": "txt",
+        "title": "Launch commercial",
+        "lines": [
+          "<a href='https://www.instagram.com/p/DBcCQ9aSjyJ/?img_index=1' target='_blank' rel='noopener noreferrer'><img class='work-img' src='/assets/images/work03/launch.jpg' alt='Still from the Divorce.fm launch commercial. Opens Instagram.'/></a>"
+        ]
       }
     ],
     "link": "https://divorce.fm",

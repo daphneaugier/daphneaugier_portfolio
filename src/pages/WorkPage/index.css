@@ -9,6 +9,12 @@
   gap: 4px;
   margin: 0 0 36px;
   border-bottom: 1.5px solid #000;
+  overflow: hidden;
+  scrollbar-width: none;
+}
+
+.work-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .work-tab {
