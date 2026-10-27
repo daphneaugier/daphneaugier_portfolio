@@ -116,6 +116,14 @@ section h2 {
 
 @media (max-width: 768px) {
   main {
-    margin-top: 30px;
+    margin-top: 12px;
+  }
+
+  section {
+    margin: 0 16px;
+  }
+
+  body.nav-open {
+    overflow: hidden;
   }
 }

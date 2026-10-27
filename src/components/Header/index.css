@@ -3,28 +3,33 @@ header {
   margin-top: 12px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 20;
 }
 
 nav {
   display: flex;
   justify-content: center;
 }
-nav ul{
+
+nav ul {
   display: flex;
   flex-direction: row;
 }
-nav li{
-  list-style:none;
+
+nav li {
+  list-style: none;
 }
 
 .download-nav {
-    z-index: 99;
-    text-align: right;
-    align-items: end;
-    position: absolute;
-    top:12px;
-    right:12px;
-  }
+  z-index: 99;
+  text-align: right;
+  align-items: end;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
 
 .header-button {
   border: 1.5px solid black;
@@ -40,32 +45,96 @@ nav li{
   color: var(--primary-color);
   transform: translateY(-2px);
 }
-.main-nav{
+
+.main-nav {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
+.nav-toggle {
+  display: none;
+}
+
 @media (max-width: 900px) {
-  nav{
+  nav {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 540px) {
-  .header-button {
-    margin-top: 12px;
+
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 8px;
+    padding: 0 16px;
   }
+
+  .nav-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1.5px solid #000;
+    border-radius: 2px;
+    background: var(--primary-color);
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .nav-toggle-bar {
+    display: block;
+    width: 18px;
+    height: 1.5px;
+    background: #000;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .nav-toggle.is-open .nav-toggle-bar:nth-child(1) {
+    transform: translateY(6.5px) rotate(45deg);
+  }
+
+  .nav-toggle.is-open .nav-toggle-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle.is-open .nav-toggle-bar:nth-child(3) {
+    transform: translateY(-6.5px) rotate(-45deg);
+  }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+    order: 3;
+    flex-grow: 0;
+    background: var(--primary-color);
+  }
+
+  .main-nav.is-open {
+    display: flex;
+  }
+
   .download-nav {
-    position: relative;
-    top: 0;
-    right: 20px;
+    position: static;
+    top: auto;
+    right: auto;
+    margin-left: auto;
   }
-  
+
+  .header-button {
+    padding: 10px 16px;
+    margin-top: 0;
+  }
 }
+
 @media screen and (max-width: 350px) {
   .download-nav {
-    position: absolute;
-    top: 0;
-    right: 2px;
+    position: static;
+    top: auto;
+    right: auto;
   }
 }

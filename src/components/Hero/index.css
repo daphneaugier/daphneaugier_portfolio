@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
-  height: calc(100vh - 120px); /* Adjusting for header height */
+  min-height: calc(100vh - 120px); /* Adjusting for header height */
+  height: auto;
   margin-top: 60px; /* Adjusting for header height */
   margin-bottom: 24px;
   display: flex;
@@ -11,7 +12,9 @@
 
 .hero-container {
   width: 80vw;
-  height: 50vh;
+  min-height: 50vh;
+  height: auto;
+  align-items: flex-start;
 }
 .hero-content {
   width: 40vw;
@@ -35,7 +38,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
-  margin-top: calc(48px + 6.4em);
+  margin-top: 2.4em;
   align-self: flex-end;
   box-sizing: border-box;
 }
@@ -53,33 +56,40 @@
 }
 @media (max-width: 768px) {
   .hero {
-    justify-content: space-around;
-    height: 90vh;
-    margin-top: 30px;
+    justify-content: flex-start;
+    height: auto;
+    min-height: 0;
+    margin-top: 12px;
   }
 
   .hero-container {
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    margin: 0;
   }
   .hero-content {
-    height: 100vh;
+    height: auto;
     width: 100%;
   }
 
   .hero-content h1 {
     font-size: 2em;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 0;
   }
   .video-container {
-    width: min(100%, 383px);
-    height: auto;
-    min-width: 0;
-    min-height: 0;
-    max-width: 383px;
-    max-height: none;
-    aspect-ratio: 1 / 1;
+    width: min(72vw, 280px);
+    height: min(72vw, 280px);
+    min-width: min(72vw, 280px);
+    min-height: min(72vw, 280px);
+    max-width: 280px;
+    max-height: 280px;
+    margin-top: 16px;
+    align-self: center;
   }
   .video-container video {
     width: 100%;
@@ -88,18 +98,16 @@
 }
 @media (max-width: 540px) {
   .hero {
-    height: calc(100vh - 170px); /* Adjusting for header height */
+    height: auto;
+    min-height: 0;
   }
 }
 
 @media (max-width: 510px) {
-  .hero {
-    height: calc(100vh - 150px); /* Adjusting for header height */
-  }
   .hero-content h1{
     font-size: 1.8em;
   }
   .hero-container {
-    height: 50vh;
+    height: auto;
   }
 }

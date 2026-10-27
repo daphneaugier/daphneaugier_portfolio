@@ -11,17 +11,26 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 900px) {
-  .main-menu {
-    width: 80%;
-    margin-left: 0;
-  }  
-}
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 768px) {
   .main-menu {
     flex-direction: column;
-  }  
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 16px 0 8px;
+    gap: 4px;
+  }
+
   .main-menu li {
-    margin: 6px 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .main-menu a {
+    display: block;
+    width: 100%;
+    padding: 12px 4px;
+    text-align: left;
   }
 }
